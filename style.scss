@@ -1,0 +1,19 @@
+---
+---
+$key-color: #80882b;
+$color: desaturate($key-color, 95%);
+
+.TextSize0 { font-size: 14px; line-height: 17px }
+.TextSize1 { font-size: 20px; line-height: 26px }
+.TextSize2 { font-size: 25px; line-height: 30px }
+.TextSize3 { font-size: 36px; line-height: 42px }
+
+html { font-size: 0 /* To remove gaps. */ }
+body {
+    font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+    color: $color;
+}
+
+em, i { font-style: italic }
+b, strong { font-weight: bolder }
+a { color: $key-color; text-decoration: none }
