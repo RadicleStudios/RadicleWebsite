@@ -6,12 +6,17 @@ $light-color: lighten($color, 30%);
 $background-color: #f7f7f7;
 $dark-background-color: darken($background-color, 4%);
 
-.TextSize0 { font-size: 14px; line-height: 17px }
-.TextSize1 { font-size: 20px; line-height: 26px }
-.TextSize2 { font-size: 25px; line-height: 30px }
-.TextSize3 { font-size: 36px; line-height: 42px }
-.TextStyleFeature { font-size: 48px; line-height: 68px; font-weight: 100; }
-.MainColumn { width: 960px; margin-left: auto; margin-right: auto; padding-left: 10px; padding-right: 10px }
+$width: 980px;
+$padding: 10px;
+
+.TextPiano      { font-size: 14px; line-height: 17px }
+.TextMezzoPiano { font-size: 20px; line-height: 26px }
+.TextMezzoForte { font-size: 25px; line-height: 30px }
+.TextForte      { font-size: 36px; line-height: 42px }
+.TextFortissimo { font-size: 48px; line-height: 68px; font-weight: 100; }
+
+.Unconstrained { min-width: $width; width: 100% }
+.MainColumn { width: $width - $padding * 2; margin-left: auto; margin-right: auto; padding-left: $padding; padding-right: $padding }
 
 //
 // Typography
@@ -25,30 +30,14 @@ a { color: $key-color; text-decoration: none }
 // Layout
 //
 body > header { @extend .MainColumn }
-body > footer {
-    @extend .MainColumn;
-    padding-top: 10px;
-    padding-bottom: 60px;
-}
-body > main {
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
+body > footer { @extend .MainColumn; padding-top: 10px; padding-bottom: 60px }
+body > main   { @extend .Unconstrained; padding-top: 80px; padding-bottom: 80px }
 
 //
 // Misc
 //
-.FadeUp {
-    width: 100%;
-    height: 10px;
-    margin-top: -10px;
-    background-image: url(fade-up.png);
-}
-.FadeDown {
-    width: 100%;
-    height: 10px;
-    margin-bottom: -10px;
-    background-image: url(fade-down.png);
-}
-body { background-color: $dark-background-color }
-body > main { background-color: $background-color }
+.StepUp   { @extend .Unconstrained; height: 10px; margin-top: -10px;    background-image: url(fade-up.png)   }
+.StepDown { @extend .Unconstrained; height: 10px; margin-bottom: -10px; background-image: url(fade-down.png) }
+
+body        { background-color: $dark-background-color }
+body > main { background-color: $background-color      }
