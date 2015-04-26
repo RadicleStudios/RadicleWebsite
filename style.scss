@@ -11,12 +11,12 @@ $dark-background-color: darken($background-color, 4%);
 .TextSize2 { font-size: 25px; line-height: 30px }
 .TextSize3 { font-size: 36px; line-height: 42px }
 .TextStyleFeature { font-size: 48px; line-height: 68px; font-weight: 100; }
-.MainColumn { width: 980px; margin-left: auto; margin-right: auto }
+.MainColumn { width: 960px; margin-left: auto; margin-right: auto; padding-left: 10px; padding-right: 10px }
 
 //
 // Typography
 //
-body { font-family: "HelveticaNeue", sans-serif; color: $color }
+body { font-family: "Helvetica Neue", sans-serif; color: $color }
 em, i { font-style: italic }
 strong, b { font-weight: bolder }
 a { color: $key-color; text-decoration: none }
