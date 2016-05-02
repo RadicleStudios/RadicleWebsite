@@ -1,7 +1,6 @@
 ---
 ---
-//$background-color: #f3f1f0;
-$background-color: #333333;//#f3f3f3;
+$background-color: #333333;
 $key-color: #2fa85f;
 $color: #787878;
 $site-width: 540px;
@@ -22,6 +21,7 @@ em, i { font-style: italic; }
 strong, b { font-weight: normal; color: #cbcbcb; }
 a { color: $key-color; text-decoration: none; }
 blockquote { border-left: 1px solid darken($color, 10%); padding-left: 23px; }
+code { white-space: pre; }
 ::selection { background: #ffffff; }
 
 p  { line-height: 24px; font-size: 16px; margin: 24px 0;        .sc { font-size: 14px; text-transform: uppercase; } }
