@@ -1,0 +1,57 @@
+---
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Radicle</title>
+    <meta name="viewport" content="initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/reset.css">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+  </head>
+  <body>
+    <header>
+      
+        {% if page.url == "/" %}
+        <h1 class="logo"><span class="bullet middle">&bull;</span><img class="middle" src="/assets/logo-inactive.svg" alt="Radicle" width="200px"></h1>
+        {% else %}
+        <h1><a href="/"><img src="/assets/logo-active.svg" alt="Radicle" width="200px"></a></h1>
+        {% endif %}
+      
+      <nav>
+        <ul>
+          <li>
+          {% if page.url == "/apps.html" %}
+            <span class="bullet">&bull;</span>APPS
+          {% else %}
+            <a href="/apps.html">APPS</a>
+          {% endif %}
+          </li>
+          <li>
+          {% if page.url == "/blog.html" %}
+            <span class="bullet">&bull;</span>BLOG
+          {% else %}
+            <a href="/blog.html">BLOG</a>
+          {% endif %}
+          </li>
+          <li>
+          {% if page.url == "/notes.html" %}
+            <span class="bullet">&bull;</span>NOTES
+          {% else %}
+            <a href="/notes.html">NOTES</a>
+          {% endif %}
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+    {{ content }}
+    </main>
+    <footer>
+      <p>
+        &copy; 2015&ndash;2016 Radicle Inc.<br>94-1480 Esquimalt Ave<br>West Vancouver BC &nbsp;V7T 1K8<br>
+        Email: <a href="mailto:raphael@radicle.io">Raphael Schindler &laquo;raphael@radicle.io&raquo;</a>
+      </p>
+    </footer>
+  </body>
+</html>

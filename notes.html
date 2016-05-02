@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<section>
+  <h1>Notes</h1>
+  <p><i>These are some of my own notes; not for public consumption; but you may read them if you like.</i></p>
+  <hr class="note-separator">
+  {% for post in site.posts %}
+    <article>
+      {{ post.content }}
+      <hr class="note-separator">
+    </article>
+  {% endfor %}
+</section>
+

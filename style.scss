@@ -1,63 +1,53 @@
 ---
 ---
-
-
-//
-// Colour
-//
+//$background-color: #f3f1f0;
+$background-color: #333333;//#f3f3f3;
 $key-color: #2fa85f;
-$color: lighten(desaturate($key-color, 95%), 5%);
-$background-color: #f3f1f0;
-body { background-color: $background-color }
+$color: #787878;
+$site-width: 540px;
 
+html { -webkit-text-size-adjust: 100%; }
 
-//
-// Layout
-//
-$site-width: 980px; // The 'scroll width' of the site.
-$site-padding: 10px; // Ie, to the left and right of the body.
-$content-inset: 240px; // Ie, from the left; and including the 'content inset gutter.'
-$content-inset-gutter: 10px; // The space between any content-prefixing elements and the content.
 body {
-    width: $site-width - $site-padding * 2;
-    padding: 0 $site-padding;
+    font-family: Georgia;//-apple-system, sans-serif;
+    line-height: 0px;
+    color: $color;
+    background-color: $background-color;
     margin: 0 auto;
-}
-section {
-    margin: 40px 0;
-}
-main > section, main > article {
-    margin-left: $content-inset;
+    padding: 24px;
+    width: $site-width;
 }
 
-//
-// Typography
-//
-.Headline1    { font-size: 40px; }
-.Headline2    { font-size: 26px; }
-.Body         { font-size: 16px; line-height: 24px; }
-.Footnote     { font-size: 12px; }
-.Inset { margin-left: $content-inset; }
-body { font-family: "Helvetica Neue", sans-serif; color: $color; }
-em, i { font-style: italic }
-strong, b { font-weight: bolder }
-a { color: $key-color; text-decoration: none }
-h1 { @extend .Headline1; }
-h2 { @extend .Headline2; }
-p { @extend .Body; margin-top: 10px; }
-main p { @extend .Body; }
-main h1 { @extend .Headline1; }
-main h1 + p { margin-top: 1em; }
-.Prefix {
-    width: $content-inset - $content-inset-gutter;
-    margin-left: -$content-inset;
-    padding-right: $content-inset-gutter;
-    text-align: right;
-    display: inline-block;
+em, i { font-style: italic; }
+strong, b { font-weight: normal; color: #cbcbcb; }
+a { color: $key-color; text-decoration: none; }
+blockquote { border-left: 1px solid darken($color, 10%); padding-left: 23px; }
+::selection { background: #ffffff; }
+
+p  { line-height: 24px; font-size: 16px; margin: 24px 0;        .sc { font-size: 14px; text-transform: uppercase; } }
+li { line-height: 24px; font-size: 16px; margin: 0;             .sc { font-size: 14px; text-transform: uppercase; } }
+h1 { line-height: 24px; font-size: 22px; margin: 72px 0 24px 0; text-transform: uppercase; font-family: -apple-system, sans-serif; text-align: center; }
+h2 { line-height: 24px; font-size: 20px; margin: 24px 0; font-family: -apple-system, sans-serif; }
+h3 { line-height: 24px; font-size: 18px; margin: 24px 0; }
+
+nav { text-transform: uppercase; font-family: -apple-system, sans-serif; }
+
+body > header {
+    margin: 48px 0;
+    h1 { line-height: 0; text-align: inherit; }
+}
+body > main {
+    margin-bottom: 72px;
+}
+body > footer {
+    margin: 0;
+    padding-top: 4px;
+    border-top: 1px solid $color;
+    p { line-height: 18px; font-size: 14px; margin: 0; }
 }
 
-
-//
-// Misc
-//
-hr { border-top: 2px solid lighten($color, 25%); margin: 0 0 0 $content-inset; }
+.bullet { display: inline-block; width: 24px; margin-left: -24px; }
+.middle { vertical-align: middle; }
+hr.separator { display: block; width: 72px; margin: 23px auto 24px 0; border-bottom: 1px solid $color; }
+hr.note-separator { width: 100%; margin: 23px 0 24px 0; border-bottom: 1px dashed $color; }
+hr.middle-separator { width: 72px; margin: 23px auto 24px auto; border-bottom: 1px solid $color; }

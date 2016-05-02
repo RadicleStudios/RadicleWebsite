@@ -1,0 +1,5 @@
+# A Brief Introduction to Cloud Computing
+
+**Cloud computing** refers to remote computing resources offered on-demand via the Internet; and this must be viewed in contradistinction to the paradigm it is supplanting, of more 'local' computing resources that it had been incumbent on an organization to set up and sustain. Cloud computing, by diminishing considerably the burden of adopting information technologes, allows more focus be placed on the core business.
+
+A distinction is made between three categories of cloud computing services, depending on the level of abstraction, and following the general layering that *infrastructure* underlies the *platform*, which underlies the *software*. **Infrastructure as a Service (IaaS)** closely resembles the pre-cloud computing paradigm, providing the most basic kinds of computing resources; **Platform as a Service** provides a foundation for 
