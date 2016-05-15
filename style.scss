@@ -22,7 +22,7 @@ strong, b { font-weight: normal; color: #cbcbcb; }
 a { color: $key-color; text-decoration: none; }
 blockquote { border-left: 1px solid darken($color, 10%); padding-left: 23px; }
 code { white-space: pre; }
-sup { vertical-align: super; line-height: 0; }
+sup { vertical-align: super; line-height: 0; font-size: smaller; }
 ::selection { background: #ffffff; }
 
 p  { line-height: 24px; font-size: 16px; margin: 24px 0;        .sc { font-size: 14px; text-transform: uppercase; } }
