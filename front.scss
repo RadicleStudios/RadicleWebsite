@@ -1,0 +1,35 @@
+---
+---
+$background-color: #FFFFFF;
+$key-color: #4CB579;
+$color: #787878;
+
+// Colours
+
+html { background-color: #3f3f3f; }
+body { background-color: #3f3f3f; }
+
+// Images
+
+body { background-image: url(/assets/seed-of-life.gif); background-repeat: no-repeat; background-position: center center; background-size: 540px; }
+
+// Layout
+
+html { width: 100%; height: 100%; }
+body { position: relative; height: 100%; width: 100%; max-width: 1440px; margin: 0 auto; }
+#wrapper { height: 100%; width: 100%; }
+img#logo { height: 32px; }
+li { display: inline-block; }
+main { @extend .main-column; }
+#header-wrapper { padding: 12px; }
+#footer-wrapper { padding: 4px 12px 12px 12px; }
+#wrapper > footer { position: absolute; bottom: 0; width: 100%; }
+.main-column { width: 100%; min-width: 360px; max-width: 1080px; margin-left: auto; margin-right: auto; }
+.tall { margin: 140px 0; }
+
+.bullet { display: inline-block; width: 24px; margin-left: -24px; }
+.middle { vertical-align: middle; }
+.center { text-align: center; }
+hr.separator { display: block; width: 72px; margin: 23px auto 24px 0; border-bottom: 1px solid $color; }
+hr.note-separator { width: 100%; margin: 23px 0 24px 0; border-bottom: 1px dashed $color; }
+hr.middle-separator { width: 72px; margin: 23px auto 24px auto; border-bottom: 1px solid $color; }

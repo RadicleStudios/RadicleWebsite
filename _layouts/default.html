@@ -7,51 +7,59 @@
     <meta name="viewport" content="initial-scale=1">
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="/reset.css">
-    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="/typography.css">
+    <link rel="stylesheet" type="text/css" href="/default.css">
   </head>
   <body>
+
     <header>
-      
-        {% if page.url == "/" %}
-        <h1 class="logo"><span class="bullet middle">&bull;</span><img class="middle" src="/assets/logo-inactive.svg" alt="Radicle" width="200px"></h1>
-        {% else %}
-        <h1><a href="/"><img src="/assets/logo-active.svg" alt="Radicle" width="200px"></a></h1>
-        {% endif %}
-      
-      <nav>
-        <ul>
-          <li>
-          {% if page.url == "/apps.html" %}
-            <span class="bullet">&bull;</span>APPS
-          {% else %}
-            <a href="/apps.html">APPS</a>
-          {% endif %}
-          </li>
-          <li>
-          {% if page.url == "/blog.html" %}
-            <span class="bullet">&bull;</span>BLOG
-          {% else %}
-            <a href="/blog.html">BLOG</a>
-          {% endif %}
-          </li>
-          <li>
-          {% if page.url == "/notes.html" %}
-            <span class="bullet">&bull;</span>NOTES
-          {% else %}
-            <a href="/notes.html">NOTES</a>
-          {% endif %}
-          </li>
-        </ul>
-      </nav>
+      <table class="main-column">
+        <tr>
+          <td>
+            <h1>
+              <a href="/">
+                <img class="middle" src="/assets/logo-dark.svg" alt="Radicle" style="height:32px">
+              </a>
+            </h1>
+          </td>
+          <td style="text-align: right">
+            <!-- <nav>
+              <ul>
+                <li>
+                  {% if page.url != "/whitepapers.html" %}<a href="/design.html">{% endif %}
+                  WHITEPAPERS
+                  {% if page.url != "/design.html" %}</a>{% endif %}
+                </li> &nbsp; | &nbsp;
+                <li>
+                  {% if page.url != "/studies.html" %}<a href="/studies.html">{% endif %}
+                  STUDIES
+                  {% if page.url != "/studies.html" %}</a>{% endif %}
+                </li> &nbsp; | &nbsp;
+                <li>
+                  {% if page.url != "/notes.html" %}<a href="/notes.html">{% endif %}
+                  UPDATES
+                  {% if page.url != "/notes.html" %}</a>{% endif %}
+                </li>
+              </ul>
+            </nav> -->
+          </td>
+        </tr>
+      </table>
     </header>
+    
     <main>
     {{ content }}
     </main>
+    
     <footer>
-      <p>
-        &copy; 2015&ndash;2016 Radicle Inc.<br>94-1480 Esquimalt Ave<br>West Vancouver BC &nbsp;V7T 1K8<br>
-        Email: <a href="mailto:raphael@radicle.io">Raphael Schindler &laquo;raphael@radicle.io&raquo;</a>
-      </p>
+      <div class="main-column">
+        <ul>
+          <li><a href="/about.html">Radicle &copy; 2016</a></li> &nbsp; | &nbsp;
+          <li><a href="/contact.html">Contact</a></li> &nbsp; | &nbsp;
+          <li><a href="/careers.html">Careers</a></li>
+        </ul>
+      </div>
     </footer>
+
   </body>
 </html>
