@@ -13,33 +13,30 @@
   <body>
     <div id="wrapper">
       <header>
-        <div id="header-wrapper">
-          <table class="main-column">
-            <tr>
-              <td>
-                <h1>
-                  <a href="/">
-                    <img id="logo" src="/assets/logo-dark.svg" alt="Radicle">
-                  </a>
-                </h1>
-              </td>
-            </tr>
-          </table>
+        <div class="main-column">
+          <div class="padding">
+            <h1>
+              <a href="/"><img id="logo" src="/assets/logo-dark.svg" alt="Radicle"></a>
+            </h1>
+          </div>
         </div>
       </header>
-    
-      <main>
-      {{ content }}
-      </main>
-    
+    <main>
+      <div class="main-column">
+        <div class="padding">
+          {{ content }}
+        </div>
+      </div>
+    </main>
       <footer>
-        <div id="footer-wrapper">
-          <div class="main-column">
-            <ul>
-              <li><a href="/about.html">Radicle &copy; 2016</a></li> &nbsp; | &nbsp;
-              <li><a href="/contact.html">Contact</a></li> &nbsp; | &nbsp;
-              <li><a href="/careers.html">Careers</a></li>
-            </ul>
+        <div class="main-column">
+          <div class="padding">
+            <nav>
+              <a href="/about.html">Radicle &copy; 2016</a> &nbsp; | &nbsp;
+              <a href="/contact.html">Contact</a> &nbsp; | &nbsp;
+              <a href="/radicleexperiment.html">Podcast</a> &nbsp; | &nbsp;
+              <a href="/careers.html">Careers</a>
+            </nav>
           </div>
         </div>
       </footer>

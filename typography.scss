@@ -18,11 +18,14 @@ $color: #3f3f3f;
 body { font-family: Helvetica, sans-serif; font-weight: lighter; color: $color; }
 
 em, i { font-style: italic; }
-strong, b { font-weight: lighter; color: #111111; }
+strong, b { font-weight: lighter; color: #111; }
 a { color: $key-color; text-decoration: none; }
 blockquote { border-left: 1px solid darken($color, 10%); padding-left: 23px; }
 code { white-space: pre; }
 sup { vertical-align: super; line-height: 0; font-size: smaller; }
+
+header { color: #fff; }
+header nav a { line-height: 32px; font-size: 13px; color: #fff; }
 
 main {
     p  { line-height: 24px; font-size: 17px; margin: 28px 0; }
@@ -31,6 +34,7 @@ main {
     h1 { @extend .featured; margin: 84px 0 28px 0; }
     h2 { line-height: 28px; font-size: 23px; margin: 28px 0; text-align: center; }
     h3 { line-height: 28px; font-size: 18px; margin: 28px 0; }
+    h1 > nav li { line-height: 32px; font-size: 20px; }
 }
 
 blockquote.featured { position: relative; border: 0; padding: 0; max-width: 50%; margin: 112px auto; }
@@ -40,8 +44,9 @@ blockquote.featured cite::before { content: "\2014 \2009"; }
 
 .featured { line-height: 36px; font-size: 31px; margin: 36px 0; font-family: geometria, sans-serif; color: #000; }
 
-body > footer, #wrapper > footer {
+footer {
     color: #fff;
-    li { line-height: 18px; font-size: 13px; display: inline-block; }
     p, li, a { color: #fff; }
 }
+footer nav a { line-height: 18px; font-size: 13px; color: #fff; }
+
