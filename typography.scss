@@ -16,6 +16,7 @@ $color: #3f3f3f;
 }
 
 body { font-family: Helvetica, sans-serif; font-weight: lighter; color: $color; }
+body { -moz-text-size-adjust: none; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; }
 
 em, i { font-style: italic; }
 strong, b { font-weight: lighter; color: #111; }
