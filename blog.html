@@ -2,7 +2,12 @@
 layout: default
 ---
 
-<section>
-  <h1>Blog</h1>
-  <p><i>This is where we'll write about important thoughts and accomplishments.</i></p>
-</section>
+<h1>Blog</h1>
+<p><i>This isss where we'll write about important thoughts and accomplishments.</i></p>
+<div class="blog-entries-container">
+  {% for post in site.posts %}
+    <section>
+      {{ post.title }}
+    </section>
+  {% endfor %}
+</div>

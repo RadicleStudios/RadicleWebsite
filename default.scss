@@ -1,30 +1,35 @@
 ---
 ---
-$background-color: #FFFFFF;
-$key-color: #4CB579;
-$color: #787878;
+$background-color: #f7f7f7;
+$key-color: #4cb579;
+$color: #3f3f3f;
 
 // Colours
-
-html { background-color: #fafafa; }
-body { background-color: #ffffff; }
-body > header { background-color: #3f3f3f; }
-body > footer { background-color: #3f3f3f; }
+body { color: $color; background-color: $background-color; }
+body > header { border-bottom: 1px solid $color; }
+body > footer { border-top: 1px solid $color; }
+blockquote { border-left: 1px solid $color; }
+a { color: $key-color; }
 
 // Layout
-
-body { max-width: 1440px; margin: 0 auto; }
-img#logo { height: 32px; }
+body > header, body > main, body > footer { max-width: 720px; min-width: 296px; margin: 0 auto; padding: 12px; }
 body > header li { display: inline-block; }
-.main-column { width: 100%; min-width: 360px; max-width: 1080px; margin-left: auto; margin-right: auto; }
-.padding { padding: 12px; }
-.reading-width { max-width: 540px; }
-section.tall { margin: 140px 0; }
-main p { @extend .reading-width; }
-h1 > nav { display: block; float: right; }
+blockquote { padding-left: 23px; }
+.tall { margin-top: 120px; margin-bottom: 120px; }
+.centering { text-align: center; }
+.centered { margin-left: auto; margin-right: auto; }
+.full-width { width: 100%; }
+.bordered { border: 1px solid $color; }
+img { display: block; margin: 24px 0; }
 
 // Misc
 
 hr.separator { display: block; width: 72px; margin: 23px auto 24px 0; border-bottom: 1px solid $color; }
 hr.note-separator { width: 100%; margin: 23px 0 24px 0; border-bottom: 1px dashed $color; }
 hr.middle-separator { width: 72px; margin: 23px auto 24px auto; border-bottom: 1px solid $color; }
+img.floating { float: left; margin-right: 24px; margin-bottom: 24px; }
+
+ol.notes::before { content: ""; display: block; width: 72px; height: 23px; border-top: 1px solid #5f5f5f; }
+ol.notes         { line-height: 18px; font-size: 14px; list-style: decimal outside; margin-top: 18px; }
+ol.notes > li    { line-height: 18px; font-size: 14px; margin-left: 36px; }
+

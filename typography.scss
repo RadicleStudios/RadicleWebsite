@@ -1,53 +1,37 @@
 ---
 ---
 $key-color: #4CB579;
-$color: #3f3f3f;
-
-@font-face {
-    font-family: 'geometria';
-    src: url('/assets/font--geometria/Geometria-Light-webfont.eot');
-    src: url('/assets/font--geometria/Geometria-Light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/font--geometria/Geometria-Light-webfont.woff2') format('woff2'),
-         url('/assets/font--geometria/Geometria-Light-webfont.woff') format('woff'),
-         url('/assets/font--geometria/Geometria-Light-webfont.ttf') format('truetype'),
-         url('/assets/font--geometria/Geometria-Light-webfont.svg#geometria_lightlight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-body { font-family: Helvetica, sans-serif; font-weight: lighter; color: $color; }
-body { -moz-text-size-adjust: none; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; }
+$color: #333;
 
 em, i { font-style: italic; }
-strong, b { font-weight: lighter; color: #111; }
-a { color: $key-color; text-decoration: none; }
-blockquote { border-left: 1px solid darken($color, 10%); padding-left: 23px; }
+strong, b { font-weight: bold; }
+a { text-decoration: none; }
 code { white-space: pre; }
 sup { vertical-align: super; line-height: 0; font-size: smaller; }
 
-header { color: #fff; }
-header nav a { line-height: 32px; font-size: 13px; color: #fff; }
-
+body { font-family: Georgia, serif; line-height: 24px; font-size: 17px; }
 main {
-    p  { line-height: 24px; font-size: 17px; margin: 28px 0; }
-    blockquote { line-height: 28px; font-size: 18px; margin: 28px 0; }
+    p  { line-height: 24px; font-size: 17px; margin: 24px 0;}
+    blockquote { line-height: 28px; font-size: 18px; margin: 24px 0; }
     li { line-height: 24px; font-size: 17px; margin: 0;      }
-    h1 { @extend .featured; margin: 84px 0 28px 0; }
-    h2 { line-height: 28px; font-size: 23px; margin: 28px 0; text-align: center; }
-    h3 { line-height: 28px; font-size: 18px; margin: 28px 0; }
-    h1 > nav li { line-height: 32px; font-size: 20px; }
+    h1 { @extend .featured; margin: 72px 0 24px 0; }
+    h2 { line-height: 24px; font-size: 23px; margin: 48px 0 24px 0; text-align: center; }
+    h3 { line-height: 24px; font-size: 19px; margin: 24px 0; font-weight: bold; }
 }
+
+section > footer {
+    ol { margin-top: 24px; }
+    ol > li { font-size: 14px; }  
+} 
+
+ul.shifted-up { margin-top: -24px; }
 
 blockquote.featured { position: relative; border: 0; padding: 0; max-width: 50%; margin: 112px auto; }
 blockquote.featured::before { content: "\201C"; position: absolute; left: -16px; top: 0px; font-size: 32px; font-family: serif; }
 blockquote.featured cite { display: block; text-align: right; }
 blockquote.featured cite::before { content: "\2014 \2009"; }
 
-.featured { line-height: 36px; font-size: 31px; margin: 36px 0; font-family: geometria, sans-serif; color: #000; }
+.featured { line-height: 36px; font-size: 31px; margin: 36px 0; }
 
-footer {
-    color: #fff;
-    p, li, a { color: #fff; }
-}
-footer nav a { line-height: 18px; font-size: 13px; color: #fff; }
+body > header h1 { font-size: 17px; }
 
