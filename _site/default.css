@@ -1,14 +1,15 @@
-/*
-  default.css
-  RadicleWebsite
-
-  Created by Raphael Schindler on 2017-03-18
-*/
-
 /* Layout */
+
 
 body { max-width: 720px; min-width: 296px; margin: 24px; }
 body > main { max-width: 480px; padding: 1px 0 1px 48px; }
+
+@media (max-width: 672px) { /* 'Compact width' (corresponding to a content width less than 360px) */
+  body { margin: 24px 0 240px 0; }
+  body > header { padding: 0 4px; }
+  body > footer { padding: 0 4px; }
+  body > main   { padding: 1px 4px 1px 36px; }
+}
 
 body > header { border-bottom: 1px solid transparent; }
 body > footer { border-top: 1px solid transparent; }
