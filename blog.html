@@ -3,7 +3,11 @@ layout: default
 ---
 
 <h1>Blog</h1>
-<p><i>This isss where we'll write about important thoughts and accomplishments.</i></p>
+<p><i>This is where we'll write about important thoughts and accomplishments.</i></p>
+<style>
+  [hexagon] {width: 24px; border-bottom: 4px solid green; border-left: 4px solid rgba(0, 0, 0, 0); }
+</style>
+<div hexagon>hi</div>
 <div class="blog-entries-container">
   {% for post in site.posts %}
     <section>
