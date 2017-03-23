@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="96 0 48 240">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Radicle_notes_ribbon);
+      }
+
+      .cls-2 {
+        fill: #b2a893;
+        font-size: 16px;
+        font-family: Georgia;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #b2a893;
+        stroke-width: 4px;
+      }
+    </style>
+    <clipPath id="clip-Radicle_notes_ribbon">
+      <rect x="96" width="48" height="240"/>
+    </clipPath>
+  </defs>
+  <g id="Radicle_notes_ribbon" data-name="Radicle notes ribbon" class="cls-1">
+    <text id="Radicle_Notes" data-name="Radicle • Notes" class="cls-2" transform="translate(115 60) rotate(90)"><tspan x="6.094" y="15">Radicle • Notes</tspan></text>
+    <line id="Line_4" data-name="Line 4" class="cls-3" y2="60" transform="translate(104)"/>
+    <line id="Line_3" data-name="Line 3" class="cls-3" y2="60" transform="translate(104 180)"/>
+  </g>
+</svg>

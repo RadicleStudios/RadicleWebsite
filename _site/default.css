@@ -1,28 +1,34 @@
 /* Layout */
 
-
 body { max-width: 720px; min-width: 296px; margin: 24px; }
-body > main { max-width: 480px; padding: 1px 0 1px 48px; }
+body > main { max-width: 540px; padding: 1px 0 48px 48px; }
+body > footer { margin-bottom: 96px; }
 
-@media (max-width: 375px) { /* 'Compact' (width) */
+/* 'Compact' (width) */
+@media (max-width: 375px) {
   body { margin: 24px 0 240px 0; }
   body > header { padding: 0 4px; }
   body > footer { padding: 0 4px; }
-  body > main   { padding: 1px 4px 1px 36px; }
-}
+  body > main   { padding: 1px 4px 1px 36px; } }
 
 body > header { border-bottom: 1px solid transparent; }
 body > footer { border-top: 1px solid transparent; }
 blockquote { padding-left: 23px; border-left: 1px solid transparent; }
 
+hr { border: 0; border-bottom: 1px solid #9f9f9f; height: 0; margin: 0; margin-top: -1; }
+hr[asterism] { display: block; border: 0; content: "hi"; height: 24px; margin: 0;}
+hr[asterism]::before { content: "\2042"; text-align: center; display: block; position: relative; top: 5px; }
+
 /* Colour */
 
 body { background-color: #f7f7f7; color: #3f3f3f; }
 body > main { background: top left / 48px url(/assets/radicle-ribbon.svg) repeat-y transparent; }
-a { color: #d92b00; }
 body > header { border-color: #3f3f3f; }
 body > footer { border-color: #3f3f3f; }
-blockquote { border-color: #3f3f3f; }
+blockquote { border-color: #93B2A0; }
+h3 { color: #93B2A0; }
+a { color: #d92b00; }
+hr { border-color: #93B2A0; }
 
 /* Typography */
 
@@ -30,8 +36,8 @@ body { font-family: Georgia, serif; line-height: 24px; }
 
 p   { font-size: 16px; margin: 24px 0; }
 nav { font-size: 16px; }
-li  { font-size: 16px; }
-h3  { font-size: 16px; margin: 24px 0 -24px 0; }
+ul  { font-size: 16px; margin: 24px 0; }
+h3  { font-size: 16px; margin: 24px 0 0 0; font-weight: bold; }
 h2  { font-size: 18px; margin: 24px 0; font-weight: bold; }
 h1  { font-size: 21px; margin: 120px 0 48px 0; }
 
@@ -43,9 +49,13 @@ sup { vertical-align: super; line-height: 0; font-size: smaller; }
 
 /* Misc */
 
+ul > li::before { content: "-"; display: inline-block; width: 0; position: relative; top: 0px; left: -12px; }
+
 [without-vertical-margins] { margin-top: 0; margin-bottom: 0; }
+[without-top-margin] { margin-top: 0; }
 [like-paragraph-text] { line-height: 24px; font-size: 16px; }
 [special-tabular] { font-feature-settings: "tnum"; }
+p[delete-line] { margin-top: -24px; }
 div[logo] { margin: 120px 0 48px 0; }
 img[logo] { display: inline-block; vertical-align: middle; height: 48px; margin: 0; }
 h1[logo] { display: inline-block; vertical-align: middle; font-size: 21px; margin: 0 0 0 6px; }

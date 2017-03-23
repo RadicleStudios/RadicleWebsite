@@ -22,13 +22,13 @@ hr[asterism]::before { content: "\2042"; text-align: center; display: block; pos
 /* Colour */
 
 body { background-color: #f7f7f7; color: #3f3f3f; }
-body > main { background: top left / 48px url(/assets/radicle-ribbon.svg) repeat-y transparent; }
+body > main { background: top left / 48px url(/assets/radicle-notes-ribbon.svg) repeat-y transparent; }
 body > header { border-color: #3f3f3f; }
 body > footer { border-color: #3f3f3f; }
-blockquote { border-color: #93B2A0; }
-h3 { color: #93B2A0; }
+blockquote { border-color: #B2A893; }
+h3 { color: #B2A893; }
 a { color: #d92b00; }
-hr { border-color: #93B2A0; }
+hr { border-color: #B2A893; }
 
 /* Typography */
 
