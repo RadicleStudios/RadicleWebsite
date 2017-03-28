@@ -50,6 +50,7 @@ sup { vertical-align: super; line-height: 0; font-size: smaller; }
 /* Misc */
 
 ul > li::before { content: "-"; display: inline-block; width: 0; position: relative; top: 0px; left: -12px; }
+ol > li { list-style-type: decimal; }
 
 [without-vertical-margins] { margin-top: 0; margin-bottom: 0; }
 [without-top-margin] { margin-top: 0; }

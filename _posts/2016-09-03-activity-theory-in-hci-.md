@@ -36,4 +36,66 @@ HCI (human-computer interaction) has three key topical areas: agency, experience
 
 > Technology is an outcome of design, and design is under the aegis of human intentionality and imagination.
 
+* * *
+
+> Activity theory keeps these questions [that follow] front and center. What does it mean to be human? How are mind and consciousness related? What is the nature of human action?
+
+* * *
+
+Mr. Kaptelinin and Miss Nardi view the possible actions that a technology provides as comprising two facets:
+<p delete-line/>
+> (a) Possibilities for interacting *with* the technology (P--T), _ie_, _handling affordances_, and (b) possibilities for employing the technology to make an effect on an object (T--O), _ie_, _effecter_ affordances.
+
+Further:
+<p delete-line/>
+> Together, they define instrumental technology affordances as possibilities for action *through* the technology in question on a certain object ((P--T)--O).
+
+* * *
+
+To look into:
+<p delete-line/>
+> Bødker and Klokmose (2011) propose the Human-Artifact Model, a minimalist activity-theory based representation of various aspects of an artifact combined with corresponding levels of human activity, intended to be used in analysis and design of interactive artifacts with little or no prior knowledge of activity theory.
+
+* * *
+
+> 'Activity,' the foundational concept of activity theory, is understood as a relationship between the subject (that is, an actor) and the object (that is, an entity objectively existing in the world). A common way to represent activity is 'S \<-\> O.'
+
+> Activities are generative forces that transform both subjects and objects.
+
+* * * 
+
+Fascinating:
+<p delete-line/>
+> Despite their differences, both activity theory and Buddhism consider the contradistinction between the subject and the object as something that is not inherently given but rather produced by action.
+> 
+> In Western thought the fundamental insight of the inseparability of subjects and objects is expressed, for instance, in the philosophical views of Hegel and Marx, Goethe’s poetry, Brentano’s “act psychology,” and the ecological psychology of Gibson.
+
+* * *
+
+> Activity in a narrow sense is a unit of subject-object interaction defined by the motive. It is a system of processes oriented towards the motive where the meaning of any individual component of the system is determined by its role in attaining the motive.
+>
+> Therefore, according to activity theory, the ultimate cause behind human activities is needs.
+
+* * *
+
+Wow:
+<p delete-line/>
+> The most fundamental property of needs, according to Leontiev, is that they cannot be separated from objects. The defining feature of unobjectified needs is that they are seeking for objects, while objectified needs manifest themselves through their objects.
+
+* * *
+
+> Activities are not monolithic. Each activity can be represented as a hierarchical structure organized into three layers. The top layer is the activity itself, which is oriented towards a motive. The motive is the object, which stimulates, excites the subject. It is the object that the subject ultimately needs to attain.
+>
+> Human activities are typically not directed straight towards their motives. ... Socially distributed activities are characterized by dissociation between motivating and directing objects. Complex relations between these two types of objects are present in society and are a fact of life for people who live in the society. Participation in social activities makes it necessary for individual subjects to differentiate between (a) objects that attract them and (b) objects at which their activities are directed.
+>
+> In other words, an activity is composed of a sequence of steps, each of which may not be immediately related to the motive. According to activity theory terminology, these steps are _actions_. The objects at which they are directed are called goals. Goals are conscious; human beings are typically aware of the goals they want to attain. In contrast, we may not be immediately aware of motives. Leontiev observed that making motives conscious requires a special effort of making sense of “indirect evidence,” i.e., “... motives are revealed to consciousness only objectively by means of analysis of activity and its dynamics. Subjectively, they appear only in their oblique expression, in the form of experiencing wishes, desires, or striving toward a goal” (Leontiev, 1978).
+>
+> Actions, in their turn, can also be decomposed into lower-level units of activity, operations. Operations are routine processes providing an adjustment of an action to the ongoing situation. They are oriented towards the conditions under which the subject is attaining a goal. People are typically not aware of operations. Operations may emerge as an “improvisation,” as a result of a spontaneous adjustment of an action on the fly.
+
+* * *
+
+> An activity-theoretical concept of special relevance to HCI is the concept of functional organs. ... For instance, human eyes in combination with eyeglasses, binoculars, microscopes, or night vision devices, constitute functional organs of vision that may significantly extend human abilities.
+
+
+
 <hr asterism>
