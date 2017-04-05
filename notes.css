@@ -43,7 +43,7 @@ h1  { font-size: 21px; margin: 120px 0 48px 0; }
 
 em, i { font-style: italic; }
 strong, b { font-weight: bold; }
-a { text-decoration: none; }
+a { text-decoration: underline; }
 code { white-space: pre; }
 sup { vertical-align: super; line-height: 0; font-size: smaller; }
 

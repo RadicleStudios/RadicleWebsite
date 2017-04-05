@@ -43,7 +43,7 @@ h1  { font-size: 21px; margin: 120px 0 48px 0; }
 
 em, i { font-style: italic; }
 strong, b { font-weight: bold; }
-a { text-decoration: none; }
+a { text-decoration: underline; }
 code { white-space: pre; }
 sup { vertical-align: super; line-height: 0; font-size: smaller; }
 
@@ -54,12 +54,14 @@ ol > li { list-style-type: decimal; }
 
 [without-vertical-margins] { margin-top: 0; margin-bottom: 0; }
 [without-top-margin] { margin-top: 0; }
+[with-overline] { text-decoration: overline; }
 [like-paragraph-text] { line-height: 24px; font-size: 16px; }
 [special-tabular] { font-feature-settings: "tnum"; }
 p[delete-line] { margin-top: -24px; }
 div[logo] { margin: 120px 0 48px 0; }
 img[logo] { display: inline-block; vertical-align: middle; height: 48px; margin: 0; }
 h1[logo] { display: inline-block; vertical-align: middle; font-size: 21px; margin: 0 0 0 6px; }
+img.special-bleed { margin: -12px; }
 
 hr.separator { display: block; width: 72px; margin: 23px auto 24px 0; border-bottom: 1px solid #3f3f3f; }
 hr.note-separator { width: 100%; margin: 23px 0 24px 0; border-bottom: 1px dashed #3f3f3f; }
