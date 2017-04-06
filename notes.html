@@ -2,12 +2,15 @@
 layout: notes
 ---
 
-<section>
-  <h1>Notes</h1>
-  <ul>
-    {% for post in site.categories.notes %}
-      <li>{{ post.date | date: "%Y-%m-%d" }} - <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</section>
+<h1>Notes</h1>
+<h3>What is this?</h3>
+<p delete-line/>
+<p>
+  This is where we publish the notes we take as we learn.
+</p>
+<ul>
+  {% for post in site.categories.notes %}
+    <li>{{ post.date | date: "%Y-%m-%d" }} - <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
 
