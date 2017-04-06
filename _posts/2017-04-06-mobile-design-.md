@@ -55,7 +55,5 @@ Here's what Mr. Norman would say: An **affordance** refers to what you can do wi
 
 [This is the sort of thing also that makes me lose interest in a book.]
 
-[This is a test.]
-
 <hr asterism/>
 
