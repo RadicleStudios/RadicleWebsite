@@ -21,7 +21,7 @@ hr[asterism]::before { content: "\2042"; text-align: center; display: block; pos
 
 /* Colour */
 
-body { background-color: #f7f7f7; color: #3f3f3f; }
+body { background-color: #efefef; color: #3f3f3f; }
 body > main { background: top left / 48px url(/assets/radicle-ribbon.svg) repeat-y transparent; }
 body > header { border-color: #3f3f3f; }
 body > footer { border-color: #3f3f3f; }
