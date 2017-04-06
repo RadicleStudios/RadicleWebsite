@@ -11,6 +11,7 @@ I wonder if we, the software industry, can design our apps to a much higher stan
 We're committed to making massive contributions in the domain of human-computer interaction. We're out to transform the industry! Let's see if we can.
 
 <img src="/assets/raphael-portrait.jpg" srcset="/assets/raphael-portrait@2x.jpg 2x">
-<p>
-  &mdash; Raphael Schindler
-</p>
+
+--- Raphael Schindler
+
+<hr asterism/>
