@@ -1,0 +1,67 @@
+---
+layout: notes
+title: "Book: <i>Designing with the Mind in Mind</i>"
+categories: notes
+---
+
+# Book: _Designing with the Mind in Mind_
+
+### About the book
+<p delete-line/>
+- _Designing with the Mind in Mind_, (2013)
+- By Jeff Johnson
+
+* * *
+
+### Perception is biased
+<p delete-line/>
+Chapter 1 speaks to some of the biases inherent to the way we perceive reality. **Perceptual priming** refers to 'hinting.' A **frame**, or familiar perceptual pattern, refers to the priming that naturally results from familiarity. **Habituation** refers to the diminishing sensitivity to perceiving something having been perceived repeatedly. **Attentional blink** refers to the brief period of diminished attention following hearing something important.
+
+Perception is influenced also by our current context and goals, as when a depressed person perceives melancholy where a happy person finds delight.
+
+* * *
+
+### Gestalt principles
+<p delete-line/>
+Chapter 2 "introduces the Gestalt principles that describe human visual perception: proximity, similarity, continuity, closure, symmetry, figure-ground, and common fate."
+
+> Early in the twentieth century, a group of German psychologists sought to explain how human visual perception works. They observed and catalogued many important visual phenomena. One of their basic findings was that human vision is holistic: our visual system automatically imposes structure on visual input and is wired to perceive whole shapes, figures, and objects rather than disconnected edges, lines, and areas. The German word for “shape” or “figure” is Gestalt, so these theories became known as the _Gestalt principles of visual perception_.
+
+The Gestalt principle of **proximity** refers to our tending to consider items that are relatively close to one another as being a 'group,' as compared with items farther off. **Similarity** refers to our tending to consider items that are similar as being a 'group,' as compared with dissimilar items. **Common fate** refers to our tending to consider items that move in a similar way as being a 'group.' The principle of **continuity** refers to our tending "to perceive continuous forms rather than disconnected segments." **Closure** "states that our visual system automatically tries to close open figures so that they are perceived as whole objects rather than separate pieces." **Symmetry** "states that we tend to parse complex scenes in a way that reduces the complexity." **Figure/ground** refers to our tending to separate the visual field into foreground and background.
+
+* * *
+
+### Peripheral vision
+<p delete-line/>
+In reading Mr. Johnson's discussion of how the eye works, how we see with much higher 'resolution' what we're looking at directly, as compared with the periphery; I wondered what the role would be of the periphery then. Mr. Johnson relates that our peripheral vision, whose 'resolution' is quite coarse, nevertheless serves to 'invite' our direct gaze, if we perceive something of interest to be there.
+
+It is interesting to apply this understanding to the design of user interface elements. I wonder if the use of thin dividing lines does not take the eye's periphery into account. Let me be more clear: if you are reading a page in a book, your peripheral vision tells you confidently where that page's perimeter is located. I wonder if when we read things online, the much-less-substantial division of where is the edge of the 'page' requires our mind to work a little harder.
+
+Mr. Johnson illuminates on another function the peripheral vision plays: it is quite adept at picking up motion.
+
+* * *
+
+### Reading is unnatural
+<p delete-line/>
+Mr. Johnson tells us that reading is not natural, and I think, things that are unnatural often have the characteristic that they lack harmony. In reading, Mr. Johnson tells us, the peripheral vision slumbers while the _fovea_ is rather active, confirming my presumption of a lack of harmony. I wonder, then, how to create a reading experience that involves the visual field in a more holistic way.
+
+* * *
+
+### Our attention is limited
+<p delete-line/>
+> We focus on our goals and pay little attention to our tools.
+
+> We notice things more when they are related to our goals.
+
+* * *
+
+### Human decision-making is irrational
+<p delete-line/>
+- We are less interested in gaining something than preventing the loss of something.
+- "We are biased by how choices are worded."
+- "We are biased by our vivid imaginations and memories."
+
+More important than cataloguing the types of biases in decision making is realizing that we are irrational beings. Some would argue, and I am inclined to believe them, that our opportunities for exerting our own will are astonishingly small.
+
+<hr asterism/>
+
