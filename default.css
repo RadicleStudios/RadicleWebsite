@@ -1,7 +1,7 @@
 /* Layout */
 
 body { max-width: 720px; min-width: 296px; margin: 24px; }
-body > main { max-width: 540px; padding: 1px 0 48px 48px; }
+body > main { padding: 48px 0 48px 48px; }
 body > footer { margin-bottom: 96px; }
 
 /* 'Compact' (width) */
@@ -15,7 +15,7 @@ body > header { border-bottom: 1px solid transparent; }
 body > footer { border-top: 1px solid transparent; }
 blockquote { padding-left: 23px; border-left: 1px solid transparent; }
 
-hr { border: 0; border-bottom: 1px solid #9f9f9f; height: 0; margin: 0; margin-top: -1; }
+hr { border: 0; border-bottom: 1px solid transparent; height: 0; margin: 0; margin-top: -1; }
 hr[asterism] { display: block; border: 0; content: "hi"; height: 24px; margin: 0;}
 hr[asterism]::before { content: "\2042"; text-align: center; display: block; position: relative; top: 5px; }
 
@@ -72,3 +72,12 @@ ol.notes { line-height: 18px; font-size: 14px; list-style: decimal outside; marg
 ol.notes > li { line-height: 18px; font-size: 14px; margin-left: 36px; }
 
 html { -moz-text-size-adjust: none; -ms-text-size-adjust: none; -webkit-text-size-adjust: none; text-size-adjust: none; }
+
+.sp2 { display: inline-block; margin: -24px; border: 24px solid transparent; box-sizing: padding-box;
+  background: no-repeat left -24px top -24px url(/assets/mark-topleft.png),
+              no-repeat right -24px top -24px url(/assets/mark-topright.png),
+              no-repeat right -24px bottom -24px url(/assets/mark-bottomright.png),
+              no-repeat left -24px bottom -24px url(/assets/mark-bottomleft.png); }
+.special { position: relative; }
+.special::before { display: block; margin-left: -24px; margin-right: -24px; height: 24px; content: "i"; background: url(/assets/mark-topleft.png); }
+.special::after { display: block; width: 24px; height: 24px; content: " "; position: absolute; left: 100%; top : 100%; background: no-repeat url(/assets/mark-bottomright.png); }*/
