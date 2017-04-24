@@ -1,7 +1,7 @@
 /* Layout */
 
 body { max-width: 720px; min-width: 296px; margin: 24px; }
-body > main { max-width: 540px; padding: 1px 0 48px 48px; }
+body > main { padding: 48px 0 48px 48px; }
 body > footer { margin-bottom: 96px; }
 
 /* 'Compact' (width) */
@@ -15,7 +15,7 @@ body > header { border-bottom: 1px solid transparent; }
 body > footer { border-top: 1px solid transparent; }
 blockquote { padding-left: 23px; border-left: 1px solid transparent; }
 
-hr { border: 0; border-bottom: 1px solid #9f9f9f; height: 0; margin: 0; margin-top: -1; }
+hr { border: 0; border-bottom: 1px solid transparent; height: 0; margin: 0; margin-top: -1; }
 hr[asterism] { display: block; border: 0; content: "hi"; height: 24px; margin: 0;}
 hr[asterism]::before { content: "\2042"; text-align: center; display: block; position: relative; top: 5px; }
 
