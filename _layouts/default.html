@@ -9,15 +9,31 @@
     <link rel="stylesheet" type="text/css" href="/reset.css">
     <link rel="stylesheet" type="text/css" href="/default.css">
   </head>
+
   <body>
-    <header>
-      <h1 without-vertical-margins like-paragraph-text>
-        <a href="/">Radicle</a>
-      </h1>
-    </header>
-    <main>
-      {{ content }}
-    </main>
+    
+    {% if page.hero-section %}
+      {% include header.html without-bottom-border=true %}
+    {% else %}
+      {% include header.html %}
+    {% endif %}
+    
+    <div class="wrapper">
+      
+      {% if page.hero-section %}
+        {% include hero.html %}
+      {% endif %}
+
+      <main>
+        <div class="content-container">
+          {{ content }}
+        </div>
+      </main>
+    
+    </div>
+
     {% include footer.html %}
+
   </body>
+
 </html>

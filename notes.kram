@@ -1,13 +1,9 @@
 ---
-layout: notes
+layout: default
 ---
 
-<h1>Notes</h1>
-<h3>What is this?</h3>
-<p delete-line/>
-<p>
-  This is where we publish the notes we take as we learn.
-</p>
+# Notes
+
 <ul>
   {% assign current_year = site.time | date: "%Y" %}
   {% assign current_month = site.time | date: "%m" %}
