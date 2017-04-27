@@ -7,15 +7,15 @@ categories: notes
 # Book: _Understanding Computers and Cognition_
 
 ### About the book
-<p delete-line/>
+
 - _Understanding Computers and Cognition_ (1986)
 - By Terry Winograd and Fernando Flores
 
 * * *
 
-They consider topics that "appear to be worlds apart," in order to "let the apparent chasms become spaces in which new possibilities are revealed."
+### Unique approach to discovery
 
-* * *
+Dr. Winograd and Dr. Flores consider topics that "appear to be worlds apart," in order to "let the apparent chasms become spaces in which new possibilities are revealed."
 
 They treat certain questions in an interesting way; so they address the challenge, e.g. 'Can computers understand language?,' not in order to solve it, but rather to *dissolve* it.
 
@@ -27,31 +27,16 @@ Aside: I wonder: What are the various ways that technology can be satisfying?
 
 > All new technologies develop within the backgrounds of a tacit understanding of human nature and human work. The use of technology in turn leads to fundamental changes in what we do, and ultimately in what it is to be human. We encounter the deep questions of design when we recognize that in designing tools we are designing ways of being. By confronting these questions directly, we can develop a new background for understanding computer technology---one that can lead to important advances in the design and use of computer systems.
 
-'The nature of the background that serves as a basis for human thought and action.'
-
-'To arise in a background of understanding.'
-
-What is "the implicit understanding of design that guides technological development within our existing tradition of thought?"
-
-* * *
-
 > Practice shapes our language and language in turn generates the space of possibilities for action.
 
-* * *
-
 They view a tradition as:
-<p delete-line></p>
 
 - "A pre-understanding that opens the space of possible answers."
 - A "pervasive, fundamental phenomenon that might be called a 'way of being.'"
 - "A way of understanding, a background, within which we interpret and act."
 - "That which invisibly gives shape to our thought."
 
-* * *
-
 > We always exist within a pre-understanding determined by the history of our interactions with others who share the tradition.
-
-* * *
 
 Our tradition is concealed:
 <p delete-line/>
@@ -60,8 +45,6 @@ Our tradition is concealed:
 And:
 <p delete-line/>
 > It takes a careful self-awareness to turn the same gaze on our own lives and 'unconceal' our own tradition---to bring into conscious observation that which invisibly gives shape to our thought.
-
-* * *
 
 The _rationalistic tradition_:
 <p delete-line/>
@@ -115,17 +98,15 @@ Restating their intention, they define design as "the interaction between unders
 
 * * *
 
-Mr. Winograd and Mr. Flores find themselves to be in accord with writers having interests such as biology, hermeneutics, and phenomenology.
+### Philosophical foundatinos
 
-* * *
+Dr. Winograd and Dr. Flores find themselves to be in accord with writers having interests such as biology, hermeneutics, and phenomenology.
 
 > Heidegger stands out as the modern philosopher who has done the most thorough, penetrating, and radical analysis of everyday experience.
 <p delete-line/>
 And
 <p delete-line/>
 > Gadamer has been most articulate in applying this orientation to the problem of language, a problem that we see as central.
-
-* * *
 
 The work is discussed of "Humberto R. Maturana, a Chilean neurobiologist most widely known for his work on the neurophysiology of vision," which work they find to be "critical in the development of our understanding of cognition and of our perspective on the rationalistic tradition."
 
@@ -176,7 +157,7 @@ The rationalistic tradition:
 - "Finds its highest expression in mathematics and logic."
 - "Has greatly influenced the development of linguistics and psychology."
 
-Mr. Winograd and Mr. Flores find the rationalistic tradition to be problematic, and labour to convey that viewpoint. I see a more fundamental problem. I see that tool use itself is problematic, and through using tools, we change ourselves: in learning to use a knife, you begin to keep an eye out for things to cut. So what happens in a society steeped in tools as we are? By this influence that tool use has on our psychology, we must be really distorting the truth of our existence.
+Dr. Winograd and Dr. Flores find the rationalistic tradition to be problematic, and labour to convey that viewpoint. I see a more fundamental problem. I see that tool use itself is problematic, and through using tools, we change ourselves: in learning to use a knife, you begin to keep an eye out for things to cut. So what happens in a society steeped in tools as we are? By this influence that tool use has on our psychology, we must be really distorting the truth of our existence.
 
 To wit:
 <p delete-line/>
@@ -224,7 +205,7 @@ To look into: _The Structure of Scientific Revolutions_, by Thomas Kuhn.
 
 * * *
 
-Mr. Winograd and Mr. Flores point out an assumption that if false could topple all of Science: the assumption that phenomena observed 'in isolation' will yield general laws. Mr. Buckminster Fuller will point very simply to the concept of _synergy_, which law operates exactly opposite to how we're conducting our high-horsed scientific inquiry. Hmm. This seems very clear to me now. Are we looking at one of those huge paradoxes of our age, similar to the one where we expect doctors to keep us healthy who are paid when we get sick?
+Dr. Winograd and Dr. Flores point out an assumption that if false could topple all of Science: the assumption that phenomena observed 'in isolation' will yield general laws. Buckminster Fuller will point very simply to the concept of _synergy_, which law operates exactly opposite to how we're conducting our high-horsed scientific inquiry. Hmm. This seems very clear to me now. Are we looking at one of those huge paradoxes of our age, similar to the one where we expect doctors to keep us healthy who are paid when we get sick?
 
 I am reminded of something Thoreau observes: "Shams and delusions are esteemed for soundest truths, while reality is fabulous." (Thoreau, _Walden_)
 
@@ -255,7 +236,7 @@ Interesting:
 
 * * *
 
-Aside: I feel presently, as it were, to be exploring the very perimeter of human understanding. (In all seriousness, that's what this book is about.) As Mr. Winograd and Mr. Flores consider how interpret<em>er</em> and interpret<em>ed</em> bleed into one another, my imagination is moving to suspect that all things correlate, and the question is arising, How can I be sure that the *future* does not influence the *present*?
+Aside: I feel presently, as it were, to be exploring the very perimeter of human understanding. (In all seriousness, that's what this book is about.) As Dr. Winograd and Dr. Flores consider how interpret<em>er</em> and interpret<em>ed</em> bleed into one another, my imagination is moving to suspect that all things correlate, and the question is arising, How can I be sure that the *future* does not influence the *present*?
 
 * * *
 
@@ -300,7 +281,7 @@ Conveying Maturana's discoveries in neurophysiology, they tell us:
 
 * * *
 
-Aside: I wonder if all current endeavours at creating artificial intelligence are misguided: I wonder if their implementors are trying to represent knowledge in terms of objects and attributes, thinking that that's how our human nervous system works. (Mr. Winograd and Mr. Flores relate to us Maturana's work, which indicates a different sort of functioning.)
+Aside: I wonder if all current endeavours at creating artificial intelligence are misguided: I wonder if their implementors are trying to represent knowledge in terms of objects and attributes, thinking that that's how our human nervous system works. (Dr. Winograd and Dr. Flores relate to us Maturana's work, which indicates a different sort of functioning.)
 
 * * *
 
@@ -483,7 +464,7 @@ Aside: to look into: _Decision Support Systems_ (1978), by Keen and Scott-Morton
 
 * * *
 
-Mr. Winograd and Mr. Flores understand management as "taking care of the articulation and activation of a network of commitments."
+Dr. Winograd and Dr. Flores understand management as "taking care of the articulation and activation of a network of commitments."
 
 * * *
 
@@ -511,7 +492,7 @@ In review:
 
 * * *
 
-In proposing a technological way of supporting coordinating conversations within an organization, Mr. Winograd and Mr. Flores wind up conveying with brevity a number of important recommendations:
+In proposing a technological way of supporting coordinating conversations within an organization, Dr. Winograd and Dr. Flores wind up conveying with brevity a number of important recommendations:
 <p delete-line/>
 > A coordination system supports a number of operations:
 > 

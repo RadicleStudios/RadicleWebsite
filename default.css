@@ -14,6 +14,7 @@ ul  { line-height: 32px; margin: 32px 0; }
 h3  { line-height: 32px; margin: 32px 0 0 0; }
 h2  { line-height: 32px; margin: 64px 0 32px 0; }
 h1  { line-height: 32px; margin: 64px 0 32px 0; font-weight: bold; text-transform: uppercase; text-align: center; }
+h3 + p, h3 + ul, h3 + blockquote > p, h3 + blockquote > ul { margin-top: 0; }
 
 /* 'Compact' (width) */
 @media (max-width: 375px) {
@@ -22,22 +23,22 @@ h1  { line-height: 32px; margin: 64px 0 32px 0; font-weight: bold; text-transfor
   body > footer { padding: 0 4px; }
   body > main   { padding: 1px 4px 1px 36px; } }
 
-blockquote { padding-left: 23px; border-left: 1px solid transparent; }
+blockquote { padding-left: 30px; border-left: 2px solid transparent; }
 
 hr { border: 0; border-bottom: 1px solid transparent; height: 0; margin: 0; margin-top: -1; }
-hr[asterism] { display: block; border: 0; content: "hi"; height: 24px; margin: 0;}
-hr[asterism]::before { content: "\2042"; text-align: center; display: block; position: relative; top: 5px; }
+hr[asterism] { display: block; border: 0; content: "hi"; height: 32px; margin: 32px 0; }
+hr[asterism]::before { line-height: 32px; font-size: 28px; content: "\2042"; text-align: center; display: block; }
 
 /* Colour */
 
 body { background-color: #F7F7F7; color: #000000; }
 body > header { background-color: #FFFFFF; border-bottom: 1px solid #DFDFDF; }
 body > footer { background-color: #FFFFFF; border-top: 1px solid #DFDFDF; }
-
-blockquote { border-color: #93B2A0; }
-h3 { color: #93B2A0; }
-a { color: #d92b00; }
-hr { border-color: #93B2A0; }
+blockquote { border-color: #9F9F9F; }
+h3 { color: #9F9F9F; }
+hr { border-color: #9F9F9F; }
+hr[asterism] { color: #9F9F9F; }
+a { color: #D92B00; }
 
 /* Typography */
 
@@ -72,7 +73,7 @@ ol > li { list-style-type: decimal; }
 [with-overline] { text-decoration: overline; }
 [like-paragraph-text] { line-height: 24px; font-size: 16px; }
 [special-tabular] { font-feature-settings: "tnum"; }
-p[delete-line] { margin-top: -24px; }
+p[delete-line] { margin-top: -32px; }
 div[logo] { margin: 120px 0 48px 0; }
 img[logo] { display: inline-block; vertical-align: middle; height: 48px; margin: 0; }
 h1[logo] { display: inline-block; vertical-align: middle; font-size: 21px; margin: 0 0 0 6px; }
