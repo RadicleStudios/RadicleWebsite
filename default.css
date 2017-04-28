@@ -1,8 +1,20 @@
 /* Layout */
 
-body { max-width: 720px; min-width: 296px; margin: 24px; }
-body > main { padding: 48px 0 48px 48px; }
-body > footer { margin-bottom: 96px; }
+* { box-sizing: border-box; }
+div, section { position: relative; }
+html { height: 100%; }
+body { height: 100%; line-height: 0; }
+.wrapper { padding: 1px 0; min-height: calc(100% - 128px); }
+body > header { height: 64px; }
+body > footer { height: 64px; }
+body > main { padding: 32px 0; }
+.content-container { max-width: 720px; margin: 0 auto; }
+p   { line-height: 32px; margin: 32px 0; }
+ul  { line-height: 32px; margin: 32px 0; }
+h3  { line-height: 32px; margin: 32px 0 0 0; }
+h2  { line-height: 32px; margin: 64px 0 32px 0; }
+h1  { line-height: 32px; margin: 64px 0 32px 0; font-weight: bold; text-transform: uppercase; text-align: center; }
+h3 + p, h3 + ul, h3 + blockquote > p, h3 + blockquote > ul { margin-top: 0; }
 
 /* 'Compact' (width) */
 @media (max-width: 375px) {
@@ -11,53 +23,57 @@ body > footer { margin-bottom: 96px; }
   body > footer { padding: 0 4px; }
   body > main   { padding: 1px 4px 1px 36px; } }
 
-body > header { border-bottom: 1px solid transparent; }
-body > footer { border-top: 1px solid transparent; }
-blockquote { padding-left: 23px; border-left: 1px solid transparent; }
+blockquote { padding-left: 30px; border-left: 2px solid transparent; }
 
 hr { border: 0; border-bottom: 1px solid transparent; height: 0; margin: 0; margin-top: -1; }
-hr[asterism] { display: block; border: 0; content: "hi"; height: 24px; margin: 0;}
-hr[asterism]::before { content: "\2042"; text-align: center; display: block; position: relative; top: 5px; }
+hr[asterism] { display: block; border: 0; content: "hi"; height: 32px; margin: 32px 0; }
+hr[asterism]::before { line-height: 32px; font-size: 28px; content: "\2042"; text-align: center; display: block; }
 
 /* Colour */
 
-body { background-color: #efefef; color: #3f3f3f; }
-body > main { background: top left / 48px url(/assets/radicle-ribbon.svg) repeat-y transparent; }
-body > header { border-color: #3f3f3f; }
-body > footer { border-color: #3f3f3f; }
-blockquote { border-color: #93B2A0; }
-h3 { color: #93B2A0; }
-a { color: #d92b00; }
-hr { border-color: #93B2A0; }
+body { background-color: #F7F7F7; color: #000000; }
+body > header { background-color: #FFFFFF; border-bottom: 1px solid #DFDFDF; }
+body > footer { background-color: #FFFFFF; border-top: 1px solid #DFDFDF; }
+blockquote { border-color: #9F9F9F; }
+h3 { color: #9F9F9F; }
+hr { border-color: #9F9F9F; }
+hr[asterism] { color: #9F9F9F; }
+a { color: #D92B00; }
 
 /* Typography */
 
-body { font-family: Georgia, serif; line-height: 24px; }
+body { font-family: -apple-system, "SF UI Text", "Helvetica Neue", sans-serif; }
 
-p   { font-size: 16px; margin: 24px 0; }
-nav { font-size: 16px; }
-ul  { font-size: 16px; margin: 24px 0; }
-h3  { font-size: 16px; margin: 24px 0 0 0; font-weight: bold; }
-h2  { font-size: 18px; margin: 24px 0; font-weight: bold; }
-h1  { font-size: 21px; margin: 120px 0 48px 0; }
+p   { font-size: 20px; }
+nav { font-size: 20px; }
+ul  { font-size: 20px;  }
+h3  { font-size: 20px; font-weight: bold; }
+h2  { font-size: 22px; font-weight: bold; }
+h1  { font-size: 22px; font-weight: bold; text-transform: uppercase; text-align: center; }
 
 em, i { font-style: italic; }
 strong, b { font-weight: bold; }
-a { text-decoration: underline; }
+a { text-decoration: none; }
 code { white-space: pre; }
 sup { vertical-align: super; line-height: 0; font-size: smaller; }
 
 /* Misc */
+
+div.overlay { width: 100%; height: 100%; position: absolute; top: 0; }
+[special-bottom-border] { border-bottom: 1px solid black; }
 
 ul > li::before { content: "-"; display: inline-block; width: 0; position: relative; top: 0px; left: -12px; }
 ol > li { list-style-type: decimal; }
 
 [without-vertical-margins] { margin-top: 0; margin-bottom: 0; }
 [without-top-margin] { margin-top: 0; }
+[without-bottom-border] { border-bottom: none; }
+[without-text-transform] { text-transform: none; }
+
 [with-overline] { text-decoration: overline; }
 [like-paragraph-text] { line-height: 24px; font-size: 16px; }
 [special-tabular] { font-feature-settings: "tnum"; }
-p[delete-line] { margin-top: -24px; }
+p[delete-line] { margin-top: -32px; }
 div[logo] { margin: 120px 0 48px 0; }
 img[logo] { display: inline-block; vertical-align: middle; height: 48px; margin: 0; }
 h1[logo] { display: inline-block; vertical-align: middle; font-size: 21px; margin: 0 0 0 6px; }

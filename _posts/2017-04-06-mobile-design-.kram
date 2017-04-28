@@ -1,5 +1,5 @@
 ---
-layout: notes
+layout: default
 title: "Book: <i>Mobile Design Pattern Gallery</i>"
 categories: notes
 ---
@@ -7,7 +7,7 @@ categories: notes
 # Book: _Mobile Design Pattern Gallery_
 
 ### About the book
-<p delete-line/>
+
 - _Mobile Design Pattern Gallery_, (2014)
 - By Theresa Neil
 
@@ -15,33 +15,13 @@ categories: notes
 
 Some of the most important things I gather from books and papers are terms of art. Something I'm excited to do is to start and build up my own glossary of terms and definitions.
 
-* * *
-
-A **springboard** or **launchpad** is a navigation pattern that shows navigation options in a matrix or grid.
-
-* * *
-
-A **menu** is a navigation pattern that shows navigation options in a list.
-
-* * *
-
-A **dashboard** is a navigation pattern that combines showing information with springboard-like behaviour. Microsoft's **live tiles** make for a kind of dashboard.
-
-* * *
-
-A **paging indicator** is "those little dots at the bottom."
-
-* * *
-
-The **cards** navigation pattern separates areas of an app into, well, cards.
-
-* * *
-
-The **gallery** navigation pattern is characterized by its use of image tiles. Sideways-scrolling images are called a **carousel**.
-
-* * *
-
-The **accordion** navigation pattern.
+- A **springboard** or **launchpad** is a navigation pattern that shows navigation options in a matrix or grid.
+- A **menu** is a navigation pattern that shows navigation options in a list.
+- A **dashboard** is a navigation pattern that combines showing information with springboard-like behaviour. Microsoft's **live tiles** make for a kind of dashboard.
+- A **paging indicator** is "those little dots at the bottom."
+- The **cards** navigation pattern separates areas of an app into, well, cards.
+- The **gallery** navigation pattern is characterized by its use of image tiles. Sideways-scrolling images are called a **carousel**.
+- The **accordion** navigation pattern.
 
 * * *
 
