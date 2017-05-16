@@ -8,22 +8,21 @@ body { height: 100%; line-height: 0; }
 body > header { height: 64px; }
 body > footer { height: 64px; }
 body > main { padding: 32px 0; }
-.content-container { max-width: 720px; margin: 0 auto; }
-p   { line-height: 32px; margin: 32px 0; }
-ul  { line-height: 32px; margin: 32px 0; }
-h3  { line-height: 32px; margin: 32px 0 0 0; }
-h2  { line-height: 32px; margin: 64px 0 32px 0; }
-h1  { line-height: 32px; margin: 64px 0 32px 0; font-weight: bold; text-transform: uppercase; text-align: center; }
+.content-container { padding: 0 32px; }
+.reading-width {         max-width: 720px; margin-left: auto; margin-right: auto; }
+p   { line-height: 32px; max-width: 720px; margin: 32px auto; }
+ul  { line-height: 32px; max-width: 720px; margin: 32px auto; }
+h3  { line-height: 32px; max-width: 720px; margin: 32px auto 0 auto; }
+h2  { line-height: 32px; max-width: 720px; margin: 64px auto 32px auto; }
+h1  { line-height: 32px; max-width: 720px; margin: 64px auto 32px auto; font-weight: bold; text-transform: uppercase; text-align: center; }
+blockquote             { max-width: 720px; margin: 0 auto; padding-left: 28px; border-left: 4px solid transparent; }
 h3 + p, h3 + ul, h3 + blockquote > p, h3 + blockquote > ul { margin-top: 0; }
 
 /* 'Compact' (width) */
 @media (max-width: 375px) {
-  body { margin: 24px 0 240px 0; }
-  body > header { padding: 0 4px; }
-  body > footer { padding: 0 4px; }
-  body > main   { padding: 1px 4px 1px 36px; } }
-
-blockquote { padding-left: 30px; border-left: 2px solid transparent; }
+  .content-container { padding: 0 18px; }
+  .hero-message { opacity: 0; }
+}
 
 hr { border: 0; border-bottom: 1px solid transparent; height: 0; margin: 0; margin-top: -1; }
 hr[asterism] { display: block; border: 0; content: "hi"; height: 32px; margin: 32px 0; }
@@ -31,7 +30,7 @@ hr[asterism]::before { line-height: 32px; font-size: 28px; content: "\2042"; tex
 
 /* Colour */
 
-body { background-color: #F7F7F7; color: #000000; }
+body { background-color: #F3F3F3; color: #000000; }
 body > header { background-color: #FFFFFF; border-bottom: 1px solid #DFDFDF; }
 body > footer { background-color: #FFFFFF; border-top: 1px solid #DFDFDF; }
 blockquote { border-color: #9F9F9F; }
@@ -73,7 +72,7 @@ ol > li { list-style-type: decimal; }
 [with-overline] { text-decoration: overline; }
 [like-paragraph-text] { line-height: 24px; font-size: 16px; }
 [special-tabular] { font-feature-settings: "tnum"; }
-p[delete-line] { margin-top: -32px; }
+p[delete-line], p[dl] { margin-top: -32px; }
 div[logo] { margin: 120px 0 48px 0; }
 img[logo] { display: inline-block; vertical-align: middle; height: 48px; margin: 0; }
 h1[logo] { display: inline-block; vertical-align: middle; font-size: 21px; margin: 0 0 0 6px; }

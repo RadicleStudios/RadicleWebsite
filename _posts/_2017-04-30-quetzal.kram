@@ -1,0 +1,226 @@
+---
+layout: default
+title: "Case study: point-of-sale app <i>Quetzal</i>"
+categories: unpublished-notes
+---
+
+[_N.B._: This page is 'unpublished,' meaning you cannot arrive here except if someone has given you a link]
+
+# Case study: point-of-sale app _Quetzal_
+
+**What & why:** Radicle's long-term mission being to understand usability design, we like to take top-notch apps and see if they can be made better still. In this essay I take point-of-sale app _Quetzal_ and indicate how it can be designed to be more usable.
+
+The app version assessed is 3.0.0.25.
+
+## Guiding philosophy
+
+If games are made to deeply immerse the user in the experience; a point-of-sale app strives for the opposite: a good point-of-sale is as *un*immersive as possible. I consider the user's attention to be sacrosanct.
+
+## Opportunities where usability may be improved
+
+### 1
+**The app's functional areas could be better organized**
+
+I discover the app to be organized like so:
+
+![](/assets/2017-04-30-quetzal--01-720.svg){: style="max-width: 720px;"}
+
+And the above correlate to the symbols in the navigation bar (the tall, narrow region on the left), which can be seen on this commonly-used screen:
+
+![](/assets/2017-04-30-quetzal--02-622.svg){: style="max-width: 622px;"}
+
+But I find the following organization to be more clear:
+
+![](/assets/2017-04-30-quetzal--03-538.svg){: style="max-width: 538px;"}
+
+Notes:
+<p dl/>
+- I disconnected the 'choose logged-in user' area in order to convey that it is independent of the other areas.
+- I put 'process transactions' first, because this is the most critical area of the app. This is where the work gets done.
+- I combined the idea of a current transaction with the idea of 'held' (_ie_ uncompleted) transactions.
+- I find it cumbersome (in the original design) that the screen used for processing the current customer transaction is also used to manage the list of customers, so I split that area out.
+
+
+### 2
+**The app's organization could be better represented**
+
+It is not obvious (in the original design) that the navigation bar is a _tab bar_, because it breaks the rules that a _tab bar_ must follow, forcing the user to pay greater attention. But the convention that Apple proposes (_ie_ in its iOS Human Interface Guidelines) is a sound one, and would yield an organization of functional areas that is more readily interpreted by the user.
+
+In particular:
+<p dl/>
+- The indication of which tab is currently selected should be more clear.
+- The _tabs_ should be evenly distributed, and the symbols of a similar size.
+- The symbols should have labels to explain what they mean.
+
+### 3
+**It should be obvious what each screen is for**
+
+There should be a title on each screen. But further to this, consider what the app is truly for: it is for processing customer transactions, where a single transaction involves correlating one customer with a number of items. There may be a way to arrange the transaction processing screen (_ie_ the 'terminal'), so as to depict what is really happening, _ie_ to depict that a single transaction is like a 'package' that contains a reference to one customer, references to a number of items, a 'direction' (as items could be being bought or returned), and a date (when the transaction is completed).
+
+### 4
+**It should be obvious what is to be done on the 'terminal' screen**
+
+The 'terminal' screen, _ie_ the screen for processing a customer transaction, looks like this:
+
+![](/assets/2017-04-30-quetzal--02-622.svg){: style="max-width: 622px;"}
+
+And I find it to be non-obvious what is actually supposed to be done here.
+<p dl/>
+- The 'Add customer...' button is remarkably distracting from its prominence on the screen.
+- The instructive message, "Scan an item to add it to the ledger or select an item from the Items tab," contains ambiguities that strain the user's understanding. _Eg_, is it telling me of a decision I have to make?---scan-an-item-to-add-it-to-the-ledger OR select-an-item-from-the-Items-tab. And what is a _ledger_?
+- A superior design would omit any instructions whatsoever.
+
+### 5
+**It should be obvious what the user can interact with**
+
+Considering the 'terminal' screen, _ie_ the screen for processing a customer transaction, I would think the interactable elements in the content to be these:
+
+![](/assets/2017-04-30-quetzal--04-622.svg){: style="max-width: 622px;"}
+
+But I would miss that there are two _drawers_, 'Customers' and 'Items,' which are accessed through the buttons as seen here:
+
+![](/assets/2017-04-30-quetzal--05-622.svg){: style="max-width: 622px;"}
+
+### 5
+**Interactable elements should have predictable effects**
+
+In this interface a subtle but significant error is that the buttons in the navigation bar have different effects: some behave as tabs, one as a popover, and one as an action sheet.
+
+Furthermore, in the 'terminal' screen (_ie_ the screen for processing a customer transaction) (shown again below), the 'Customers' and 'Items' buttons do not connote at all that they represent the affordances for the customer list _drawer_ and the item list _drawer_ (respectively).
+
+![](/assets/2017-04-30-quetzal--02-622.svg){: style="max-width: 622px;"}
+
+### 6
+**_Scroll views_ do not scroll properly**
+
+Consider this example of a _scroll view_ in the app (look at the customers _drawer_, _ie_ the region at right containing the list of customers):
+
+![](/assets/2017-04-30-quetzal--06-622.svg){: style="max-width: 622px;"}
+
+You cannot tell view the image alone, but this _scroll view_ behaves annoyingly unlike what I would expect on this platform: the scrolling is jerky, doesn't appear to follow well the course of my dragging finger, doesn't 'bounce' at the beginning and end of the list, and if I end my dragging gesture with some velocity, that velocity is not conveyed to the scrolling list in the way I would expect. Many _scroll views_ in the app behave this way, though not all.
+
+<!--
+
+## 2. Processing customer transactions
+
+Consider the screen for processing a customer transaction:
+
+![](/assets/2017-04-30-quetzal--01-622w.svg){: style="max-width: 622px;"}
+
+And the screen for managing held orders (and some other function I haven't yet figured out having to do with 'today's sales'):
+
+![](/assets/2017-04-30-quetzal--06-622w.svg){: style="max-width: 622px;"}
+
+### Challenge
+
+It is unclear what the steps are to process a customer transaction.
+
+(You look at the screen and wonder: what do I do first? what are the steps? I know I need to print a receipt, but I don't see a button for that, so am I on the right screen?)
+
+### Challenge
+
+It is unclear that an in-process customer transaction can be held.
+
+### Challenge
+
+It is unclear, if a customer transaction has been held, how to resume it.
+
+### Challenge
+
+There are two ways to lock the screen.
+
+### Challenge
+
+There are two ways to hold a transaction.
+
+### Challenge
+
+The 'payments' button is not always visible.
+
+### Challenge
+-->
+
+<!--
+
+
+In order to navigate the app, the user must understand what the different screens are, and what can be done there. Anything that stands in the way of this understanding is working against usability.
+
+
+
+It's apparent we're dealing with a _tab-based_ navigation paradigm. But:
+<p dl/>
+- Which symbol is currently selected?---the indication is too subtle.
+- What do the arrangement and sizing of the symbols signify?
+- What do the symbols themselves mean?
+
+I learn, from a little exploring, that there are four kinds of things the user can do in the app:
+
+![](/assets/2017-04-30-quetzal--02-528x100.svg){: style="max-width: 672px;"}
+
+But I cannot correlate these functional contexts with the navigation I see in the app. Indeed, the 'processing customer transactions' area is spread over two screens, the 'terminal,' which is used to manage a single customer transaction, and the 'holds,' which is used to manage in-progress customer transactions. _Inventory management_ has its own screen, as well as _report viewing_. But _managing customers_ is done through the 'terminal' screen also.
+
+I cannot easily determine what I am able to do in the app, and where I am to find specific functionality is rather nebulous. So let's see if we can arrive at a superior navigation design.
+
+### Re-designing the navigation
+
+We want the *look* of the app to communicate to the user that:
+<p dl/>
+- There are four chief screens in the app.
+- There is the idea of the _logged-in user_.
+
+The corresponding wireframe being something like:
+-->
+
+
+
+
+
+
+<!--
+Furthermore:
+<p dl/>
+- How is the user to know what this screen is supposed to be used for?
+- How is the user to know what _ledger_ means here?
+- How is the user to know which interface elements are user-interactable?---Upon first glance, I would guess them to be, 'add customer,' the vertical ellipsis, 'discounts,' and 'sales tax (3%),' but I'd be wrong.
+-->
+
+
+
+<!--
+
+For these reasons I am made to feel confused, which feeling prompts me to consider how I might design the app myself; and I will try as it were to throw out the bathwater, only.
+
+## How the app _could_ be organized
+
+The _Quetzal_ app comprises four contextual domains of functionality: meaning there are four kinds of things a user does with the app:
+
+![](/assets/2017-04-30-quetzal--02-528x100.svg){: style="max-width: 672px;"}
+
+The corresponding _tab interface_ being:
+
+![](/assets/2017-04-30-quetzal--03-622x438.svg){: style="max-width: 622px;"}
+
+But what's missing?
+<p dl/>
+- We still need to convey what each tab *is*.
+- The original interface included the app settings.
+- The original interface had the notion of the _logged-in user_.
+
+Let's understand that the _logged-in user_ is an independent dimension in the app organization:
+
+![](/assets/2017-04-30-quetzal--04-696x292.svg){: style="max-width: 696px;"}
+
+So, _eg_:
+<p dl/>
+- If I am processing a customer transaction and I need to manage a customer, I shouldn't have to log out and log in again.
+- If I am _managing inventory_ and someone else is to take over, the app should be able to stay on the same screen.
+
+What do we need to convey this organization to the user? In addition to visual cues that prompt the user's recognition of a tab-based organizational paradigm, we must not forget that:
+<p dl/>
+- The _logged-in user_ should always be visible.
+- The name of the currently selected tab should always be visible.
+<p dl/>
+And not only just visible, but these elements should be so signified as to convey their role in the organizational hierarchy.
+
+-->
+

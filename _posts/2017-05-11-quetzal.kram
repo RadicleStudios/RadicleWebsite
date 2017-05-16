@@ -1,0 +1,55 @@
+---
+layout: default
+title: "Case study: point-of-sale app <i>Quetzal</i>"
+categories: unpublished-notes
+---
+
+[_N.B._: This page is 'unpublished,' meaning you cannot arrive here except if someone has given you a link]
+
+# Case study: point-of-sale app _Quetzal_
+
+## Preamble
+
+### What & why
+Congruent to Radicle's mission of improving usability design across the industry, we like to take top-notch apps and see if they can be made better still. In this essay I will take point-of-sale app _Quetzal_ (beta version 3.0.0.29), focus on a portion of it, and consider questions about how usable it is.
+
+### Guiding philosophy
+I consider the user's attention to be sacrosanct. The most usable apps are those that require the user to pay the least attention.
+
+### Scope
+The point-of-sale app Quetzal has roughly the following functional areas, _ie_ these are the kinds of things a user uses the app for:
+<p dl/>
+- Managing the app itself
+- Processing customer transactions
+- Managing the list of customers
+- Managing the list of items (_ie_ the inventory)
+- Viewing reports
+
+In this essay I will focus on the functionality surrounding managing the inventory.
+
+### Presuppositions
+I presuppose you to be familiar with the Quetzal app. (This affords a great convenience to me, as a writer.)
+
+## Let's go
+
+Before we dismantle it, let's recall the inventory screen:
+
+![](/assets/2017-05-11-quetzal--01-622.svg){:style="max-width:622px"}
+
+Its composition includes these regions:
+
+![](/assets/2017-05-11-quetzal--02-574.svg){:style="max-width:574px"}
+
+Where:
+<p dl/>
+A = navigation bar<br>
+B = items list<br>
+C = item details (for the selected item)<br>
+D = title bar
+
+I won't address the navigation bar (A) at all, except to mention in passing that I can envision a design that does not include it, resulting in saved space, and more importantly, less for the user to attend to. In the title bar (D) there are three tabs and a button---_Items_, _Tags_, _Import_, and _Export_---and for this essay I am only interested in the _Items_ tab; so we may ignore the title bar (D), too.
+
+We are left with the items list (B) and the item details area (C), and considering these two regions brings us to the first important question: *why are these both on the screen at the same time?* (To be clear, what you see above in the item details area (C) is where the item details *would go*, were an item to be selected.)
+
+There are a lot of details about an item, so why constrain the corresponding region (_ie_ (C))? The list is even more involved: in order for hundreds of inventory items to feel to the user as though they are at his fingertips, as it were, the browsing and searching features 
+

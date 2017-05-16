@@ -1,0 +1,72 @@
+---
+layout: default
+title: "Case study: point-of-sale app <i>Quetzal</i>"
+categories: notes
+---
+
+# Case study: point-of-sale app _Quetzal_
+
+### Preamble
+
+I shall consider the app from the viewpoint of usability.
+
+## How the app is organized
+
+Considering a common screen in wireframe, apparently we are dealing with a _tab interface_.
+
+<figure>
+  <table style="table-layout: fixed; margin-left: auto; margin-right: auto;">
+    <tr>
+      <td>
+        <img src="/assets/2017-04-30-quetzal--01a-622x438.svg" style="width: 100%; max-width: 622px;">
+      </td>
+      <td style="width: 32px;"></td>
+      <td>
+        <img src="/assets/2017-04-30-quetzal--01b-622x438.svg" style="width: 100%; max-width: 622px;">
+      </td>
+    </tr>
+  </table>
+</figure>
+
+In recognizing a tab-based organization, what gets in the way?
+<p dl/>
+- Which tab is currently selected?
+- What does each tab symbol mean?
+- Why the different kinds, and groupings, of symbols?---The first is the Quetzal logo, then four symbols that look related, then three more that look related.
+
+For these reasons I am made to feel confused, which feeling prompts me to consider how I might design the app myself; and I will try as it were to throw out the bathwater, only.
+
+## How the app _could_ be organized
+
+The _Quetzal_ app comprises four contextual domains of functionality: meaning there are four kinds of things a user does with the app:
+
+![](/assets/2017-04-30-quetzal--02-528x100.svg){: style="max-width: 672px;"}
+
+The corresponding _tab interface_ being:
+
+![](/assets/2017-04-30-quetzal--03-622x438.svg){: style="max-width: 622px;"}
+
+But what's missing?
+<p dl/>
+- We still need to convey what each tab *is*.
+- The original interface included the app settings.
+- The original interface had the notion of the _logged-in user_.
+
+Let's understand that the _logged-in user_ is an independent dimension in the app organization:
+
+![](/assets/2017-04-30-quetzal--04-696x292.svg){: style="max-width: 696px;"}
+
+So, _eg_:
+<p dl/>
+- If I am processing a customer transaction and I need to manage a customer, I shouldn't have to log out and log in again.
+- If I am _managing inventory_ and someone else is to take over, the app should be able to stay on the same screen.
+
+What do we need to convey this organization to the user? In addition to visual cues that prompt the user's recognition of a tab-based organizational paradigm, we must not forget that:
+<p dl/>
+- The _logged-in user_ should always be visible.
+- The name of the currently selected tab should always be visible.
+<p dl/>
+And not only just visible, but these elements should be so signified as to convey their role in the organizational hierarchy.
+
+
+
