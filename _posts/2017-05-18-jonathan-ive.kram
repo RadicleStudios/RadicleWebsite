@@ -1,0 +1,12 @@
+---
+layout: default
+title: "To Jonathan Ive: a usability concern"
+categories: unpublished-notes
+---
+
+# To Jony Ive: a usability problem concerning feedback
+
+Dear Sir Ive,
+
+Take iPhone. A fundamental feature of its software is the _scroll view_: a way to view a screenful of a larger space of content, that content being scrollable with the drag of a finger. That content exhibits _direct manipulation_---to use the language of the iOS Human Interface Guidelines. The problem of how to handle the case when the content's limit is reached was cleverly resolved by employing the rubber-band effect; without which feedback the content would abruptly stop, while the user's finger kept dragging on, harming the _directly manipulable_ character.
+
