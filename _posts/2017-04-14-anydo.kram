@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "<i>Any.do</i> (part I)"
+title: "QA: Any.do (part I)"
 categories: assessments
 ---
 
-# _Any.do_ (part I)
+# {{ page.title }}
 
 ### Preamble
 

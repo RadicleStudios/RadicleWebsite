@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Book: <i>Designing with the Mind in Mind</i>"
+title: "Book: Designing with the Mind in Mind"
 categories: notes
 ---
 
-# Book: _Designing with the Mind in Mind_
+# {{ page.title }}
 
 ### About the book
 

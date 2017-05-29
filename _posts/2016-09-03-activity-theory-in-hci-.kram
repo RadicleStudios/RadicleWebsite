@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Book: <i>Activity Theory in HCI: Fundamentals and Reflections</i>"
+title: "Book: Activity Theory in HCI: Fundamentals and Reflections"
 categories: notes
 ---
 
-# Book: _Activity Theory in HCI: Fundamentals and Reflections_
+# {{ page.title }}
 
 ### About the book
 <p delete-line/>

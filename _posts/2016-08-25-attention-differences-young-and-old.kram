@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Paper: <i>Attitudes towards Attention and Aging: What Differences between Younger and Older Adults Tell Us about Mobile Technology Design</i>, by Amy Jenkins <i>et al</i>."
+title: "Paper: Attitudes towards Attention and Aging: What Differences between Younger and Older Adults Tell Us about Mobile Technology Design"
 categories: notes
 ---
 
-# Paper: _Attitudes towards Attention and Aging: What Differences between Younger and Older Adults Tell Us about Mobile Technology Design_
+# {{ page.title }}
 
 ### About the paper
 <p delete-line/>

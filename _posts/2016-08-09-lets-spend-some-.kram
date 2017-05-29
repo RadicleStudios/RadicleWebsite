@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Paper: <i>Let's Spend Some Time Together: Exploring the Out-of-Box Experience of Technology for Older Adults</i>"
+title: "Paper: Let's Spend Some Time Together: Exploring the Out-of-Box Experience of Technology for Older Adults"
 categories: notes
 ---
 
-# Paper: _Let's Spend Some Time Together: Exploring the Out-of-Box Experience of Technology for Older Adults_
+# {{ page.title }}
 
 ### About the paper
 <p delete-line/>

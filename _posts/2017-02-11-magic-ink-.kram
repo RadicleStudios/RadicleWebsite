@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Article: <i>Magic Ink: Information Software and the Graphical Interface</i>"
+title: "Article: Magic Ink: Information Software and the Graphical Interface"
 categories: notes
 ---
 
-# Article _Magic Ink: Information Software and the Graphical Interface_
+# {{ page.title }}
 
 ### About the article
 <p delete-line/>

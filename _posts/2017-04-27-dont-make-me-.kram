@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Book: <i>Don't Make Me Think</i>"
+title: "Book: Don't Make Me Think"
 categories: notes
 ---
 
-# Book: _Don't Make Me Think_
+# {{ page.title }}
 
 ### About the book
 

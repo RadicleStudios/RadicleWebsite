@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Book: <i>Mobile Design Pattern Gallery</i>"
+title: "Book: Mobile Design Pattern Gallery"
 categories: notes
 ---
 
-# Book: _Mobile Design Pattern Gallery_
+# {{ page.title }}
 
 ### About the book
 
@@ -32,8 +32,6 @@ I wonder what Don Norman, who popularized the term _affordance_, would think of 
 This is the sort of thing that encourages me on my mission to affect the industry. Here is one man, myself, whose single most defining characteristic concerning expertise in user-interaction design is his *lack* of knowledge, that nevertheless understands the fundamentals better than someone who authors a book on the subject.
 
 Here's what Mr. Norman would say: An **affordance** refers to what you can do with a thing. A **signifier** is sometimes used to indicate what affordances are possible.
-
-[This is the sort of thing also that makes me lose interest in a book.]
 
 <hr asterism/>
 

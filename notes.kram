@@ -1,10 +1,9 @@
 ---
 layout: default
+title: Radicle > Notes
 ---
 
 # Notes
-
-_We publish some of our notes_. *Sometimes*.
 
 <ul>
   {% assign current_year = site.time | date: "%Y" %}

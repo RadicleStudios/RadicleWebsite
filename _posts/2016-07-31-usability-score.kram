@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Paper: <i>A Usability Score for Mobile Phone Applications Based on Heuristics</i>"
+title: "Paper: A Usability Score for Mobile Phone Applications Based on Heuristics"
 categories: notes
 ---
 
-# Paper: _A Usability Score for Mobile Phone Applications Based on Heuristics_
+# {{ page.title }}
 
 ### About the paper
 <p delete-line/>

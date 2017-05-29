@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Paper: <i>Making Space to Engage: An Open-Ended Exploration of Technology Design with Older Adults</i>"
+title: "Paper: Making Space to Engage: An Open-Ended Exploration of Technology Design with Older Adults"
 categories: notes
 ---
 
-# Paper: _Making Space to Engage: An Open-Ended Exploration of Technology Design with Older Adults_
+# {{ page.title }}
 
 ### About the paper
 <p delete-line/>
