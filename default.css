@@ -8,7 +8,7 @@ body { height: 100%; line-height: 0; }
 body > header { height: 64px; }
 body > footer { height: 64px; }
 body > main { padding: 32px 0; }
-.content-container { padding: 0 32px; }
+.content-container { min-width: 240px; padding: 0 32px; }
 .reading-width {         max-width: 720px; margin-left: auto; margin-right: auto; }
 p   { line-height: 32px; max-width: 720px; margin: 32px auto; }
 ul  { line-height: 32px; max-width: 720px; margin: 32px auto; }
@@ -19,9 +19,10 @@ blockquote             { max-width: 720px; margin: 0 auto; padding-left: 28px; b
 h3 + p, h3 + ul, h3 + blockquote > p, h3 + blockquote > ul { margin-top: 0; }
 
 /* 'Compact' (width) */
-@media (max-width: 375px) {
-  .content-container { padding: 0 18px; }
-  .hero-message { opacity: 0; }
+@media (max-width: 420px) {
+  .content-container { padding: 0 16px; }
+  p, ul, h3, h2, h1 { line-height: 24px; }
+/*  .hero-message { opacity: 0; }*/
 }
 
 hr { max-width: 720px; border: 0; border-bottom: 1px solid transparent; margin: 0 auto -1px auto; }
@@ -43,18 +44,26 @@ a { color: #D92B00; }
 
 body { font-family: -apple-system, "SF UI Text", "Helvetica Neue", sans-serif; }
 
-p   { font-size: 20px; }
-nav { font-size: 20px; }
-ul  { font-size: 20px;  }
-h3  { font-size: 20px; font-weight: bold; }
-h2  { font-size: 22px; font-weight: bold; }
-h1  { font-size: 22px; font-weight: bold; text-transform: uppercase; text-align: center; }
+p, nav, ul, h3 { font-size: 20px; }
+h2, h1 { font-size: 22px; }
+h3, h2, h1 { font-weight: bold; }
+h1 { text-transform: uppercase; text-align: center; }
+.hero-message { font-size: 22px; color: black; } 
+
+/* 'Compact' (width) */
+@media (max-width: 420px) {
+  p, nav, ul, h3 { font-size: 12px; }
+  h2, h1 { font-size: 14px; }
+  .hero-message { font-size: 14px; }
+}
 
 em, i { font-style: italic; }
 strong, b { font-weight: bold; }
 a { text-decoration: none; }
 code { white-space: pre; }
 sup { vertical-align: super; line-height: 0; font-size: smaller; }
+
+/*.hero-message { color: #000000; text-shadow: #FFFFFF -2px -2px 4px, #FFFFFF 2px -2px 4px, #FFFFFF -2px 2px 4px, #FFFFFF 2px 2px 4px, #FFFFFF 0 0 6px, #FFFFFF 0 0 6px }*/
 
 /* Misc */
 
