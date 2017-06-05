@@ -4,19 +4,20 @@
 div, section { position: relative; }
 html { height: 100%; }
 body { height: 100%; line-height: 0; }
-.wrapper { padding: 1px 0; min-height: calc(100% - 128px); }
-body > header { height: 64px; }
-body > footer { height: 64px; }
-body > main { padding: 32px 0; }
+.wrapper { padding: 1px 0; min-height: calc(100% - 96px); }
+body > header { height: 48px; }
+body > footer { height: 48px; }
+body > main { padding: 24px 0; }
 .content-container { min-width: 240px; padding: 0 32px; }
 .reading-width {         max-width: 720px; margin-left: auto; margin-right: auto; }
-p   { line-height: 32px; max-width: 720px; margin: 32px auto; }
-ul  { line-height: 32px; max-width: 720px; margin: 32px auto; }
-h3  { line-height: 32px; max-width: 720px; margin: 32px auto 0 auto; }
-h2  { line-height: 32px; max-width: 720px; margin: 64px auto 32px auto; }
-h1  { line-height: 32px; max-width: 720px; margin: 64px auto 32px auto; font-weight: bold; text-transform: uppercase; text-align: center; }
-blockquote             { max-width: 720px; margin: 0 auto; padding-left: 28px; border-left: 4px solid transparent; }
+p   { line-height: 24px; max-width: 720px; margin: 24px auto; }
+ul  { line-height: 24px; max-width: 720px; margin: 24px auto; }
+h3  { line-height: 24px; max-width: 720px; margin: 24px auto 0 auto; }
+h2  { line-height: 24px; max-width: 720px; margin: 48px auto 24px auto; }
+h1  { line-height: 24px; max-width: 720px; margin: 48px auto 24px auto; font-weight: bold; text-transform: uppercase; text-align: center; }
+blockquote             { max-width: 720px; margin: 0 auto; padding-left: 22px; border-left: 2px solid transparent; }
 h3 + p, h3 + ul, h3 + blockquote > p, h3 + blockquote > ul { margin-top: 0; }
+p[delete-line], p[dl] { margin-top: -24px; }
 
 /* 'Compact' (width) */
 @media (max-width: 420px) {
@@ -42,13 +43,13 @@ a { color: #D92B00; }
 
 /* Typography */
 
-body { font-family: -apple-system, "SF UI Text", "Helvetica Neue", sans-serif; }
+body { font-family: Georgia, serif; }
 
-p, nav, ul, h3 { font-size: 20px; }
-h2, h1 { font-size: 22px; }
+p, nav, ul, h3 { font-size: 16px; }
+h2, h1 { font-size: 18px; }
 h3, h2, h1 { font-weight: bold; }
 h1 { text-transform: uppercase; text-align: center; }
-.hero-message { font-size: 22px; color: black; } 
+.hero-message { font-size: 18px; color: black; } 
 
 /* 'Compact' (width) */
 @media (max-width: 420px) {
@@ -62,8 +63,6 @@ strong, b { font-weight: bold; }
 a { text-decoration: none; }
 code { white-space: pre; }
 sup { vertical-align: super; line-height: 0; font-size: smaller; }
-
-/*.hero-message { color: #000000; text-shadow: #FFFFFF -2px -2px 4px, #FFFFFF 2px -2px 4px, #FFFFFF -2px 2px 4px, #FFFFFF 2px 2px 4px, #FFFFFF 0 0 6px, #FFFFFF 0 0 6px }*/
 
 /* Misc */
 
@@ -81,7 +80,6 @@ ol > li { list-style-type: decimal; }
 [with-overline] { text-decoration: overline; }
 [like-paragraph-text] { line-height: 24px; font-size: 16px; }
 [special-tabular] { font-feature-settings: "tnum"; }
-p[delete-line], p[dl] { margin-top: -32px; }
 div[logo] { margin: 120px 0 48px 0; }
 img[logo] { display: inline-block; vertical-align: middle; height: 48px; margin: 0; }
 h1[logo] { display: inline-block; vertical-align: middle; font-size: 21px; margin: 0 0 0 6px; }
