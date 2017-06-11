@@ -1,31 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 88 24">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 76 24">
   <defs>
     <style>
       .cls-1 {
         clip-path: url(#clip-logo);
       }
 
-      .cls-2, .cls-3 {
-        fill: #c91919;
-      }
-
       .cls-2 {
-        font-size: 18px;
-        font-family: Georgia-Bold, Georgia;
-        font-weight: 700;
-        letter-spacing: -0.01em;
-      }
-
-      .cls-3 {
-        fill-rule: evenodd;
+        fill: #c91919;
+        font-size: 22px;
+        font-family: SFUIDisplay-Heavy, SF UI Display;
+        font-weight: 800;
       }
     </style>
     <clipPath id="clip-logo">
-      <rect width="88" height="24"/>
+      <rect width="76" height="24"/>
     </clipPath>
   </defs>
   <g id="logo" class="cls-1">
-    <text id="Radicle" class="cls-2" transform="translate(20 17)"><tspan x="0" y="0">Radicle</tspan></text>
-    <path id="tetrahedron" class="cls-3" d="M8.609,16.376a.314.314,0,0,1-.1-.1C8.44,16.186.078,1.7.034,1.6A.293.293,0,0,1,0,1.472c0-.045,0-.055.008-.074.018-.036.048-.042.1-.02.015.007,1.915,1.1,4.221,2.434,3.214,1.855,4.2,2.429,4.234,2.455a.562.562,0,0,1,.176.307c.008.051.009.439.008,4.919l0,4.864-.017.024c-.015.022-.019.024-.042.026s-.03,0-.075-.032Zm.674.017a.119.119,0,0,1-.02-.038c0-.014-.006-1.555-.006-4.882,0-4.746,0-4.863.01-4.913a.57.57,0,0,1,.176-.294c.028-.023,1.247-.729,4.227-2.45,2.3-1.33,4.2-2.425,4.218-2.434a.1.1,0,0,1,.084-.01c.022.012.03.045.026.1a.292.292,0,0,1-.03.118c-.04.1-8.414,14.6-8.481,14.691a.315.315,0,0,1-.1.093c-.04.027-.053.033-.072.033a.039.039,0,0,1-.037-.017ZM8.92,5.831a.493.493,0,0,1-.09-.023c-.037-.014-1.083-.615-4.248-2.442C2.273,2.033.374.934.361.925A.1.1,0,0,1,.32.864.092.092,0,0,1,.335.836C.346.819.36.809.4.79A.349.349,0,0,1,.535.754C.616.743.679.743,9,.743s8.385,0,8.466.011A.3.3,0,0,1,17.6.793c.053.027.068.04.076.065s-.018.052-.048.073c-.013.009-1.911,1.106-4.217,2.437C10.2,5.224,9.209,5.794,9.171,5.808a.53.53,0,0,1-.251.023Zm0,0" transform="translate(0 3.257)"/>
+    <text id="Radicle" class="cls-2" transform="translate(-1 19)"><tspan x="0" y="0">Radicle</tspan></text>
   </g>
 </svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 1128 360 120">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-hero-5);
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-family: SFUIDisplay-Semibold, SF UI Display;
+        font-weight: 600;
+      }
+
+      .cls-2, .cls-4 {
+        font-size: 22px;
+      }
+
+      .cls-3 {
+        fill: #f3f3f3;
+      }
+
+      .cls-4 {
+        fill: #657a8f;
+        font-family: SFUIDisplay-Heavy, SF UI Display;
+        font-weight: 800;
+      }
+    </style>
+    <clipPath id="clip-hero-5">
+      <rect y="1128" width="360" height="120"/>
+    </clipPath>
+  </defs>
+  <g id="hero-5" class="cls-1">
+    <text id="Introducing_Radicle:_we_are_developing_our_own_design_expertise_tackling_one_class_of_problem_after_another." data-name="Introducing Radicle: we are developing our own design expertise, tackling one class of problem after another." class="cls-2" transform="translate(144 1126)"><tspan x="0" y="21">Introducing Radicle: </tspan><tspan x="0" y="45">we are developing our </tspan><tspan x="0" y="69">own design expertise, </tspan><tspan x="0" y="93">tackling one class of </tspan><tspan x="0" y="117">problem after another.</tspan></text>
+    <circle id="Ellipse_5" data-name="Ellipse 5" class="cls-3" cx="60" cy="60" r="60" transform="translate(0 1128)"/>
+    <text id="Radicle" class="cls-4" transform="translate(21 1196)"><tspan x="0" y="0">Radicle</tspan></text>
+  </g>
+</svg>

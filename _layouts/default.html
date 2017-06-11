@@ -12,25 +12,13 @@
 
   <body>
     
-    {% if page.hero-section %}
-      {% include header.html without-bottom-border=true %}
-    {% else %}
-      {% include header.html %}
-    {% endif %}
-    
-    <div class="wrapper">
-      
-      {% if page.hero-section %}
-        {% include hero.html %}
-      {% endif %}
+    {% include header.html %}
 
-      <main>
-        <div class="content-container">
-          {{ content }}
-        </div>
-      </main>
-    
-    </div>
+    <main height-wrapper>
+      <div width-wrapper>
+        {{ content }}
+      </div>
+    </main>
 
     {% include footer.html %}
 

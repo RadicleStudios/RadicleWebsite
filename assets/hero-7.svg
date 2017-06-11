@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 1464 360 120">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-hero-7);
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 22px;
+        font-family: SFUIDisplay-Semibold, SF UI Display;
+        font-weight: 600;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #f3f3f3;
+      }
+
+      .cls-4 {
+        stroke: #657a8f;
+        stroke-width: 4px;
+      }
+
+      .cls-5 {
+        fill: #657a8f;
+      }
+
+      .cls-6 {
+        stroke: none;
+      }
+
+      .cls-7 {
+        fill: none;
+      }
+    </style>
+    <clipPath id="clip-hero-7">
+      <rect y="1464" width="360" height="120"/>
+    </clipPath>
+  </defs>
+  <g id="hero-7" class="cls-1">
+    <text id="And_we_get_to_fulfill_on_our_goal_to_improve_the_quality_of_design_across_the_industry._:_" data-name="And we get to fulfill on our goal—to improve the quality of design across the industry.
+:)" class="cls-2" transform="translate(144 1462)"><tspan x="0" y="21">And we get to fulfill on </tspan><tspan x="0" y="45">our goal—to improve </tspan><tspan x="0" y="69">the quality of design </tspan><tspan x="0" y="93">across the industry.</tspan><tspan x="0" y="117">:)</tspan></text>
+    <circle id="Ellipse_6" data-name="Ellipse 6" class="cls-3" cx="60" cy="60" r="60" transform="translate(0 1464)"/>
+    <g id="Ellipse_8" data-name="Ellipse 8" class="cls-4" transform="translate(12 1476)">
+      <circle class="cls-6" cx="48" cy="48" r="48"/>
+      <circle class="cls-7" cx="48" cy="48" r="46"/>
+    </g>
+    <g id="Ellipse_9" data-name="Ellipse 9" class="cls-4" transform="translate(24 1488)">
+      <circle class="cls-6" cx="36" cy="36" r="36"/>
+      <circle class="cls-7" cx="36" cy="36" r="34"/>
+    </g>
+    <g id="Ellipse_10" data-name="Ellipse 10" class="cls-4" transform="translate(36 1500)">
+      <circle class="cls-6" cx="24" cy="24" r="24"/>
+      <circle class="cls-7" cx="24" cy="24" r="22"/>
+    </g>
+    <circle id="Ellipse_11" data-name="Ellipse 11" class="cls-5" cx="12" cy="12" r="12" transform="translate(48 1512)"/>
+  </g>
+</svg>

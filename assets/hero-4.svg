@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 1227 360 456">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-hero-4);
+      }
+
+      .cls-2 {
+        fill: #3f3f3f;
+        font-size: 22px;
+        font-family: SFUIDisplay-Semibold, SF UI Display;
+        font-weight: 600;
+      }
+    </style>
+    <clipPath id="clip-hero-4">
+      <rect y="1227" width="360" height="456"/>
+    </clipPath>
+  </defs>
+  <g id="hero-4" class="cls-1">
+    <text id="So_we_have_a_problem_that_s_difficult_expensive_and_easy_to_ignore._It_s_no_wonder_that_we_re_failing_at_it." data-name="So we have a problem that’s difficult,
+expensive, and easy to ignore. It’s
+no wonder that we’re failing at it." class="cls-2" transform="translate(0 1609)"><tspan x="3.791" y="21">So we have a problem that’s difficult,</tspan><tspan x="19.308" y="45">expensive, and easy to ignore. It’s</tspan><tspan x="24.297" y="69">no wonder that we’re failing at it.</tspan></text>
+    <text id="And_user_satisfaction_is_hard_to_measure_making_it_easy_to_ignore." data-name="And user satisfaction is hard to measure, making it easy to ignore." class="cls-2" transform="translate(16 1513)"><tspan x="47.333" y="21">And user satisfaction is hard to </tspan><tspan x="16.567" y="45">measure, making it easy to ignore.</tspan></text>
+    <text id="And_working_with_the_best_designers_is_expensive_too." data-name="And working with the best designers is expensive, too." class="cls-2" transform="translate(0 1441)"><tspan x="0" y="21">And working with the best </tspan><tspan x="0" y="45">designers is expensive, too.</tspan></text>
+    <text id="Developing_design_expertise_in-house_is_expensive." data-name="Developing design expertise in-house is expensive." class="cls-2" transform="translate(79 1369)"><tspan x="6.806" y="21">Developing design expertise </tspan><tspan x="65.243" y="45">in-house is expensive.</tspan></text>
+    <text id="Design_is_very_difficult:_few_in_the_world_can_do_it_well." data-name="Design is very difficult: few in the world can do it well." class="cls-2" transform="translate(0 1297)"><tspan x="0" y="21">Design is very difficult: few </tspan><tspan x="0" y="45">in the world can do it well.</tspan></text>
+    <text id="So_how_are_we_going_wrong_" data-name="So how are we going wrong?" class="cls-2" transform="translate(0 1225)"><tspan x="41.979" y="21">So how are we going wrong?</tspan></text>
+  </g>
+</svg>
