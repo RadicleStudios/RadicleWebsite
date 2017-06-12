@@ -7,7 +7,7 @@ html { height: 100%; }
 body { height: 100%; line-height: 0; }
 body > header { height: 48px; }
 body > footer { height: 48px; }
-[height-wrapper], .height-wrapper { min-height: calc(100% - 96px); }
+[height-wrapper], .height-wrapper { min-height: calc(100% - 96px - 72px); }
 [width-wrapper], .width-wrapper { min-width: 240px; padding: 0 24px; }
 [reversed-width-wrapper], .reversed-width-wrapper { margin-left: -24px; margin-right: -24px; padding: 0 24px; }
 [minimum-width], .minimum-width { min-width: 240px; }
@@ -26,7 +26,7 @@ p[delete-line], p[dl] { margin-top: -24px; }
 [without-horizontal-padding], .without-horizontal-padding { padding-left: 0; padding-right: 0; }
 
 hr { max-width: 720px; border: 0; border-bottom: 1px solid transparent; margin: 0 auto -1px auto; }
-hr[asterism] { display: block; border: 0; content: "hi"; height: 32px; margin: 32px auto 32px auto; }
+hr[asterism] { display: block; border: 0; content: "hi"; height: 24px; margin: 24px auto; }
 hr[asterism]::before { line-height: 32px; font-size: 28px; content: "\2042"; text-align: center; display: block; }
 
 /* Colour */

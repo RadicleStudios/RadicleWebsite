@@ -1,22 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 76 24">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 320 128 48">
   <defs>
     <style>
       .cls-1 {
         clip-path: url(#clip-logo);
       }
 
-      .cls-2 {
+      .cls-2, .cls-3 {
         fill: #c91919;
+      }
+
+      .cls-3 {
         font-size: 22px;
         font-family: SFUIDisplay-Heavy, SF UI Display;
         font-weight: 800;
       }
     </style>
     <clipPath id="clip-logo">
-      <rect width="76" height="24"/>
+      <rect y="320" width="128" height="48"/>
     </clipPath>
   </defs>
   <g id="logo" class="cls-1">
-    <text id="Radicle" class="cls-2" transform="translate(-1 19)"><tspan x="0" y="0">Radicle</tspan></text>
+    <g id="Logo_symbol" data-name="Logo symbol" transform="translate(0 320)">
+      <circle id="Ellipse_4" data-name="Ellipse 4" cx="24" cy="24" r="24"/>
+      <path id="Subtraction_1" data-name="Subtraction 1" class="cls-2" d="M9.941,19.882,2.911,16.97,0,9.941l2.911-7.03L9.941,0l7.03,2.911,2.911,7.03L16.97,16.97ZM4.553,2.525,1.222,12.773l8.719,6.336,8.719-6.336L15.329,2.525H4.553Z" transform="translate(14.059 14.059)"/>
+    </g>
+    <text id="Radicle" class="cls-3" transform="translate(50 352)"><tspan x="0" y="0">Radicle</tspan></text>
   </g>
 </svg>

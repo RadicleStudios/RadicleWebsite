@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 416 98 20">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-logo-small);
+      }
+
+      .cls-2, .cls-3 {
+        fill: #c91919;
+      }
+
+      .cls-3 {
+        font-size: 22px;
+        font-family: SFUIDisplay-Heavy, SF UI Display;
+        font-weight: 800;
+      }
+    </style>
+    <clipPath id="clip-logo-small">
+      <rect y="416" width="98" height="20"/>
+    </clipPath>
+  </defs>
+  <g id="logo-small" class="cls-1">
+    <g id="Logo_symbol" data-name="Logo symbol" transform="translate(-14 402)">
+      <path id="Octagon" class="cls-2" d="M9.941,0l7.03,2.911,2.911,7.03L16.97,16.97l-7.03,2.911L2.911,16.97,0,9.941l2.911-7.03Z" transform="translate(14.059 14.059)"/>
+      <path id="Pentagon" d="M17.438,10.248,8.719,16.584,0,10.248,3.331,0H14.107Z" transform="translate(15.281 16.584)"/>
+    </g>
+    <text id="Radicle" class="cls-3" transform="translate(21 434)"><tspan x="0" y="0">Radicle</tspan></text>
+  </g>
+</svg>
