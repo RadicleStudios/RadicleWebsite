@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 416 98 20">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 416 96 24">
   <defs>
     <style>
       .cls-1 {
@@ -10,20 +10,20 @@
       }
 
       .cls-3 {
-        font-size: 22px;
-        font-family: SFUIDisplay-Heavy, SF UI Display;
+        font-size: 18px;
+        font-family: SFUIText-Heavy, SF UI Text;
         font-weight: 800;
       }
     </style>
     <clipPath id="clip-logo-small">
-      <rect y="416" width="98" height="20"/>
+      <rect y="416" width="96" height="24"/>
     </clipPath>
   </defs>
   <g id="logo-small" class="cls-1">
     <g id="Logo_symbol" data-name="Logo symbol" transform="translate(-14 402)">
-      <path id="Octagon" class="cls-2" d="M9.941,0l7.03,2.911,2.911,7.03L16.97,16.97l-7.03,2.911L2.911,16.97,0,9.941l2.911-7.03Z" transform="translate(14.059 14.059)"/>
-      <path id="Pentagon" d="M17.438,10.248,8.719,16.584,0,10.248,3.331,0H14.107Z" transform="translate(15.281 16.584)"/>
+      <path id="Octagon" class="cls-2" d="M12,0l8.486,3.514L24,12l-3.514,8.486L12,24,3.514,20.486,0,12,3.514,3.514Z" transform="translate(14.059 14.059)"/>
+      <path id="Pentagon" d="M21.051,12.371,10.525,20.019,0,12.371,4.021,0H17.029Z" transform="translate(15.534 17.107)"/>
     </g>
-    <text id="Radicle" class="cls-3" transform="translate(21 434)"><tspan x="0" y="0">Radicle</tspan></text>
+    <text id="Radicle" class="cls-3" transform="translate(27 417)"><tspan x="0" y="17">Radicle</tspan></text>
   </g>
 </svg>
