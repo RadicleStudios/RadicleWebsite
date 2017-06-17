@@ -21,7 +21,7 @@ p[delete-line], p[dl] { margin-top: -24px; }
 [without-bottom-margin], .without-bottom-margin { margin-bottom: 0; }
 [without-horizontal-padding], .without-horizontal-padding { padding-left: 0; padding-right: 0; }
 [full-width], .full-width { width: 100%; }
-
+[with-clearfix]::after, .with-clearfix::after { content: ""; display: block; clear: both; }
 hr { border: 0; border-bottom: 1px solid transparent; margin-bottom: -1px; }
 hr[asterism] { display: block; border: 0; content: "hi"; height: 24px; margin: 24px auto; }
 hr[asterism]::before { line-height: 32px; font-size: 28px; content: "\2042"; text-align: center; display: block; }

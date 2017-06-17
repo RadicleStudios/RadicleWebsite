@@ -3,36 +3,20 @@ layout: default
 title: Radicle
 ---
 
-<div reversed-width-wrapper style="background-color:#7B9D9A;padding:48px">
-  <p without-top-margin style="text-align:right">
-    <img src="/assets/hero-1.svg" style="max-width:360px"/>
-  </p>
-  <p>
-    <img src="/assets/hero-2.svg" style="max-width:360px"/>
-  </p>
-  <p without-bottom-margin style="text-align:right">
-    <img src="/assets/hero-3.svg" style="max-width:360px"/>
-  </p>
-</div>
+# Welcome
 
-<div reversed-width-wrapper style="background-color:#DBEBE7;padding:48px">
-  <p without-top-margin style="text-align:center">
-    <img src="/assets/hero-4.svg" style="max-width:360px"/><!-- So how are we going wrong? -->
-  </p>
-</div>
+We are a new company with a big mission:
 
-<div reversed-width-wrapper style="background-color:#7B9D9A;padding:48px">
-  <p without-top-margin>
-    <img src="/assets/hero-5.svg" style="max-width:360px"/>
-  </p>
-  <p style="text-align:right">
-    <img src="/assets/hero-6.svg" style="max-width:360px"/>
-  </p>
-  <p without-bottom-margin>
-    <img src="/assets/hero-7.svg" style="max-width:360px"/>
-  </p>
-</div>
+**1.** We answer the tech industry's need for app designers.
 
-<hr asterism>
+**2.** We answer people's need to work in a way that harmonizes with their lives.
 
-Thank you for your attention. <a href="/connect.html">Connect</a> with us and we'll see how your app does against the most fundamental design principles.
+**3.** We answer app users' desire for apps that are satisfying to use.
+
+* * *
+
+Please be patient while we dial-in our message. In the meanwhile, read our [Work](/work.html) section to learn more about our work; and read our [Notes](/notes.html) section to learn more about our thinking.
+
+* * *
+
+Thank you for your attention. [Connect](/connect.html) with us and we'll see how your app does against the most fundamental design principles.
