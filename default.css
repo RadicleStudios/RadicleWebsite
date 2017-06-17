@@ -2,10 +2,9 @@
 
 * { box-sizing: border-box; }
 div, section, main { position: relative; }
-[full-height], .full-height { height: 100%; }
 html { height: 100%; }
 body { height: 100%; line-height: 0; }
-body > header, body > footer, body > main { min-width: 240px; max-width: 720px; margin: 0 auto; padding: 0 24px; }
+body > header, body > footer, body > main { min-width: 320px; max-width: 720px; margin: 0 auto; padding: 0 24px; }
 body > header { height: 48px; }
 body > footer { height: 48px; }
 body > main { min-height: calc(100% - 96px); }
