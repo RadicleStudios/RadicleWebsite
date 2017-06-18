@@ -29,13 +29,13 @@ hr[asterism]::before { line-height: 32px; font-size: 28px; content: "\2042"; tex
 /* Colour */
 
 body { background-color: #F3F3F3; color: #000000; }
-body > header { background-color: #FFFFFF; border: 1px solid #DFDFDF; border-top: 0; }
-body > footer { background-color: #FFFFFF; border: 1px solid #DFDFDF; border-bottom: 0; }
 blockquote { border-color: #9F9F9F; }
 h3 { color: #9F9F9F; }
 hr { border-color: #9F9F9F; }
 hr[asterism] { color: #9F9F9F; }
 a { color: #D92B00; }
+[header-background], .header-background { position: absolute; top: 0; left: 0; right: 0; height: 48px; background-color: #FFFFFF; border-bottom: 1px solid #DFDFDF; z-index: -1; }
+[footer-background], .footer-background { position: absolute; left: 0; right: 0; height: 48px; background-color: #FFFFFF; border-top: 1px solid #DFDFDF; z-index: -1; }
 
 /* Typography */
 
