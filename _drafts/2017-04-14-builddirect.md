@@ -1,5 +1,4 @@
 ---
-layout: default
 title: "Assessment: builddirect.com"
 categories: assessments
 ---

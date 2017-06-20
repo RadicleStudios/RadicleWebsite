@@ -1,1 +1,8 @@
+defaults:
+  -
+    values:
+      layout: default
+
 markdown_ext: "kram"
+
+  
