@@ -1,0 +1,24 @@
+---
+layout: default
+title: "Assessment: Downcast"
+categories: notes
+order: 0
+---
+
+# {{ page.title }}
+
+### About the app
+
+- _Downcast_, by Jamawkinaw Enterprises LLC
+- Type of app: Podcast player
+- Website: [downcastapp.com](http://downcastapp.com)
+
+### About this assessment
+
+Let us consider the app and see if it breaks some rudimentary rules of app design. The idea is that if such breaks are improved, user satisfaction benefits.
+
+## Let's begin
+
+Having added a couple of podcasts, this is the first screen:
+
+![](/assets/2017-06-19-downcast--main-screen.png){:style="max-width:375px"}
