@@ -7,7 +7,7 @@ categories: notes
 # {{ page.title }}
 
 ### About the article
-<p delete-line/>
+<p dl/>
 - _Magic Ink: Information Software and the Graphical Interface_ [[link](http://worrydream.com/MagicInk/)]
 - Published in [worrydream.com](http://worrydream.com), March 2006
 - By Bret Victor
@@ -15,11 +15,11 @@ categories: notes
 * * *
 
 Contrasting graphic and industrial design, Mr. Victor writes:
-<p delete-line/>
+<p dl/>
 > A good graphic designer understands how to arrange information on the page so the reader can ask and answer questions, make comparisons, and draw conclusions.
-<p delete-line/>
+<p dl/>
 and:
-<p delete-line/>
+<p dl/>
 > A good industrial designer understands the capabilities and limitations of the human body in manipulating physical objects, and of the human mind in comprehending mechanical models.
 
 * * *
@@ -47,7 +47,7 @@ Aside: Writing idea: 'I don’t know of even one good calendar app.' (I'm not ki
 * * *
 
 On the frustration caused by difficult navigation:
-<p delete-line/>
+<p dl/>
 > Alan Cooper defines _excise_ in this context as a cognitive or physical penalty for using a tool—effort demanded by the tool that is not directly in pursuit of a goal. For example, filling a gas tank is done to support the car, not the goal of arriving at a destination. Cooper goes on to assert that software navigation is nothing but excise:
 <p delete-line></p>
 > > …the most important thing to realize about navigation is that, in almost all cases, it represents pure excise, or something close to it. Except in games where the goal is to navigate successfully through a maze of obstacles, navigation through software does not meet user goals, needs, or desires. Unnecessary or difficult navigation thus becomes a major frustration to users. In fact, it is the author’s [_ie_ Mr. Cooper's] opinion that poorly designed navigation presents the *number-one problem* in the design of any software application or system…
@@ -55,7 +55,7 @@ On the frustration caused by difficult navigation:
 * * *
 
 Mr. Victor proposes that software design doesn't even exist yet:
-<p delete-line/>
+<p dl/>
 > The problem [of bad software design] is primarily *cultural*. Asking "Why doesn't Southwest design better software?" is challenging the symptom, not the disease. The real question is, "Does software design *exist* yet?" Before we can expect better airline websites, we may need to change a worldview.
 
 * * *
@@ -83,9 +83,9 @@ Aside: To look into: _Designing for People_, by Henry Dreyfuss.
 * * *
 
 Mr. Victor quoting C.A.R Hoare:
-<p delete-line/>
+<p dl/>
 > I conclude that there are two ways of constructing a software design: One way is to make it so simple that there are *obviously* no deficiencies, and the other way is make it so complicated that there are no _obvious_ deficiencies.
-<p delete-line/>
+<p dl/>
 (C.A.R. Hoare, _The Emperor's Old Clothes_ Turing Award lecture (1980) p81)
 
 * * *

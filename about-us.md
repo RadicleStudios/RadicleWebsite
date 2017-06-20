@@ -16,5 +16,5 @@ Most importantly: Whereas it is taken for granted that a business operates for t
 <hr asterism/>
 
 ### What to read next?
-<p delete-line/>
+<p dl/>
 [Our commitment](/our-commitment.html)

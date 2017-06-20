@@ -15,9 +15,9 @@ Interaction design is a broader-scoped discipline than human-computer-interactio
 * * *
 
 Human-computer interaction (HCI) is:
-<p delete-line/>
+<p dl/>
 > concerned with the design, evaluation, and implementation of interactive computer systems for human use and with the study of major phenomena surrounding them.
-<p delete-line/>
+<p dl/>
 (ACM SIGCHI, 1992, p. 6)
 
 * * *

@@ -5,7 +5,7 @@ layout: default
 # Assessments
 
 ### What is this?
-<p delete-line/>
+<p dl/>
 This is where we publish our assessments of current app design best practices, so called.
 
 <ul>

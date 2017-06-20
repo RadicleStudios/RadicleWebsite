@@ -7,7 +7,7 @@ categories: notes
 # Paper: Mobile HCI: Issues Surrounding Cognition, Distraction, Usability and Performance
 
 ### About the paper
-<p delete-line/>
+<p dl/>
 - _Mobile HCI: Issues Surrounding Cognition, Distraction, Usability and Performance_ [ResearchGate [link](https://www.researchgate.net/publication/281770802_Mobile_HCI_Issues_surrounding_cognition_distraction_usability_and_performance)]
 - Published in the _International Journal of Mobile Human Computer Interaction_ [ResearchGate [link](https://www.researchgate.net/publication/281770802_Mobile_HCI_Issues_surrounding_cognition_distraction_usability_and_performance)], January 2014
 - By Robin Deegan

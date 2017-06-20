@@ -7,7 +7,7 @@ categories: notes
 # {{ page.title }}
 
 ### About the book
-<p delete-line/>
+<p dl/>
 - _Activity Theory in HCI: Fundamentals and Reflections_ [ResearchGate [link](https://www.researchgate.net/publication/259823464_Activity_Theory_in_HCI_Fundamentals_and_Reflections)]
 - Published in _Synthesis Lectures on Human-Centered Informatics_ [ResearchGate [link](https://www.researchgate.net/journal/1946-7680_Synthesis_Lectures_on_Human-Centered_Informatics)], April 2012
 - By Victor Kaptelinin and Bonnie Nardi.
@@ -43,17 +43,17 @@ HCI (human-computer interaction) has three key topical areas: agency, experience
 * * *
 
 Mr. Kaptelinin and Miss Nardi view the possible actions that a technology provides as comprising two facets:
-<p delete-line/>
+<p dl/>
 > (a) Possibilities for interacting *with* the technology (P--T), _ie_, _handling affordances_, and (b) possibilities for employing the technology to make an effect on an object (T--O), _ie_, _effecter_ affordances.
 
 Further:
-<p delete-line/>
+<p dl/>
 > Together, they define instrumental technology affordances as possibilities for action *through* the technology in question on a certain object ((P--T)--O).
 
 * * *
 
 To look into:
-<p delete-line/>
+<p dl/>
 > Bødker and Klokmose (2011) propose the Human-Artifact Model, a minimalist activity-theory based representation of various aspects of an artifact combined with corresponding levels of human activity, intended to be used in analysis and design of interactive artifacts with little or no prior knowledge of activity theory.
 
 * * *
@@ -65,7 +65,7 @@ To look into:
 * * * 
 
 Fascinating:
-<p delete-line/>
+<p dl/>
 > Despite their differences, both activity theory and Buddhism consider the contradistinction between the subject and the object as something that is not inherently given but rather produced by action.
 > 
 > In Western thought the fundamental insight of the inseparability of subjects and objects is expressed, for instance, in the philosophical views of Hegel and Marx, Goethe’s poetry, Brentano’s “act psychology,” and the ecological psychology of Gibson.
@@ -79,7 +79,7 @@ Fascinating:
 * * *
 
 Wow:
-<p delete-line/>
+<p dl/>
 > The most fundamental property of needs, according to Leontiev, is that they cannot be separated from objects. The defining feature of unobjectified needs is that they are seeking for objects, while objectified needs manifest themselves through their objects.
 
 * * *

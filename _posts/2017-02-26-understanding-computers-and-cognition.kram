@@ -39,21 +39,21 @@ They view a tradition as:
 > We always exist within a pre-understanding determined by the history of our interactions with others who share the tradition.
 
 Our tradition is concealed:
-<p delete-line/>
+<p dl/>
 > In trying to understand a tradition, the first thing we must become aware of is how it is concealed by its obviousness.
-<p delete-line/>
+<p dl/>
 And:
-<p delete-line/>
+<p dl/>
 > It takes a careful self-awareness to turn the same gaze on our own lives and 'unconceal' our own tradition---to bring into conscious observation that which invisibly gives shape to our thought.
 
 The _rationalistic tradition_:
-<p delete-line/>
+<p dl/>
 > A powerful tradition that emphasizes 'information,' 'representation,' and 'decision making.'
-<p delete-line/>
+<p dl/>
 And a beautiful irony:
-<p delete-line/>
+<p dl/>
 > The rationalistic tradition is distinguished by its narrow focus on certain aspects of rationality, which [...] often leads to attitudes and activities that are *not rational* when viewed in a broader perspective.
-<p delete-line/>
+<p dl/>
 (Emphasis mine)
 
 Aside: I'm out to *question and challenge the assumptions the software industry accepts implicitly*.
@@ -61,25 +61,25 @@ Aside: I'm out to *question and challenge the assumptions the software industry 
 * * *
 
 On how new technologies can transform our society:
-<p delete-line/>
+<p dl/>
 > As the use of a new technology changes human practices, our ways of speaking about that technology change our language and our understanding. This new way of speaking in turn creates changes in the world we construct.
-<p delete-line/>
+<p dl/>
 And:
-<p delete-line/>
+<p dl/>
 > In order to become aware of the effects that computers have on society we must reveal the implicit understanding of human language, thought, and work that serves as a background for developments in computer technology.
 
 * * *
 
 What a computer does:
-<p delete-line/>
+<p dl/>
 > The computer is a device for creating, manipulating, and transmitting symbolic (hence linguistic) objects.
 
 * * *
 
 > Our commitment is to developing [_sic_] a new ground for rationality---one that is as rigorous as the rationalistic tradition in its aspirations but that does not share the presuppositions behind it.
-<p delete-line/>
+<p dl/>
 And:
-<p delete-line/>
+<p dl/>
 > The task we have undertaken in this book is to challenge the rationalistic tradition, introducing an alternative orientation that can lead to asking new questions.
 
 They "attempt to create a new understanding of how to design computer tools suited to human use and human purposes."
@@ -103,9 +103,9 @@ Restating their intention, they define design as "the interaction between unders
 Dr. Winograd and Dr. Flores find themselves to be in accord with writers having interests such as biology, hermeneutics, and phenomenology.
 
 > Heidegger stands out as the modern philosopher who has done the most thorough, penetrating, and radical analysis of everyday experience.
-<p delete-line/>
+<p dl/>
 And
-<p delete-line/>
+<p dl/>
 > Gadamer has been most articulate in applying this orientation to the problem of language, a problem that we see as central.
 
 The work is discussed of "Humberto R. Maturana, a Chilean neurobiologist most widely known for his work on the neurophysiology of vision," which work they find to be "critical in the development of our understanding of cognition and of our perspective on the rationalistic tradition."
@@ -142,7 +142,7 @@ Summarizing their outline in my own words, the parts of the book involve:
 * * *
 
 What managers do:
-<p delete-line/>
+<p dl/>
 > Much of the work that managers do is concerned with initiating, monitoring, and above all coordinating the networks of speech acts that constitute social action.
 
 * * *
@@ -152,7 +152,7 @@ What managers do:
 * * *
 
 The rationalistic tradition:
-<p delete-line/>
+<p dl/>
 - "Has been the mainspring of Western science and technology."
 - "Finds its highest expression in mathematics and logic."
 - "Has greatly influenced the development of linguistics and psychology."
@@ -160,45 +160,45 @@ The rationalistic tradition:
 Dr. Winograd and Dr. Flores find the rationalistic tradition to be problematic, and labour to convey that viewpoint. I see a more fundamental problem. I see that tool use itself is problematic, and through using tools, we change ourselves: in learning to use a knife, you begin to keep an eye out for things to cut. So what happens in a society steeped in tools as we are? By this influence that tool use has on our psychology, we must be really distorting the truth of our existence.
 
 To wit:
-<p delete-line/>
+<p dl/>
 > Much of our book is an attempt to show the non-obviousness of the rationalistic orientation and to reveal the blindness that it generates.
 
 * * *
 
 > [Herbert] Simon characterizes the basic assumption of decision-making theory as follows:
-<p delete-line/>
+<p dl/>
 > > At each moment the behaving subject, or the organization composed of numbers of such indificuals, is confronted with a large number of alternative behaviors, some of which are present in consciousness and some of which are not. Decision, or choice, as the term is used here, is the process by which one of these alternatives for each moment's behavior is selected to be carried out. The series of such decisions which determines behavior over some stretch of time may be called a _strategy_. ... If any one of the possible strategies is chosen and followed out, certain consequences will result. The task of rational decision is to select that one of the strategies which is followed by the preferred set of consequences.
-<p delete-line/>
+<p dl/>
 > (Simon, _Administrative Behavior_ (1976), p. 67)
 
 I make decisions using a simpler approach: I relinquish that whatever be the fruits of my actions, not myself but *humanity* be the beneficiary; and this protects me from the danger of prefering actions whose outcomes benefit myself only. Then, entitled only to the actions but not to their outcomes, I consider which action would please me most to be performing, and this pleasure-seeking is my primary guide. I must caution that most of my readers will misunderstand me on this point, unless I add that one of my most important tasks in cultivating myself is to learn to feel pleasure and pain at the right things, so, for instance, if I feel pleasure from someone's misfortune, it indicates that I have more work to do in *educating* myself (and this, by the way, is how Aristotle defines _education_; 'learning to feel pleasure and pain from the right things.')
 
 The authors summarize Herbert Simon's view on the rational decision-making process:
-<p delete-line/>
+<p dl/>
 > Simon asserts that *rational* decision making is a process of choosing among alternatives, and that it involves a series of steps:
-<p delete-line/>
+<p dl/>
 > - Listing all the alternative strategies.
 > - Determining all the consequences that follow upon each of these strategies.
 > - Comparatively evaluating these sets of consequences.
 
 > This caveat is the major contribution of Simon.
-<p delete-line/>
+<p dl/>
 > > ... The word 'all' is used advisedly. It is obviously impossible for the individual to know 'all' his alternatives or 'all' their consequences, and this impossibility is a very important departure of actual behavior from the model of objective rationality.
-<p delete-line/>
+<p dl/>
 > (Simon, _Administrative Behavior_ (1976), p. 67)
-<p delete-line/>
+<p dl/>
 Well done, everybody; now we're at the heart of the matter: *different people will see different actions available to them*. This touches on the problem of why some of us are rich while others are poor. Much of that comes accidentally, but beyond accident, successful people and non-successful people take vastly different actions day-to-day. We are accustomed to believe that success is predicated on hard work, but I suspect poor people to be complicit in maintaining and cultivating their poverty by the actions they daily take: I think it may even be more difficult to be *un*successful.
 
 * * *
 
 On the emergence of cognitive science:
-<p delete-line/>
+<p dl/>
 > In declaring that it exists as a science, people are marking the emergence of what Lakatos calls a 'research programme.' Lakatos chooses this term in preference to Kuhn's 'paradigm' (_The Structure of Scientific Revolutions_, 1962) to emphasize the active role that a research programme plays in guiding the activity of scientists. He sees the history of science not as a cyclic pattern of revolution and normal science, but as a history of competing research programmes. He distinguishes between 'mature science,' consisting of research programmes, and 'immature science,' consisting of "a mere patched up pattern of trial and error."
-<p delete-line/>
+<p dl/>
 And I am provoked to re-declare my own undertaking using this attractive terminology: *I am pursuing a programme of research to understand and improve how humans and computers interact*.
-<p delete-line/>
+<p dl/>
 > A research programme is more than a set of specific plans for carrying out scientific activities. The observable details of the programme reflect a deeper coherence which is not routinely examined.
-<p delete-line/>
+<p dl/>
 And they go on to explain that this not-routinely-examined "deeper coherence" is problematic if it shapes intellection but is itself not properly understood; this is obvious to me; and I still like the sound of 'programme' to describe what *I* am up to.
 
 To look into: _The Structure of Scientific Revolutions_, by Thomas Kuhn.
@@ -212,13 +212,13 @@ I am reminded of something Thoreau observes: "Shams and delusions are esteemed f
 * * *
 
 > Gadamer devotes extensive discussion to the relation of the individual to tradition, clarifying how tradition and interpretation interact. Any individual, in understanding his or her world, is continually involved in activities of interpretation. That interpretation is based on prejudice (or _pre-understanding_), which includes assumptions implicit in the language that the person uses.
-<p delete-line/>
+<p dl/>
 Interesting connotation: _prejudice_ &#x27F7; _pre-understanding_.
 
 * * *
 
 > Heidegger and Gadamer reject the commonsense philosophy of our culture in a deep and fundamental way. The prevalent understanding is based on the metaphysical revolution of Galileo and Descartes, which grew out of a tradition going back to Plato and Aristotle. This understanding, which goes hand in hand with what we have called the 'rationalistic orientation,' includes a kind of mind-body dualism that accepts the existence of two separate domains of phenomena, the _objective_ world of physical reality, and the _subective_ mental world of an individual's thoughts and feelings. Simply put, it rests on several taken-for-granted assumptions:
-<p delete-line/>
+<p dl/>
 > - We are inhabitants of a 'real world' made up of objects bearing properties. Our actions take place in that world.
 > - There are 'objective facts' about that world that do not depend on the interpretation (or even the presence) of any person.
 > - Perception is a process by which facts about the world are (sometimes inaccurately) registered in our thoughts and feelings.
@@ -227,7 +227,7 @@ Interesting connotation: _prejudice_ &#x27F7; _pre-understanding_.
 * * *
 
 Interesting:
-<p delete-line/>
+<p dl/>
 > Kant called it "a scandal of philosophy and of human reason in general" that over the thousands of years of Western culture, no philosopher had been able to provide a sound argument refuting psychological idealism---to answer the question "How can I know whether anything outside of my subjective consciousness exists?"<br><br>Heidegger argues that "the 'scandal of philosophy' is not that this proof has yet to be given, but that *such proofs are expected and attempted again and again*."
 
 * * *
@@ -241,9 +241,9 @@ Aside: I feel presently, as it were, to be exploring the very perimeter of human
 * * *
 
 They quote Gadamer (and I find this language to be beautiful):
-<p delete-line/>
+<p dl/>
 > It is not so much our judgments as it is our prejudices that constitute our being. ... the historicity of our existence entails that prejudices, in the literal sense of the word, constitute the initial directedness of our whole ability to experience. Prejudices are biases of our openness to the world. They are simply conditions whereby we experience something---whereby what we encounter says something to us.
-<p delete-line/>
+<p dl/>
 (Gadamer, _Philosophical Hermeneutics_ (1976), p. 9)
 
 It deserves repeating: "_Prejudices are biases of our openness to the world_."
@@ -251,7 +251,7 @@ It deserves repeating: "_Prejudices are biases of our openness to the world_."
 * * *
 
 They relate four significant points from Heidegger's work, and all are natural to me except the fourth, which piques me, and is interesting to chew on:
-<p delete-line/>
+<p dl/>
 - "Our implicit beliefs and assumptions cannot all be made explicit."---obviously.
 - "Practical understanding is more fundamental than detached theoretical understanding."---this is intuitive.
 - "We do not relate to things primarily through having representations of them."---whoever would've thought that?!
@@ -260,7 +260,7 @@ They relate four significant points from Heidegger's work, and all are natural t
 * * *
 
 Interesting background on Heidegger's philosophy:
-<p delete-line/>
+<p dl/>
 > Many people encountering the work of Heidegger for the first time find it difficult to comprehend. Abstract terms like 'Dasein' and 'thrownness,' for instance, are hard to relate to reality. This is the opposite of what Heidegger intends. His philosophy is based on a deep awareness of everyday life. He argues that the issues he discusses are difficult not because they are abstruse, but because they are concealed by their 'ordinary everydayness.'
 
 * * *
@@ -270,13 +270,13 @@ Interesting background on Heidegger's philosophy:
 * * *
 
 This Maturana fellow sounds interesting:
-<p delete-line/>
+<p dl/>
 > Beginning with a study of the neurophysiology of vision, which led to the classic work on the functional organization of the frog's retina, he [Maturana] went on to develop a theory of the organization of living systems and of language and cognition.
 
 * * *
 
 Conveying Maturana's discoveries in neurophysiology, they tell us:
-<p delete-line/>
+<p dl/>
 > There is no difference between perception and hallucination.
 
 * * *
@@ -286,37 +286,37 @@ Aside: I wonder if all current endeavours at creating artificial intelligence ar
 * * *
 
 A fascinating way of viewing an organism:
-<p delete-line/>
+<p dl/>
 > The structure of the organism at any moment determines a _domain of perturbations_---a space of possible effects the medium [_ie_ the environment, _etc_] could have on the sequence of structural states that it could follow.
 
 * * *
 
 Two cool new words; _phylogeny_, _ontogeny_:
-<p delete-line/>
+<p dl/>
 > Maturana seeks to explain the origins of all phenomena of cognition in terms of the phylogeny (species history) and ontogeny (individual history) of living systems.
 
 * * *
 
 ### Autopoiesis
 > Maturana and Varela characterize the organization of the living as 'autopoietic.' An autopoietic system is defined as:
-<p delete-line/>
+<p dl/>
 > > ... a network of processes of production (transformation and destruction) of components that produces the components that: (i) through their interactions and transformations continuously regenerate the network of processes (relations) that produced them; and (ii) constitute it (the machine) as a concrete unity in the space in which they (the components) exist by specifying the topological domain of its realization as such a network.
-<p delete-line/>
+<p dl/>
 > (Maturana and Varela, _Autopoiesis and Cognition_ (1980), p. 79)
 
 > If the autopoiesis is interrupted, the system's organization---its identity as a particular kind of unity---is lost, and the system disintegrates (dies). An autopoietic system that exists in physical space is a living system.
 
 The authors assure us:
-<p delete-line/>
+<p dl/>
 > At first sight, this definition may seem irrelevant or trivial. But it is in fact a carefully crafted statement expanding on a simple idea: the essential characteristic of a living system is that it is a collection of components constituting a unity that can live or die.
 
 * * *
 
 ### Reflection
 I am fascinated by books of this kind. I mean the kind that have something important to say, but that few are reading. I am reminded of an observation Thoreau makes (and the 'golden words' he refers to are the 'classics,' _ie_ the works of classical literature):
-<p delete-line/>
+<p dl/>
 > A man, any man, will go considerably out of his way to pick up a silver dollar; but here are golden words, which the wisest men of antiquity have uttered, and whose worth the wise of every succeeding age have assured us of;---and yet we learn to read only as far as Easy Reading, the primers and class-books, and when we leave school, the "Little Reading," and story-books, which are for boys and beginners; and our reading, our conversation and thinking, are all on a very low level, worthy only of pygmies and manikins.
-<p delete-line/>
+<p dl/>
 (Thoreau, _Walden_)
 
 In this book specifically, I myself am feeling strained as the authors require me to delve deep into philosophy. Not that I don't enjoy it, however I'm rather a snorkeler than a diver: if I am to explore something deep, I'll involve many trips to the surface to do so. A book that requires me to dive *inconveniently* is less fun to read than the best books, which allow the reader to choose his degree of immersion. (Again I think of _Walden_, which I've re-read countless times, each re-reading not having failed to produce new insights.)
@@ -324,19 +324,19 @@ In this book specifically, I myself am feeling strained as the authors require m
 * * *
 
 The concept of the _observer_:
-<p delete-line/>
+<p dl/>
 > Maturana:
-<p delete-line/>
+<p dl/>
 > > An observer is a human being, a person, a living system who can make distinctions and specify that which he or she distinguishes as a unity...and is able to operate as if he or she were external to (distinct from) the circumstances in which the observer finds himself or herself. Everything said is said by an observer to another observer, who can be himself or herself.
-<p delete-line/>
+<p dl/>
 > (Maturana, _Biology of language_, p. 31)
 
 > As observers, we generate _distinctions_ in a consensual domain.
 
 > What is different and crucial in Maturana's discourse is the recognition that distinctions lie in a consensual domain---that they presuppose some kind of social interaction in which the observer is engaged:
-<p delete-line/>
+<p dl/>
 > > The linguistic domain as a domain of orienting behavior requires at least two interacting organisms with comparable domains of interactions, so that a cooperative system of consensual interactions may be developed in which the emerging conduct of the two organisms is relevant for both. ... The central feature of human existence is its occurrence in a linguistic cognitive domain. This domain is constitutively social.
-<p delete-line/>
+<p dl/>
 (Maturana, _Biology of cognition_ (1970), pp. 41, xxiv)
 
 * * *
@@ -377,13 +377,13 @@ And also: _A taxonomy of illocutionary acts_ (1975), by Searle.
 * * *
 
 Love this sentence:
-<p delete-line/>
+<p dl/>
 > For Heidegger, 'things' emerge in breakdown, when unreadiness-to-hand unconceals them as a matter of concern.
 
 * * *
 
 A fascinating consequence:
-<p delete-line/>
+<p dl/>
 > Popular accounts of language often portray it as a means of communication by which information is passed from one person (or machine) to another. An important consequence of the critique presented in the first part of this book is that language cannot be understood as the transmission of information.
 
 > Language is a form of human social action, directed towards the creation of what Maturana calls 'mutual orientation. This orientation is not grounded in a correspondence between language and the world, but exists as a consensual domain---as interlinked patterns of activity.
@@ -473,13 +473,13 @@ Dr. Winograd and Dr. Flores understand management as "taking care of the articul
 * * *
 
 Differentiating _effectiveness_ from _efficiency_:
-<p delete-line/>
+<p dl/>
 > A system is effective if an organization using it finds itself in a better position. A system can be ineffective but be highlyl efficient at making decisions that are in fact (because of the particular blindness inherent in their formulation) irrelevant or harmful to the enterprise.
 
 * * *
 
 In review:
-<p delete-line/>
+<p dl/>
 > 1. Organizations exist as networks of directives and commissives. Directives include orders, requests, consultations, and offers; commissives include promises, acceptances, and rejections.
 > 
 > 2. Breakdowns will inevitably occur, and the organization needs to be prepared. In coping with breakdowns, further networks of directives and commissives are generated.
@@ -493,7 +493,7 @@ In review:
 * * *
 
 In proposing a technological way of supporting coordinating conversations within an organization, Dr. Winograd and Dr. Flores wind up conveying with brevity a number of important recommendations:
-<p delete-line/>
+<p dl/>
 > A coordination system supports a number of operations:
 > 
 > **Speech act origination**. An individual performs a speech act using a system such as The Coordinator by: selecting the illocutionary force from a small set of alternatives (the basic building blocks mentioned above); indicating the propositional context in text; and explicitly entering temporal relationships to other (past and anticipated) acts. By specifying directly, for example, that a particular utterance is a 'request' with a specific date for satisfaction, the listening is constrained to a much greater degree than it is for an English sentence such as "Would you be able to..." The force of a speech act comes from concerned listening, and by making an explicit declaration of this force we can avoid confusion and breakdown due to differences (intended or unintended) in the listening of the concerned parties. In addition to having a direct specification of its force, a speech act is related to others, for example as the response to a request, or as a request being made in order to satisfy some previous commitment. These relationships are made explicit in the way a speech act is entered into the workstation. The need to select among prestructured alternatives for possible illocutionary forces serves as a kind of 'coaching' that reveals the space of possibilities and the structure of different acts within it.
@@ -561,13 +561,13 @@ A good design has the user "'driving,' not 'commanding.'"
 * * *
 
 > The creation of a new device or systematic domain can have far-reaching significance---it can create new ways of being that previously did not exist and a framework for actions that would not have previously made sense.
-<p delete-line/>
+<p dl/>
 Is this what we're going to create?---a new systematic domain? I think so.
 
 * * *
 
 ### Transforming the world
-<p delete-line/>
+<p dl/>
 > Computers, like every technology, are a vehicle for the transformation: as designers and users of technology we are always already engaged in that transformation, independent of our will. We cannot choose what the transformation will be: individuals cannot determine the course of a tradition. Our actions are the perturbations that trigger the changes, but the nature of those changes is not open to our prediction or control. We cannot even be fully aware of the transformation that is taking place: as carriers of a tradition we cannot be objective observers of it. Our continuing work toward revealing it is at the same time a source of concealment.
 > 
 > However, we can work towards unconcealment, and we can let our awareness of the potentials for transformation guide our actions in creating and applying technology.
