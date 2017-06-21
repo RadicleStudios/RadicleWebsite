@@ -37,7 +37,7 @@ blockquote { border-color: #9F9F9F; }
 h3 { color: #9F9F9F; }
 hr { border-color: #9F9F9F; }
 hr[asterism] { color: #9F9F9F; }
-a { color: #D92B00; }
+a { color: #C91919; }
 [lighter] a, .lighter a, a[lighter], a.lighter { color: #C96969; }
 [lighter], .lighter { color: #8C8C8C; }
 [header-background], .header-background { position: absolute; top: 0; left: 0; right: 0; height: 48px; background-color: #FFFFFF; border-bottom: 1px solid #DFDFDF; z-index: -1; }
