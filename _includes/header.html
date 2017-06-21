@@ -1,16 +1,17 @@
 <header>
   <div header-background></div>
-  <div style="display:table;height:100%;width:100%">
-    <div style="display:table-row">
-      <h1 style="line-height:0;display:table-cell;vertical-align:middle;text-align:left">
-        <a href="/">
-          <img src="/assets/logo-small.svg" style="height: 24px">
-        </a>
-      </h1>
-      <nav style="display:table-cell;vertical-align:middle;text-align:right">
+  <nav full-size with-clearfix style="line-height:48px">
+    {% if page.url == "/" %}
+      <img src="/assets/logo-small-selected.svg" style="height:24px;position:relative;top:6px"> blog
+    {% else %}
+      <a href="/" style="float:left"><img src="/assets/logo-small.svg" style="height:24px;position:relative;top:6px"> blog</a>
+    {% endif %}
+    <div style="float:right">
+      {% if page.url == "/about.html" %}
+        <p without-vertical-margins style="line-height:48px">About</p>
+      {% else %}
         <a href="/about.html" style="padding-left:12px">About</a>
-        <a href="/connect.html" style="padding-left:12px">Connect</a>
-      </nav>
+      {% endif %}
     </div>
-  </div>
+  </nav>
 </header>
