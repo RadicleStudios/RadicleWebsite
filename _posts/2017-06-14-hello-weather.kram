@@ -1,7 +1,6 @@
 ---
 title: "Assessment: Hello Weather"
 categories: notes
-order: 0
 ---
 
 # {{ page.title }}
