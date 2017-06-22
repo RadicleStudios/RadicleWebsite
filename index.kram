@@ -2,6 +2,11 @@
 title: Radicle > Blog
 ---
 
+A blog about human interface design. By Raphael Schindler.
+{: .lighter .compact .narrow style="text-align:center"}
+
+# Radicle blog
+
 <ul>
   {% assign current_year = site.time | date: "%Y" %}
   {% assign current_month = site.time | date: "%m" %}
