@@ -1,7 +1,7 @@
 /* Layout */
 
 * { box-sizing: border-box; }
-div, section, main { position: relative; }
+div, section, main, article { position: relative; }
 html { height: 100%; }
 body { height: 100%; line-height: 0; }
 main { border: 1px solid transparent; }
@@ -11,13 +11,16 @@ body > header { height: 48px; }
 body > footer { height: 48px; }
 main { min-height: calc(100% - 96px); }
 p, ul, h3, h2, h1, nav { line-height: 24px; }
+h1 [descriptor], h1 .descriptor { line-height: 12px; display: block; }
 p[compact], p.compact { line-height: 16px; }
 main p, main ul { margin: 24px 0; }
 main h3 { margin: 24px 0 0 0; }
-main h2, main h1 { margin: 48px 0 24px 0; }
+main h2 { margin: 24px 0; }
+main h1 { margin: 72px 0 24px 0; }
 main blockquote { margin: 0 0; padding-left: 22px; border-left: 2px solid transparent; }
 h3 + p, h3 + ul, h3 + blockquote > p, h3 + blockquote > ul { margin-top: 0; }
 p[delete-line], p[dl] { margin-top: -24px; }
+[no-margin], .no-margin { margin: 0; }
 [without-vertical-margins], .without-vertical-margins { margin-top: 0; margin-bottom: 0; }
 [without-top-margin], .without-top-margin { margin-top: 0; }
 [without-bottom-margin], .without-bottom-margin { margin-bottom: 0; }
@@ -28,13 +31,14 @@ p[delete-line], p[dl] { margin-top: -24px; }
 hr { border: 0; border-bottom: 1px solid transparent; margin-bottom: -1px; }
 hr[asterism] { display: block; border: 0; content: "hi"; height: 24px; margin: 24px auto; }
 hr[asterism]::before { line-height: 32px; font-size: 28px; content: "\2042"; text-align: center; display: block; }
-[top-matter], .top-matter { border: 1px solid transparent; }
+article + article { margin-top: 24px; }
 
 /* Colour */
 
 body { background-color: #F3F3F3; color: #000000; }
 blockquote { border-color: #9F9F9F; }
-h3 { color: #9F9F9F; }
+h1 [descriptor], h1 .descriptor { color: #7F7F7F; }
+h3 { color: #7F7F7F; }
 hr { border-color: #9F9F9F; }
 hr[asterism] { color: #9F9F9F; }
 a { color: #C91919; }
@@ -42,25 +46,27 @@ a { color: #C91919; }
 [lighter], .lighter { color: #8C8C8C; }
 [header-background], .header-background { position: absolute; top: 0; left: 0; right: 0; height: 48px; background-color: #FFFFFF; border-bottom: 1px solid #DFDFDF; z-index: -1; }
 [footer-background], .footer-background { position: absolute; left: 0; right: 0; height: 48px; background-color: #FFFFFF; border-top: 1px solid #DFDFDF; z-index: -1; }
-[top-matter], .top-matter { border-top-color: #9F9F9F; border-bottom-color: #9F9F9F; }
+[card-background], .card-background { position: absolute; left: -6px; right: -6px; top: -6px; bottom: -6px; background-color: #FFFFFF; border: 1px solid #DFDFDF; border-radius: 6px; z-index: -1; }
 
 /* Typography */
 
 body { font-family: -apple-system, "SF UI Text", "Helvetica Neue", sans-serif; }
-
 p, nav, ul, h3 { font-size: 16px; }
 [body-text], .body-text { font-size: 16px; font-weight: normal; text-transform: none; }
 p[compact], p.compact { font-size: 12px; }
-h2, h1 { font-size: 18px; }
+[uppercase], .uppercase { text-transform: uppercase; }
+h1 [descriptor], h1 .descriptor { font-size: 12px; text-transform: uppercase; font-weight: normal; }
+h1, h2 { font-size: 18px; }
 h3, h2, h1 { font-weight: bold; }
-h1 { text-transform: uppercase; text-align: center; }
 .hero-message { font-size: 18px; color: black; }
 p.much-bigger { font-size: 22px; }
 p.bigger { font-size: 18px; }
 [tabular-numbers], .tabular-numbers { font-feature-settings: "tnum"; }
 [with-underline], .with-underline { text-decoration: underline; }
 [with-overline], .with-overline { text-decoration: overline; }
-
+[without-text-transform], .without-text-transform { text-transform: none; }
+[justified], .justified { text-align: justify; }
+[left-aligned], .left-aligned { text-align: left; }
 em, i { font-style: italic; }
 strong, b { font-weight: bold; }
 a { text-decoration: none; }
@@ -70,7 +76,6 @@ sup { vertical-align: super; line-height: 0; font-size: smaller; }
 /* Misc */
 
 html { -moz-text-size-adjust: none; -ms-text-size-adjust: none; -webkit-text-size-adjust: none; text-size-adjust: none; }
-
 
 
 div.overlay { width: 100%; height: 100%; position: absolute; top: 0; }

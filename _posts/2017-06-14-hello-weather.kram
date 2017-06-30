@@ -1,106 +1,101 @@
 ---
-title: "Assessment: Hello Weather"
-categories: notes
+title: "App: <i>Hello Weather</i>"
+type: assessment
+excerpt: "An assessment of the design of iPhone app <i>Hello Weather</i>, illustrating fundamental design principles including the <i>navigation model</i>, <i>navigation model locateability</i>, and <i>navigation model correspondence</i>."
 ---
 
-# {{ page.title }}
+<h1>
+  <span descriptor>
+    {{ page.type | default: "note" }}<span style="float:right">{{ page.date | date: "%e %b %Y" }}</span>
+  </span>
+  {{ page.title }}
+</h1>
 
-### About the app
+{{ page.excerpt }} --- App website: [helloweatherapp.com](http://helloweatherapp.com)
+{: .lighter}
 
-- _Hello Weather_, by Pop State Co
-- Website: [helloweatherapp.com](http://helloweatherapp.com)
+## The user seeks an initial understanding
 
-### Purpose
+The app user has important initial questions that once resolved create a feeling that she understand the app; and until she feels she understand the app, she is a little bit uncomfortable. The designer's task is to so arrange the components of the app that it easily leads the user to have a sense of understanding about the app. If the design be so arranged as that a minimum of cues can convey that feeling, we subconsciously appreciate that kind of efficiency, and we perceive designs that embody that grace to be elegant and beautiful.
 
-I will consider the app against the most fundamental principles of human interface design, and see whether improvements can be made.
+There are many ways people go about to understand a thing, but the most essential and natural way must touch on our common ancestry, that is, our evolutionary roots. I believe that the most urgent kind of understanding has to do with a sense of _place_, which urgency is best explained through a simple example: imagine you found yourself suddenly not knowing either where you were or where you could go---_What room is this?;_ _Are there any doors out of here? and where do they lead?;_ _Is this even a building I'm in?._ How uncomfortable, or at the very least, how *distracting* would that be?
 
-* * *
+So the user's initial and pressing need is to understand where she is (in the app) and where she can go. If the app be only one screen, once the user knows this fact, a great apprehension has been soothed, and she is able to proceed with the comforting certainty that, _Whatever I can do with this app, this screen is the place to do it; there are no other places_. If the app consist of a number of screens, the user has to come to be acquainted with what they are, or to be more accurate, what distinguishes one from another, before she can feel that sense of understanding of where she is and where she can go.
 
-Let us consider the main screen:
+## Navigation model & locateability
 
-![](/assets/2017-06-14-hello-weather--main-screen.png){:style="width:375px"}
+In the language of Human Interface Design, when the user is acquainting herself with where she can go within an app, she is constructing a _navigation model_. It is a kind of _mental model_---another Design term---which I mention only to convey that the model is something held in the mind.
 
-As a user I have essential questions that when resolved create a feeling that I understand the app; this feeling of understanding is something the app designer is wise to encourage.
+Let us consider the navigation model in _Hello Weather_. Its intellegibility (_ie_ to the user) rests on the user's first discovering that what she is looking at on the screen is a weather report for a particular geographical location, and second, discovering how a different geographical location may be selected.
 
-The most essential questions I have are about the idea of 'place:'
-<p dl/>
-- Where am I?
-- What can I find here?
-- Where can I go?
-- What can I find there?
+So let us look at a screen from _Hello Weather_:
 
-And as soon as I begin to 'read' the screen before me, as my eye passes over every 'thing,' I have the question:
-<p dl/>
-- This that I'm looking at---what is it trying to tell me?
-<p dl/>
-So, when I begin to 'read' the main screen (_ie_ the one shown above), I realize by the clues in the content that I am looking at a weather report. I realize that from *the content*. Supposing my eyesight to be diminished, my ability to identify the content before me as a weather report would also be diminished. Have a look:
+![](/assets/2017-06-14-hello-weather--main-screen.png){:style="max-width:375px"}
+
+### The challenge of readability
+
+I'm always interested in what may be the most fundamental factor that may be an obstacle to a user's using and loving an app's design. The most fundamental often has the form of, _Can I even see it?_: those with impaired vision may see the same screen like this:
 
 ![](/assets/2017-06-14-hello-weather--main-screen-blurry.jpg){:style="max-width:375px"}
 
-Thus the app is unusable by those with diminished eyesight, and for those who prefer larger text sizes, the app provides a compromised experience. So, looking for a way to improve the app, we have found that **the app should implement Dynamic Type**.
+But it is important to realize that it is not only *impaired* vision that results in so blurry a view, but *distracted* vision. I am searching for a word as underogatory as possible to describe the simple fact of one's attention being elsewhere; for when we say someone is _distracted_, we don't mean it in a good way; and we have embedded in our culture an insane requirement that everyone be at the ready to pay 'full attention' to whatever trifle is presented before her. The fact is that there are things more important than whatever is on the iPhone screen, such as the conversation being had simultaneously as the iPhone is brought out for a complementary purpose. And so when we are not wholly concerned with the thing before us, it is the same as when our vision is impaired; the screen takes much more effort to read.
 
-What do I mean that the app should implement Dynamic Type? --- Dynamic Type is a feature of iOS (_ie_ of iPhone and iPad); it provides a device-wide text size setting, and apps can choose to implement that setting, _ie_ to be responsive to it.
+With _Hello Weather_, it is most important that the weather report can actually be *read*, and so we discover our first opportunity to be improved: we recommend that the app's font size be changeable according to the user's preference. On iOS (_ie_ on an iPhone or iPad), there is a system-wide facility by which the user's preference can be set, and it is called _Dynamic Type_: in the _Settings_ app the user is able dial her preference for larger or smaller text, and apps can respond to that setting. It so happens that _Hello Weather_ does *not* respond to it. Therefore: **We recommend that _Hello Weather_ implement Dynamic Type.**
 
-If this app implemented Dynamic Type, it would mean that I could set my preferred text size for my iPhone to be quite large if I wanted, and all the text in the app would reflect that preference.
+### The challenge of structuring content
 
-An aside: Let us consider what it means to design with integrity. A first principle must be to respect the user. And in this case that means respecting that she may have her own reasons for her text size preference. Suppose she pilots a helicopter, during which activity she can only afford quick glances at her iPhone; she may set her Dynamic Type setting to be the largest, so that she could use all her apps with huge text sizes. In this scenario, _Hello Weather_ is not an app she would be able to use. ...But did you notice how I structured that sentiment? I made it seem that she had a very good reason for her preference of a large text size. I could have instead used an example of someone with impaired vision, or with dyslexia; so that you would feel that these users, too, had a good reason for their preferences.
+When regarding a screen of content, as when reading the printed page, the user first discerns the hierarchy embedded within it: the title, the headings, _etc_. We conventionally look to top matter to find a title that will tell us what the screen is about. In _Hello Weather_, the top matter is either this:
 
-Continuing my aside: I am led to touch on what I consider to be a blind spot in our culture, and it pervades design, too: we do not respect people's preferences until we understand them ourselves. I mean, until we understand the preferences. (I could phrase it more simply---_We do not respect people until we understand them_---and perhaps provoke your thinking about what may be the principal challenge in our society.) ...This is a *huge* problem. We should simply say: First, we respect the user; Therefore, all she prefers is sacred, no matter the reason.
+![](/assets/2017-06-14-hello-weather--top-1.png){:style="max-width:375px"}
 
-Returning to our assessment: as a user I now have a good sense of where I am in the app---I am looking at a weather report---, and as I 'read' the interface I wonder where I may go, and I continue in building my understanding of what this app is and how it is to be used.
+Or this:
 
-* * *
+![](/assets/2017-06-14-hello-weather--top-2.png){:style="max-width:375px"}
 
-Next, I distinguish the content---_ie_ the weather report---from what else there is; and I 'read' this 'what else'---which I find to be concentrated in the top matter---to see what it is trying to tell me. Here is the top matter:
+So for a moment the user must distinguish which is the true title: "West Vancouver, ...," or "Right now." Although the user's momentary confusion is quickly resolved as she discovers extra headings in the content that resemble "Right now" in size and location, this momentary confusion *does* exist, and we do not see a reason why the user should be made to do the extra work. (In fact, being extremely serious about these little disturbances is the only way to design products that will harmonize with their users.) Therefore: **We recommend that _Hello Weather_ more clearly distinguish a screen's title from its content.**
 
-![](/assets/2017-06-14-hello-weather--main-screen-top-matter.png){:style="max-width:375px"}
+### The challenge of locateability
 
-And I try to understand the meaning of the following three things, the 'left symbol,' the 'title,' and the 'right symbol:'
+Once the user discerns the content from the *not*-content, in this case from the top matter (as everything below is content), she next seeks to know where she is (in the app). _Locateability_ refers to how easily a user comes to understand where she is (in an app) in relation to where she can go.
 
-![](/assets/2017-06-14-hello-weather--main-screen-top-matter-left-symbol.png){:style="max-width:40px"} &nbsp;
-![](/assets/2017-06-14-hello-weather--main-screen-top-matter-title.png){:style="max-width:200px"} &nbsp;
-![](/assets/2017-06-14-hello-weather--main-screen-top-matter-right-symbol.png){:style="max-width:22px"}
+In _Hello Weather_, the paucity of things in the top matter facilitates the user's sense of where she can go. We have only these three components (which we will consider from right to left):
 
-The left symbol appears to be a button. When I tap it, I navigate to a new screen in the app, which we will call the locations screen (only the top half of the screen is shown):
+![](/assets/2017-06-14-hello-weather--right-symbol.svg){:style="max-width:375px"}
+
+![](/assets/2017-06-14-hello-weather--title.svg){:style="max-width:375px"}
+
+![](/assets/2017-06-14-hello-weather--left-symbol.svg){:style="max-width:375px"}
+
+The user may readily understand the gear symbol to mean 'settings,' and even if she doesn't, tapping that symbol brings that clarity. The title does not appear to be interactive, but a trial tap can tell as much; its function is to give the user the important clue that this screen is all about "West Vancouver, BC, Canada," or whatever location's weather is being looked at. We come finally to the strange left-most symbol that may resembles a map location, if the user be familiar with that convention; but even if she is not familiar that this symbol means 'location,' it certainly does appear to be interactive, and so she taps it to learn where it leads, and sees the following (and only the top half of the screen is shown):
 
 ![](/assets/2017-06-14-hello-weather--locations-screen.png){:style="max-width:375px"}
 
-Before we consider what is on this the locations screen, let me take a moment to talk about how the screen appeared: it slid in from the right. A screen sliding in from the right is a strong convention in iOS: it suggests a hierarchy, and a sliding-in from the right suggests going deeper. The back button we can see in the locations screen is certainly a conventional element; it is conventionally understood that tapping the back button navigates a level higher in the hierarchy.
+To answer the question of whether an improvement can be made to help the user more rapidly come to understand where she can go within the app, let us consider the top matter once more (and let us call the left button the 'locations' button, and the right, the 'settings' button):
 
-But why do I mention these things about how the locations screen appears? Because I am pointing out a dysfluency created by this app's behaviour, as compared with convention. The dysfluency has two parts: first, there is a strong convention that tapping a button in the top left corner of the screen navigates *up* the app hierarchy (and not *down* it, as happens here).
+![](/assets/2017-06-14-hello-weather--top-1.png){:style="max-width:375px"}
 
-The second dysfluency is this: if we are looking at the main screen, we are looking at the weather report for a particular location. If we wanted to change the location, it makes sense that we'd navigate *up* the app's hierarchy, not *down*. _Ie_ it makes sense that to go from 'this particular location' to 'no particular location' is a move from a more-specific to a less-specific state, which in hierarchies corresponds to a movement *up* to a higher level.
-
-So, having considered all this, let us now declare that **going from a particular location to the list of locations should be represented as navigating *up* the app hierarchy, not down it**.
-
-And pursuant to my question as a user of, Where can I go?, I now know I can go to a screen where I can view a number of locations (and where presumably I can choose a new location from the list, and I can add new locations to the list).
-
-* * *
-
-Continuing to 'read' the top matter, I believe the right symbol to resemble a gear, which I conventionally understand to denote 'settings,' and when I tap the button, the title of the screen that comes up---"Hello Settings"---confirms my suspicion. We do not need to look at the settings screen.
-
-But let us consider the top matter once more. Let us see it again:
-
-![](/assets/2017-06-14-hello-weather--main-screen-top-matter.png){:style="max-width:375px"}
-
-It looks like there is a title---here it says, "West Vancouver, BC, Canada"---and a left and right button. Let's call the left and right buttons the locations and settings buttons. If I am to understand the app, I need to know the answers to these questions:
+The following are pertinent questions in the user's mind (and they may be subconscious):
 <p dl/>
 - Why is the locations button bigger than the settings button?
 - Why does the locations button straddle the title area and the content area, but the settings button is constrained within the title area?
 
-I cannot find satisfactory answers to these questions. As a user, if I find symbols to be arranged according to some deliberate way that I do not understand, I will feel like the app is less understandable; and therefore I will find the app less pleasing to use.
+I cannot find satisfactory answers to these questions. If the user find symbols to be arranged according to some deliberate way that she does not understand, she will feel like the app is less understandable; and it will be less appealing to use it.
 
-But before recommending making the buttons consistently sized and arranged; we must firstly remember that we already mentioned that the top left placement of the locations button is dysfluent, and we must secondly inquire whether it be necessary that both the locations and settings buttons be on-screen. A further challenge in having a settings button an an app's screen is that the button suggests the question: the settings for *what*? For the *app*, or for *this place in the app?* In this app the settings pertain to the app, not the particular location, and so we can recommend: **the settings screen should be invoked from the highest level in the app hierarchy**.
+The most fundamental question concerning any human interface component is whether it should even exist, or at least, whether it should exist *there*. The settings button located on the main screen suggests the question: the settings for *what*?---for the *app*, or for *this place in the app?* In this app the settings pertain to the app, not the particular location, and so: **We recommend the settings screen (as it refers to app-level settings) should be invoked from the highest level in the app hierarchy**.
 
-Round out our recommendations:
-<p dl/>
-- **The settings button should be removed from the main screen**.
-- **The locations button should be replaced by the conventional back chevron**.
-- **The app hierarchy should have two levels: level 'zero,' where a location can be chosen, and the list of locations can be managed, and the settings screen can be invoked. And level 'one,' showing the weather for the chosen location.**
+### The challenge of mental model correspondence
 
-* * *
+Let us now discuss an opportunity for improvement that has to do with how it is visually represented when the user moves from one place to another in the app. The opportunity relates to the *manner* in which the locations screen appears and disappears: when the user taps the location button, the locations screen slides in from the right.
 
-And so our assessment draws to a close. We have considered only the most fundamental human interface design principles. We have looked at an elegant contemporary app and we have seen how even something so simple yields opportunities that may be improved.
+But a screen sliding in from the right is a strong convention in iOS: it suggests a hierarchy, and a sliding-in from the right suggests going *deeper* in that hierarchy. The back button we can see in the locations screen is certainly a conventional element; it is conventionally understood that tapping the back button navigates a level *higher* (_ie_ *back*) in the hierarchy.
+
+Why do I mention these things about how the locations screen appears? Because I am pointing out a dysfluency created by this app's behaviour, as compared with convention. The dysfluency has two parts: first, there is a strong convention that tapping a button in the top left corner of the screen navigates *higher* (_ie_ *back*) in the app hierarchy (and not *deeper*, as happens here).
+
+The second part of the dysfluency is this: if we are looking at the main screen, we are looking at the weather report for a particular location. If we wanted to change the location, it makes sense that we'd navigate *higher up* the app's hierarchy, not *deeper*. _Ie_ it makes sense that to go from 'this particular location' to 'no particular location' is a move from a *more*- to a *less*-specific state, which in hierarchies corresponds to a movement from a lower to a higher level. Therefore: **We recommend that navigating from a particular location to the list of locations be visually represented as a moving *higher up* the app hierarchy (and not *deeper*)**.
+
+### Conclusion
+
+And so our assessment draws to a close. We have considered some fundamental principles of human interface design. We have looked at an elegant contemporary app and we have seen how even something so simple provides interesting opportunities that may be improved.
 
 My hope in writing this is to instill, in all those who are interested, a deeper understanding of human interface design. This is also a sample of what a quick design assessment from Radicle looks like. Our mission at Radicle is to improve design across the industry, so that we can make users happier. We appreciate your attention, as well as your support in this endeavour that affects us all so closely.
 

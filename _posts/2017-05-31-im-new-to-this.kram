@@ -1,6 +1,6 @@
 ---
 title: "I'm new to this"
-categories: notes
+type: reflection
 ---
 
 # {{ page.title }}

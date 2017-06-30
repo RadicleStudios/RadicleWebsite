@@ -2,6 +2,7 @@ defaults:
   -
     values:
       layout: default
+      excerpt_separator: ""
 
 markdown_ext: "kram"
 
