@@ -1,17 +1,18 @@
 ---
-title: "Paper: <i>Attitudes towards Attention and Aging: What Differences between Younger and Older Adults Tell Us about Mobile Technology Design</i>"
+title: "<i>Attitudes towards Attention and Aging: What Differences between Younger and Older Adults Tell Us about Mobile Technology Design</i> (paper)"
 type: research
+excerpt: "Notes from reading the paper"
 ---
 
-# {{ page.title }}
+<h1>
+  <span descriptor>
+    {{ page.type | default: "note" }}<span style="float:right">{{ page.date | date: "%e %b %Y" }}</span>
+  </span>
+  {{ page.title }}
+</h1>
 
-### About the paper
-<p dl/>
-- _Attitudes towards Attention and Aging: What Differences between Younger and Older Adults Tell Us about Mobile Technology Design_
-- Published in the _International Journal of Mobile Human Computer Interaction_, Volume 8, Issue 2, April 2016
-- By Amy Jenkins, Parisa Eslambolchilar, Stephen Lindsay, and Andrea Tales
-
-* * *
+{{ page.excerpt }} --- _Attitudes towards Attention and Aging: What Differences between Younger and Older Adults Tell Us about Mobile Technology Design_, By Amy Jenkins, Parisa Eslambolchilar, Stephen Lindsay, and Andrea Tales (2016)
+{:.lighter}
 
 The authors examine differences between older and younger adults' concepts of attention in relation to mobile-device use to inform future development.
 

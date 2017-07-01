@@ -1,17 +1,18 @@
 ---
-title: "Paper: <i>The Effect of Flow Experience and Social Norms on the Adoption of Mobile Games in China</i>"
+title: "<i>The Effect of Flow Experience and Social Norms on the Adoption of Mobile Games in China</i> (paper)"
 type: research
+excerpt: "Notes from reading the paper"
 ---
 
-# {{ page.title }}
+<h1>
+  <span descriptor>
+    {{ page.type | default: "note" }}<span style="float:right">{{ page.date | date: "%e %b %Y" }}</span>
+  </span>
+  {{ page.title }}
+</h1>
 
-### About the paper
-<p dl/>
-- _The Effect of Flow Experience and Social Norms on the Adoption of Mobile Games in China_ [ResearchGate [link](https://www.researchgate.net/publication/289569267_The_Effect_of_Flow_Experience_and_Social_Norms_on_the_Adoption_of_Mobile_Games_in_China)]
-- Published in the _International Journal of Mobile Human Computer Interaction_ [ResearchGate [link](https://www.researchgate.net/journal/1942-390X_International_Journal_of_Mobile_Human_Computer_Interaction)], January 2016
-- By Shang Gao, John Krogstie, and Zhe Zang
-
-* * *
+{{ page.excerpt }} --- _The Effect of Flow Experience and Social Norms on the Adoption of Mobile Games in China_, by Shang Gao, John Krogstie, and Zhe Zang (2016)
+{:.lighter}
 
 > TAM [technology acceptance model] is widely acknowledged as one of the most robust and influential models for explaining user acceptance of technology. It is an adaptation of Theory of Reasoned Action (TRA). According to TRA, belief (an individual's subjective probability of the consequence of a particular behavior) influences attitude (an individual's positive and negative feelings about a particular behavior), which in turn shapes behavioural intention.
 

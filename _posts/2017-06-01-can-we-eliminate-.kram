@@ -3,7 +3,12 @@ title: Can we eliminate bad design?
 type: reflection
 ---
 
-# {{ page.title }}
+<h1>
+  <span descriptor>
+    {{ page.type | default: "note" }}<span style="float:right">{{ page.date | date: "%e %b %Y" }}</span>
+  </span>
+  {{ page.title }}
+</h1>
 
 Let us first address definitions: What is 'bad design,' and what does 'eliminate' mean? Design is bad if it is harmful, and all species of harm branch from only one root: a design is harmful if it diverts our attention. In life, there is only one thing we have control over: our attention: the direction of our thinking and curiosity. It is corollary that if a design doesn't *respect* our attention, it is probably harmful.
 

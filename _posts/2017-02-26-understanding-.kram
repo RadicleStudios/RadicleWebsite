@@ -1,16 +1,18 @@
 ---
-title: "Book: <i>Understanding Computers and Cognition</i>"
+title: "<i>Understanding Computers and Cognition</i> (book)"
 type: research
+excerpt: "Notes from reading the book (this is one of the most wonderful books I've read)"
 ---
 
-# {{ page.title }}
+<h1>
+  <span descriptor>
+    {{ page.type | default: "note" }}<span style="float:right">{{ page.date | date: "%e %b %Y" }}</span>
+  </span>
+  {{ page.title }}
+</h1>
 
-### About the book
-
-- _Understanding Computers and Cognition_ (1986)
-- By Terry Winograd and Fernando Flores
-
-* * *
+{{ page.excerpt }} --- _Understanding Computers and Cognition_, by Terry Winograd and Fernando Flores (1986)
+{:.lighter}
 
 ### Unique approach to discovery
 

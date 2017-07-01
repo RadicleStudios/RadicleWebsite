@@ -1,17 +1,18 @@
 ---
-title: "Book: <i>Activity Theory in HCI: Fundamentals and Reflections</i>"
+title: "<i>Activity Theory in HCI: Fundamentals and Reflections</i> (book)"
 type: research
+excerpt: "Notes from reading the book"
 ---
 
-# {{ page.title }}
+<h1>
+  <span descriptor>
+    {{ page.type | default: "note" }}<span style="float:right">{{ page.date | date: "%e %b %Y" }}</span>
+  </span>
+  {{ page.title }}
+</h1>
 
-### About the book
-<p dl/>
-- _Activity Theory in HCI: Fundamentals and Reflections_ [ResearchGate [link](https://www.researchgate.net/publication/259823464_Activity_Theory_in_HCI_Fundamentals_and_Reflections)]
-- Published in _Synthesis Lectures on Human-Centered Informatics_ [ResearchGate [link](https://www.researchgate.net/journal/1946-7680_Synthesis_Lectures_on_Human-Centered_Informatics)], April 2012
-- By Victor Kaptelinin and Bonnie Nardi.
-
-* * *
+{{ page.excerpt }} --- _Activity Theory in HCI: Fundamentals and Reflections_, by Victor Kaptelinin and Bonnie Nardi (2012)
+{:.lighter}
 
 Around the late 1980s–early 1990s human-computer interaction (HCI) was reinventing itself as a field dealing with "human actors" rather than "human factors."
 

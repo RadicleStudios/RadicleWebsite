@@ -1,7 +1,7 @@
 ---
-title: "App: <i>Hello Weather</i>"
+title: "<i>Hello Weather</i> (app)"
 type: assessment
-excerpt: "An assessment of the design of iPhone app <i>Hello Weather</i>, illustrating fundamental design principles including the <i>navigation model</i>, <i>navigation model locateability</i>, and <i>navigation model correspondence</i>."
+excerpt: "An assessment of the design of iPhone app <i>Hello Weather</i>, illustrating fundamental design principles including the <i>navigation model</i>, <i>navigation model locateability</i>, and <i>navigation model correspondence</i>"
 ---
 
 <h1>
@@ -12,7 +12,7 @@ excerpt: "An assessment of the design of iPhone app <i>Hello Weather</i>, illust
 </h1>
 
 {{ page.excerpt }} --- App website: [helloweatherapp.com](http://helloweatherapp.com)
-{: .lighter}
+{:.lighter}
 
 ## The user seeks an initial understanding
 
@@ -83,7 +83,7 @@ I cannot find satisfactory answers to these questions. If the user find symbols 
 
 The most fundamental question concerning any human interface component is whether it should even exist, or at least, whether it should exist *there*. The settings button located on the main screen suggests the question: the settings for *what*?---for the *app*, or for *this place in the app?* In this app the settings pertain to the app, not the particular location, and so: **We recommend the settings screen (as it refers to app-level settings) should be invoked from the highest level in the app hierarchy**.
 
-### The challenge of mental model correspondence
+### The challenge of navigational model correspondence
 
 Let us now discuss an opportunity for improvement that has to do with how it is visually represented when the user moves from one place to another in the app. The opportunity relates to the *manner* in which the locations screen appears and disappears: when the user taps the location button, the locations screen slides in from the right.
 
@@ -91,7 +91,9 @@ But a screen sliding in from the right is a strong convention in iOS: it suggest
 
 Why do I mention these things about how the locations screen appears? Because I am pointing out a dysfluency created by this app's behaviour, as compared with convention. The dysfluency has two parts: first, there is a strong convention that tapping a button in the top left corner of the screen navigates *higher* (_ie_ *back*) in the app hierarchy (and not *deeper*, as happens here).
 
-The second part of the dysfluency is this: if we are looking at the main screen, we are looking at the weather report for a particular location. If we wanted to change the location, it makes sense that we'd navigate *higher up* the app's hierarchy, not *deeper*. _Ie_ it makes sense that to go from 'this particular location' to 'no particular location' is a move from a *more*- to a *less*-specific state, which in hierarchies corresponds to a movement from a lower to a higher level. Therefore: **We recommend that navigating from a particular location to the list of locations be visually represented as a moving *higher up* the app hierarchy (and not *deeper*)**.
+The second part of the dysfluency is this: if we are looking at the main screen, we are looking at the weather report for a particular location. If we wanted to change the location, it makes sense that we'd navigate *higher up* the app's hierarchy, not *deeper*. _Ie_ it makes sense that to go from 'this particular location' to 'no particular location' is a move from a *more*- to a *less*-specific state, which in hierarchies corresponds to a movement from a lower to a higher level.
+
+In Human Interface Design terminology, what we are discussing is a disconnect between how the user would think the app to be navigated---the user's (mental) _navigational model_---and how the app *is* in fact navigated. We have highlighted a disconnect in that correspondence. And so: **We recommend that navigating from a particular location to the list of locations be visually represented as a moving *higher up* the app hierarchy (and not *deeper*)**.
 
 ### Conclusion
 

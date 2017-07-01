@@ -1,17 +1,18 @@
 ---
-title: "Article: <i>Magic Ink: Information Software and the Graphical Interface</i>"
+title: "<i>Magic Ink: Information Software and the Graphical Interface</i> (article)"
 type: research
+excerpt: "Notes from reading the article"
 ---
 
-# {{ page.title }}
+<h1>
+  <span descriptor>
+    {{ page.type | default: "note" }}<span style="float:right">{{ page.date | date: "%e %b %Y" }}</span>
+  </span>
+  {{ page.title }}
+</h1>
 
-### About the article
-<p dl/>
-- _Magic Ink: Information Software and the Graphical Interface_ [[link](http://worrydream.com/MagicInk/)]
-- Published in [worrydream.com](http://worrydream.com), March 2006
-- By Bret Victor
-
-* * *
+{{ page.excerpt }} --- _Magic Ink: Information Software and the Graphical Interface_, by Bret Victor (2006) --- [Link](http://worrydream.com/MagicInk/) to the article
+{:.lighter}
 
 Contrasting graphic and industrial design, Mr. Victor writes:
 <p dl/>

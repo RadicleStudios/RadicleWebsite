@@ -3,7 +3,12 @@ title: "I'm new to this"
 type: reflection
 ---
 
-# {{ page.title }}
+<h1>
+  <span descriptor>
+    {{ page.type | default: "note" }}<span style="float:right">{{ page.date | date: "%e %b %Y" }}</span>
+  </span>
+  {{ page.title }}
+</h1>
 
 I am very new to this: to this field called _human-computer interaction_. I *love* this field of study, and I dream of the wonderful technologies I will help create for all of us. But I cannot become influencial in the tech industry without merit; so how do I establish merit? Lao-tzu says simply, "Promote what is beneficial and eliminate what is harmful, and merit is established." So, that is exactly what I am going to do:
 

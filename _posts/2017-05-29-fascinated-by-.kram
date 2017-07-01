@@ -3,7 +3,12 @@ title: Fascinated by the mundane
 type: reflection
 ---
 
-# {{ page.title }}
+<h1>
+  <span descriptor>
+    {{ page.type | default: "note" }}<span style="float:right">{{ page.date | date: "%e %b %Y" }}</span>
+  </span>
+  {{ page.title }}
+</h1>
 
 The word _mundane_ connotes a sense of *boring*, and this is a wonderful place to begin. I wonder sometimes, Where have all the great minds gone?---I mean, what are they up to? Of those minds that are the most *intelligent*, I have heard its being observed how remarkable it is that so many of them are applying their intelligence to 'get people to click' (an ad). Now that was a bit of a complaint I heard, but I make no complaint here. I observe only that a lot of human intelligence is directed precisely where it naturally would go: intelligence finds the biggest games to play, and then it wins at those games. In our society the two biggest games revolve around finance and consumption.
 

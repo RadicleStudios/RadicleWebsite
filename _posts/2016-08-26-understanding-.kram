@@ -1,17 +1,18 @@
 ---
-title: "Paper: <i>Understanding the Challenges and Opportunities of Smart Mobile Devices among the Oldest Old</i>"
+title: "<i>Understanding the Challenges and Opportunities of Smart Mobile Devices among the Oldest Old</i> (paper)"
 type: research
+excerpt: "Notes from reading the paper"
 ---
 
-# {{ page.title }}
+<h1>
+  <span descriptor>
+    {{ page.type | default: "note" }}<span style="float:right">{{ page.date | date: "%e %b %Y" }}</span>
+  </span>
+  {{ page.title }}
+</h1>
 
-### About the paper
-<p dl/>
-- _Understanding the Challenges and Opportunites of Smart Mobile Devices among the Oldest Old_ [ResearchGate [link](https://www.researchgate.net/publication/301743419_Understanding_the_Challenges_and_Opportunities_of_Smart_Mobile_Devices_among_the_Oldest_Old)]
-- Published in the _International Journal of Mobile Human Computer Interaction_ [ResearchGate [link](https://www.researchgate.net/journal/1942-390X_International_Journal_of_Mobile_Human_Computer_Interaction)], April 2016
-- By Anne Marie Piper, Raymundo Cornejo Garcia, and Robin N. Brewer
-
-* * *
+{{ page.excerpt }} --- _Understanding the Challenges and Opportunites of Smart Mobile Devices among the Oldest Old_, by Anne Marie Piper, Raymundo Cornejo Garcia, and Robin N. Brewer (2016)
+{:.lighter}
 
 > Understanding how smart technologies can promote greater independence in older adulthood is an important topic in human-computer interaction research, particularly among older segments of the population who stand the greatest risk for social isolation and have higher incident rates of chronic health conditions and associated disability.
 

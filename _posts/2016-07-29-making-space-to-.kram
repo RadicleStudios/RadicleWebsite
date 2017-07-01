@@ -1,17 +1,18 @@
 ---
-title: "Paper: <i>Making Space to Engage: An Open-Ended Exploration of Technology Design with Older Adults</i>"
+title: "<i>Making Space to Engage: An Open-Ended Exploration of Technology Design with Older Adults</i> (paper)"
 type: research
+excerpt: "Notes from reading the paper"
 ---
 
-# {{ page.title }}
+<h1>
+  <span descriptor>
+    {{ page.type | default: "note" }}<span style="float:right">{{ page.date | date: "%e %b %Y" }}</span>
+  </span>
+  {{ page.title }}
+</h1>
 
-### About the paper
-<p dl/>
-- _Making Space to Engage: An Open-Ended Exploration of Technology Design with Older Adults_ [ResearchGate [link](https://www.researchgate.net/publication/301732270_Making_Space_to_Engage_An_Open-Ended_Exploration_of_Technology_Design_with_Older_Adults)]
-- Published in the _International Journal of Mobile Human Computer Interaction_ [ResearchGate [link](https://www.researchgate.net/journal/1942-390X_International_Journal_of_Mobile_Human_Computer_Interaction)], April 2016 
-- By Florian Güldenpfennig, Francisco Nunes, Eva Ganglbauer, and Geraldine Fitzpatrick
-
-* * *
+{{ page.excerpt }} --- _Making Space to Engage: An Open-Ended Exploration of Technology Design with Older Adults_, by Florien Güldenpfennig, Francisco Nunes, Eva Ganglbauer, and Geraldine Fitzpatrick (2016)
+{:.lighter}
 
 > Older adults are a growing demographic age group who have a low adoption rate of technology when compared to younger adults.
 

@@ -1,16 +1,18 @@
 ---
-title: "Book: <i>Don't Make Me Think</i>"
+title: "<i>Don't Make Me Think</i> (book)"
 type: research
+excerpt: "Notes taken from reading the book"
 ---
 
-# {{ page.title }}
+<h1>
+  <span descriptor>
+    {{ page.type | default: "note" }}<span style="float:right">{{ page.date | date: "%e %b %Y" }}</span>
+  </span>
+  {{ page.title }}
+</h1>
 
-### About the book
-
-- _Don't Make Me Think, Revisited: Common Sense Approach to Web and Mobile Usability_ (2014)
-- By Steve Krug
-
-* * *
+{{ page.excerpt }} --- _Don't Make Me Think, Revisited: Common Sense Approach to Web and Mobile Usability_, by Steve Krug (2014)
+{:.lighter}
 
 Mr. Krug introduces his job as a usability consultant in these terms:
 <p dl/>
