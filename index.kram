@@ -15,7 +15,7 @@ title: Radicle > Blog
         {{ post.title }}
       </a>
     </h1>
-    <p without-vertical-margins>{{ post.excerpt }}</p>
+    <p without-vertical-margins lighter>{{ post.excerpt }}</p>
   </article>
 {% endfor %}
 
