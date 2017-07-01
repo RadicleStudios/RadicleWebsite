@@ -36,7 +36,7 @@ article + article { margin-top: 24px; }
 /* Colour */
 
 body { background-color: #F3F3F3; color: #000000; }
-blockquote { border-color: #9F9F9F; }
+main blockquote { border-color: #9F9F9F; }
 h1 [descriptor], h1 .descriptor { color: #7F7F7F; }
 h3 { color: #7F7F7F; }
 hr { border-color: #9F9F9F; }
