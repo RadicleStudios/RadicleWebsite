@@ -1,0 +1,29 @@
+---
+title: "<i>Audible</i> (app)"
+type: assessment
+excerpt: "Considering the iPhone app <i>Audible</i>, we illustrate the design principle of the <i>Gestalt law of proximity</i>"
+---
+
+<h1>
+  <span descriptor>
+    {{ page.type | default: "note" }}<span style="float:right">{{ page.date | date: "%e %b %Y" }}</span>
+  </span>
+  {{ page.title }}
+</h1>
+
+{{ page.excerpt }} --- App website: [audible.com/mt/Apps](http://www.audible.com/mt/Apps/)
+{:.lighter}
+
+The ***Gestalt law of proximity*** is the psychological tendency to consider items placed near one another as being related. And conversely, items apart are taken to be unrelated.
+
+Let us consider a screen of _Audible_:
+
+![](/assets/2017-07-04-audible--screen.png){:style="max-width:375px"}
+
+We see a list of audiobooks, but the first item appears distinct from the rest:
+
+![](/assets/2017-07-04-audible--item.png){:style="max-width:375px"}
+
+It has a pie-shaped overlay that many are accustomed to read as 'progress,' as well as the 'x' symbol that reads as 'close' or 'cancel.' --- Something appears to be happening: indeed, the audiobook is downloading. --- But who can say what the close/cancel button refers to? The Gestalt law of proximity has us perceive the overlay to be unrelated to the close/cancel button. The close/cancel button appears to refer to the row in the table more than to the download in progress. And so here we have a dysfluency; and an improved design would make it clear that the close/cancel button refers to the download in progress.
+
+<hr asterism>
