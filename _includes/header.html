@@ -2,9 +2,13 @@
   <div header-background></div>
   <nav full-size with-clearfix style="line-height:48px">
     {% if page.url == "/" %}
-      <img src="/assets/logo-small-selected.svg" style="height:24px;position:relative;top:6px"> blog
+      <img src="/assets/logo-small-selected.svg" style="height:24px;position:relative;top:6px">
+      <b>Radicle</b> blog
     {% else %}
-      <a href="/" style="float:left"><img src="/assets/logo-small.svg" style="height:24px;position:relative;top:6px"> blog</a>
+      <a href="/" style="float:left">
+        <img src="/assets/logo-small.svg" style="height:24px;position:relative;top:6px">
+        <b>Radicle</b> blog
+      </a>
     {% endif %}
     <div style="float:right">
       {% if page.url == "/about.html" %}
