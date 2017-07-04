@@ -18,11 +18,11 @@ The ***Gestalt law of proximity*** is the psychological tendency to consider ite
 
 Let us consider a screen of _Audible_:
 
-![](/assets/2017-07-04-audible--screen.png){:style="max-width:375px"}
+![](/assets/2017-07-04-audible--screen.png){:style="width:100%;max-width:375px"}
 
 We see a list of audiobooks, but the first item appears distinct from the rest:
 
-![](/assets/2017-07-04-audible--item.png){:style="max-width:375px"}
+![](/assets/2017-07-04-audible--item.png){:style="width:100%;max-width:375px"}
 
 It has a pie-shaped overlay that many are accustomed to read as 'progress,' as well as the 'x' symbol that reads as 'close' or 'cancel.' --- Something appears to be happening: indeed, the audiobook is downloading. --- But who can say what the close/cancel button refers to? The Gestalt law of proximity has us perceive the overlay to be unrelated to the close/cancel button. The close/cancel button appears to refer to the row in the table more than to the download in progress. And so here we have a dysfluency; and an improved design would make it clear that the close/cancel button refers to the download in progress.
 

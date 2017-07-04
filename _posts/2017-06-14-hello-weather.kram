@@ -30,13 +30,13 @@ Let us consider the navigation model in _Hello Weather_. Its intellegibility (_i
 
 So let us look at a screen from _Hello Weather_:
 
-![](/assets/2017-06-14-hello-weather--main-screen.png){:style="max-width:375px"}
+![](/assets/2017-06-14-hello-weather--main-screen.png){:style="width:100%;max-width:375px"}
 
 ### The challenge of readability
 
 I'm always interested in what may be the most fundamental factor that may be an obstacle to a user's using and loving an app's design. The most fundamental often has the form of, _Can I even see it?_: those with impaired vision may see the same screen like this:
 
-![](/assets/2017-06-14-hello-weather--main-screen-blurry.jpg){:style="max-width:375px"}
+![](/assets/2017-06-14-hello-weather--main-screen-blurry.jpg){:style="width:100%;max-width:375px"}
 
 But it is important to realize that it is not only *impaired* vision that results in so blurry a view, but *distracted* vision. I am searching for a word as underogatory as possible to describe the simple fact of one's attention being elsewhere; for when we say someone is _distracted_, we don't mean it in a good way; and we have embedded in our culture an insane requirement that everyone be at the ready to pay 'full attention' to whatever trifle is presented before her. The fact is that there are things more important than whatever is on the iPhone screen, such as the conversation being had simultaneously as the iPhone is brought out for a complementary purpose. And so when we are not wholly concerned with the thing before us, it is the same as when our vision is impaired; the screen takes much more effort to read.
 
@@ -46,11 +46,11 @@ With _Hello Weather_, it is most important that the weather report can actually 
 
 When regarding a screen of content, as when reading the printed page, the user first discerns the hierarchy embedded within it: the title, the headings, _etc_. We conventionally look to top matter to find a title that will tell us what the screen is about. In _Hello Weather_, the top matter is either this:
 
-![](/assets/2017-06-14-hello-weather--top-1.png){:style="max-width:375px"}
+![](/assets/2017-06-14-hello-weather--top-1.png){:style="width:100%;max-width:375px"}
 
 Or this:
 
-![](/assets/2017-06-14-hello-weather--top-2.png){:style="max-width:375px"}
+![](/assets/2017-06-14-hello-weather--top-2.png){:style="width:100%;max-width:375px"}
 
 So for a moment the user must distinguish which is the true title: "West Vancouver, ...," or "Right now." Although the user's momentary confusion is quickly resolved as she discovers extra headings in the content that resemble "Right now" in size and location, this momentary confusion *does* exist, and we do not see a reason why the user should be made to do the extra work. (In fact, being extremely serious about these little disturbances is the only way to design products that will harmonize with their users.) Therefore: **We recommend that _Hello Weather_ more clearly distinguish a screen's title from its content.**
 
@@ -60,19 +60,19 @@ Once the user discerns the content from the *not*-content, in this case from the
 
 In _Hello Weather_, the paucity of things in the top matter facilitates the user's sense of where she can go. We have only these three components (which we will consider from right to left):
 
-![](/assets/2017-06-14-hello-weather--right-symbol.svg){:style="max-width:375px"}
+![](/assets/2017-06-14-hello-weather--right-symbol.svg){:style="width:100%;max-width:375px"}
 
-![](/assets/2017-06-14-hello-weather--title.svg){:style="max-width:375px"}
+![](/assets/2017-06-14-hello-weather--title.svg){:style="width:100%;max-width:375px"}
 
-![](/assets/2017-06-14-hello-weather--left-symbol.svg){:style="max-width:375px"}
+![](/assets/2017-06-14-hello-weather--left-symbol.svg){:style="width:100%;max-width:375px"}
 
 The user may readily understand the gear symbol to mean 'settings,' and even if she doesn't, tapping that symbol brings that clarity. The title does not appear to be interactive, but a trial tap can tell as much; its function is to give the user the important clue that this screen is all about "West Vancouver, BC, Canada," or whatever location's weather is being looked at. We come finally to the strange left-most symbol that may resembles a map location, if the user be familiar with that convention; but even if she is not familiar that this symbol means 'location,' it certainly does appear to be interactive, and so she taps it to learn where it leads, and sees the following (and only the top half of the screen is shown):
 
-![](/assets/2017-06-14-hello-weather--locations-screen.png){:style="max-width:375px"}
+![](/assets/2017-06-14-hello-weather--locations-screen.png){:style="width:100%;max-width:375px"}
 
 To answer the question of whether an improvement can be made to help the user more rapidly come to understand where she can go within the app, let us consider the top matter once more (and let us call the left button the 'locations' button, and the right, the 'settings' button):
 
-![](/assets/2017-06-14-hello-weather--top-1.png){:style="max-width:375px"}
+![](/assets/2017-06-14-hello-weather--top-1.png){:style="width:100%;max-width:375px"}
 
 The following are pertinent questions in the user's mind (and they may be subconscious):
 <p dl/>
