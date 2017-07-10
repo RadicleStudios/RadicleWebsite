@@ -1,5 +1,5 @@
 ---
-title: "On the recent controversy surrounding the automatic treatment of dashes in iOS 11"
+title: "On the recent arguments surrounding the automatic treatment of dashes in iOS 11"
 type: reflection
 ---
 
@@ -10,30 +10,29 @@ type: reflection
   {{ page.title }}
 </h1>
 
-Some recent controversy surrounding an upcoming feature in the yet-to-be-released iOS 11 has piqued my interest, and offers a point of departure for making an important point.
+Some recent argumentation surrounding an upcoming feature in the yet-to-be-released iOS 11 has piqued my interest, and offers a point of departure for making an important point.
 
-**The feature**: when the user types two or three consecutive dashes, the feature transforms them into an [en dash](https://en.wikipedia.org/wiki/Dash#En_dash) or an [em dash](https://en.wikipedia.org/wiki/Dash#Em_dash) (respectively).
+**The upcoming feature**: the feature would transform the text the user types, as she types it, like so: when the user types two or three consecutive dashes, they would transform into an [en dash](https://en.wikipedia.org/wiki/Dash#En_dash) or an [em dash](https://en.wikipedia.org/wiki/Dash#Em_dash) (respectively).
 
-**The controversy**: people are arguing over whether two consecutive dashes should produce an en dash or an em dash. Not to reproduce the argument, but to aid your full understanding, I will mention for example that some stand on there already being a convention that two dashes would produce an _em_ dash, so the change would cause... _etc_.
+**The argumentation**: arguments are being made over which dash-producing scheme ought be adopted as standard; the one scheme producing an en and em dash from two and three dashes, the other scheme producing an em dash from two dashes and leaving the en dash out.
 
-The feature is a part of what is called "smart punctuation," which does the work of transforming some of the punctuation the user types, _eg_ transforming quotes to 'wrap' words the way we expect them to, and it also transforms dashes.
+**Some context**: the upcoming feature is a part of what is called "smart punctuation," which does the work of transforming some of the punctuation the user types, _eg_ transforming quotes to 'wrap' words the way we expect them to, and it also transforms dashes.
 
 ## Is it convenient?
 
-Smart punctuation is supposed to be convenient, so let us consider what the transforming of dashes convenes: if the user wants to produce an en or em dash, she can tap and hold the dash key on the iPhone keyboard to reveal the three available dashes, and then she can type the one she wants; _or_ she can tap the dash key multiple times and rely on smart punctuation to transform her consecutive dashes into a longer variant, but she has to remember whether two dashes produce an en dash and three produce an em dash, or two dashes produce an em dash and an en dash is not producible in this way.
+Smart punctuation is supposed to be convenient, so let us consider what the transforming of dashes convenes: if the user wants to produce an en or em dash, she can tap and hold the dash key on the iPhone keyboard to reveal the three available dashes, and then she can type the one she wants; _or_ she can rely on smart punctuation and type the right number of consecutive dashes as to produce the dash varieant she desires. The 'ease' the latter approach provides is certainly a convenience (even though the time savings is only a fraction of a second).
 
-If we are present to the fact that smart punctuation requires the user to remember which scheme of consecutive dashes is in play, the convenience of her saving about a second each time she desires to produce a longer dash does not compensate for the extra cognitive load.
+## Should it be standard?
 
-## Respecting the user
-
-Smart punctuation is attempting to help the user. But a feature the operation of which the user does not understand causes her to furrow her brow. Imagine she is ignorant of the feature, and types two dashes, and they turn into an en dash. The en dash is so similar to a regular dash that it requires careful attention to see that anything actually happened: supposing two dashes are to produce an en dash (_ie_ supposing that to be the scheme that wins out), if the user types one dash, she sees a regular dash has been produced, and if she types a second dash, it appears that nothing at all has happened (unless she looks really closely and notices that the original dash she typed now looks a little longer). That moment of perplexity when it appeared the device did not respect the user's typing a second dash is something to be avoided.
-
-And suppose she wanted to produce two dashes, one after another? She would have to wrestle with the automatic conversion of her consecutive dashes. This is how an innocuous-seeming and specious feature can become something that makes the user want to dash her iPhone upon a rock.
-
-To respect the user is to comply with her wishes. A feature that *supposes* the user to want something that she may not want is a way of not respecting her. It is a way of putting her into a category of users who behave accordingly to a standard where dashes are concerned, and in so doing, it is a way of not respecting her uniqueness.
+Smart punctuation is attempting to help the user. But a feature the operation of which the user does not know about causes her brow to furrow. So the most pertinent considerations in my mind are:
+<p dl/>
+- Is it reasonable to presume the user to be aware of the feature?
+- Does the feature get in the way, in the case that the user not be aware of it?
 
 ## Is this important?
 
 Yes. The question really is, _Is such a minor feature that important to think about?_ Yes: the smallest details are those that matter most. You don't believe me? If you are really aware of what is happening when you fall in love with someone, you will notice that it happens completely in the smallest details. The subtlety of how your eyes interact. The subtlety of the pressure, motion, speed, temperature, and humidity of every caress. It happens in the tiniest of movements---*that's* where you fall in love. We do *not* fall in love with the intellectual promise the person represents; or else that is an inferior feeling to the one that I am describing.
 
 And so with design: the tiniest details are paramount.
+
+<hr asterism>
