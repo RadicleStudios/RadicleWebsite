@@ -3,7 +3,9 @@ version: 0.1
 phases:
   install:
     commands:
-      - gem install jekyll kramdown
+      - gem install jekyll
+      - gem uninstall sass-listen
+      - gem install kramdown
   build:
     commands:
       - echo "**** Building Jekyll website ****"
