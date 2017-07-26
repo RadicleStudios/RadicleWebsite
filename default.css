@@ -27,6 +27,7 @@ context-block { margin-top: 3rem; padding-top: 0.02em;}
 topic.small { text-transform: uppercase; border-top: 1px solid #666; padding-top: 0em; font-size: 170%; }
 title-block topic { font-family: inherit; text-transform: inherit; letter-spacing: inherit; font-size: 120%; line-height: 1.1; margin-top: 0.2rem; margin-bottom: 0.8rem; font-weight: bolder; border-top: 0; padding-top: 0; }
 topic + p { font-size: 115%; }
+.larger { font-size: 115%; }
 title-block, aside, post-date { display: block; float: left; position: absolute; margin-left: 0; left: 2.5rem; width: 7rem; text-align: right; clear:both; margin-bottom: 1rem; }
 title-block { margin-bottom: 2em; border-top: solid 2px black; padding-top: 6px; }
 subhead, h2 { display: block; font-weight: bold; margin-top: 1.4rem; margin-bottom: 0.4rem; }
