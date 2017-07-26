@@ -53,5 +53,3 @@ To look into: Harry Brignull, Senior User Experience Designer at Clearleft.
 * * *
 
 Term of art: a _conceptual model_ is "a high-level description of how a system is organized and operates."
-
-<hr asterism>

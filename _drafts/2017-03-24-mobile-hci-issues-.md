@@ -29,7 +29,3 @@ categories: notes
 * * *
 
 > Previous research (Deegan and Rothwell, 2010) suggested that there were many unconsidered extraneous distractions that a mobile user would face and presented a model of these distractions. They suggested that distractions can occur from 1) the content itself 2) the application 3) the system software 4) the device hardware and 5) the greater environment.
-
-* * *
-
-<hr asterism>
