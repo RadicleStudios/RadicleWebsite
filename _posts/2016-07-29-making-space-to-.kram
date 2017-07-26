@@ -1,23 +1,10 @@
 ---
-title: "<i>Making Space to Engage: An Open-Ended Exploration of Technology Design with Older Adults</i> (paper)"
-type: research
-excerpt: "Notes from reading the paper"
+title: "Notes on the paper, <i>Making Space to Engage: An Open-Ended Exploration of Technology Design with Older Adults</i>"
+aside: "_Making Space to Engage: An Open-Ended Exploration of Technology Design with Older Adults_, by Florien Güldenpfennig, Francisco Nunes, Eva Ganglbauer, and Geraldine Fitzpatrick (2016)"
 ---
 
-<h1>
-  <span descriptor>
-    {{ page.type | default: "note" }}<span style="float:right">{{ page.date | date: "%e %b %Y" }}</span>
-  </span>
-  {{ page.title }}
-</h1>
+"Older adults are a growing demographic age group who have a low adoption rate of technology when compared to younger adults."
 
-{{ page.excerpt }} --- _Making Space to Engage: An Open-Ended Exploration of Technology Design with Older Adults_, by Florien Güldenpfennig, Francisco Nunes, Eva Ganglbauer, and Geraldine Fitzpatrick (2016)
-{:.lighter}
+Astonishing: "According to Charness, Fox, and Mitchum (2010), only 25% of people between 75 and 84 years, and around 5% of those 85+ years are computer users or have occasional access to the Internet."
 
-> Older adults are a growing demographic age group who have a low adoption rate of technology when compared to younger adults.
-
-> According to Charness, Fox, and Mitchum (2010), only 25% of people between 75 and 84 years, and around 5% of those 85+ years are computer users or have occasional access to the Internet.
-
-> The RtD [Research through Design] school of thought is increasingly gaining momentum in HCI [human-computer interaction]. In fact, RtD embodies a number of features (discussed below) which make it a strong candidate for conducting research on the design of technologies to be used by older people in their everyday life.
-
-<hr asterism>
+"The RtD [Research through Design] school of thought is increasingly gaining momentum in HCI [human-computer interaction]. In fact, RtD embodies a number of features (discussed below) which make it a strong candidate for conducting research on the design of technologies to be used by older people in their everyday life."

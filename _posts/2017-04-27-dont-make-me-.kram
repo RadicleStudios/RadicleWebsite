@@ -1,203 +1,152 @@
 ---
-title: "<i>Don't Make Me Think</i> (book)"
-type: research
-excerpt: "Notes taken from reading the book"
+title: "Notes on the book, <i>Don't Make Me Think</i>"
+aside: "_Don't Make Me Think, Revisited: Common Sense Approach to Web and Mobile Usability_, by Steve Krug (2014)"
 ---
 
-<h1>
-  <span descriptor>
-    {{ page.type | default: "note" }}<span style="float:right">{{ page.date | date: "%e %b %Y" }}</span>
-  </span>
-  {{ page.title }}
-</h1>
-
-{{ page.excerpt }} --- _Don't Make Me Think, Revisited: Common Sense Approach to Web and Mobile Usability_, by Steve Krug (2014)
-{:.lighter}
-
 Mr. Krug introduces his job as a usability consultant in these terms:
-<p dl/>
+
 - He gets invited to take a look at some app or website a client is working on.
 - He tries using the app or website, during which activity he takes note of where the user may get stuck.
 - Having gathered a number of sticking points, he meets with the client's team to sort them out.
+{:.tight}
 
 And I am heartened, this being precisely my own value proposition, that in reading this book I am in good hands. ...His job seems so simple, so where's the 'work?' Well Mr. Krug, if he's good at his job---and I am inclined to believe that he is---has to have an extraordinary ability to empathize and visualize: he must be able to get into the minds and hearts of a variety of people: he must be able to, in a sense, take their nervous systems and 'try them on;' and he must be able to suppose and visualize a great many different situations and manners that that app or website may be used.
 
 This kind of empathic perspicacity is not easy. In fact, I think it's not possible unless you have a talent for it. --- "Could a greater miracle take place than for us to look through each other's eyes for an instant?" (Thoreau) --- I type happily on this topic, because I reflect that not only am I extraordinarily able to see the world through various perspectives, but I am also motivated to become better still in this regard. ...If you find yourself in conversation with me, and can recall only one thing from my writing, let it be this: I will hold you in a kind of respect that is rare in our society: I will view your every thought and feeling as valid, as interesting, and as a part of a beautiful living organism. Some of us are adventurers who travel the globe and pit ourselves against dangers; I myself adventure on the internal realm of what people think and feel.
 
-* * *
-
 Mr. Krug speaks to the demand for usability professionals:
-<p dl/>
-> Almost every development team could use somebody like me to help them build usability into their products. Unfortunately, the vast majority of them can't afford to hire a usability professional. And even if they could, there aren't enough to go around.
 
-* * *
+"Almost every development team could use somebody like me to help them build usability into their products. Unfortunately, the vast majority of them can't afford to hire a usability professional. And even if they could, there aren't enough to go around."
 
-Quoting "a high school friend," Mr. Krug offers what I find to be a wonderful way to think about usability consulting:
-<p dl/>
-> I can't tell you anything you don't already know.<br>
-> But I'd like to clarify a few things.
+Quoting "a high school friend," Mr. Krug offers what I find to be a wonderful way to think about usability consulting:<br>
+"I can't tell you anything you don't already know.<br>
+"But I'd like to clarify a few things."
 
-* * *
+<span sc>Defining usability</span>: "If something is usable...it means that:<br>
+A person of average (or even below average) ability and experience can figure out how to use the thing to accomplish something without it [_sic_] being more trouble than it's worth."
 
-### Defining usability
+<subhead>Chapter 1</subhead>
 
-> If something is usable...it means that:<br>
-> A person of average (or even below average) ability and experience can figure out how to use the thing to accomplish something without it [_sic_] being more trouble than it's worth.
+Mr. Krug tells us the most important consideration for making an app usable: "Don't make me think!" This is his first law of usability.
 
-* * *
-
-### Chapter 1
-
-In the first chapter, Mr. Krug tells us the most important consideration for making an app usable: "Don't make me think!" This is his first law of usability.
-
-* * *
-
-### Chapter 2
+<subhead>Chapter 2</subhead>
 
 This chapter discovers how websites or apps are *really* used:
-<p dl/>
+
 - We don't *read* them so much as we *scan* them.
 - Presented with a few options, we don't rationally choose the best one, because 'rationally' is not how human beings decide things.
-- We don't try to understand how we're *supposed* to use something, but we "muddle through," sometimes using apps in ways that would completely surprise the app makers. --- Mr. Krug highlights that designs that have the user 'muddle through' make for compromised user experiences. 
+- We don't try to understand how we're *supposed* to use something, but we "muddle through," sometimes using apps in ways that would completely surprise the app makers. --- Mr. Krug highlights that designs that have the user 'muddle through' make for compromised user experiences.
+{:.tight}
 
-* * *
-
-### Chapter 3
+<subhead>Chapter 3</subhead>
 
 Mr. Krug recommends what to do, given that users are "whizzing by" (as opposed to their taking the time and care to understand how to use the website properly, as the website designers may have supposed):
-<p dl/>
-> - Take advantage of conventions.
-> - Create effective visual hierarchies.
-> - Break pages up into clearly defined areas.
-> - Make it obvious what's clickable.
-> - Eliminate distractions.
-> - Format content to support scanning.
 
-* * *
+- "Take advantage of conventions."
+- "Create effective visual hierarchies."
+- "Break pages up into clearly defined areas."
+- "Make it obvious what's clickable."
+- "Eliminate distractions."
+- "Format content to support scanning."
+{:.tight}
 
-### Chapter 4
+<subhead>Chapter 4</subhead>
 
-Mr. Krug's second law of usability is introduced---"It doesn't matter how many times I have to click, as long as each click is a mindless, unambiguous choice."---the ending phrase requiring some explaining: He admonishes that 'how many clicks it takes a user to get what he wants' is a seductive metric, but isn't as useful as considering how 'hard' each click is:
-<p dl/>
-> I think the rule of thumb might be something like "three mindless, unambiguous clicks equals one click that requires thought."
+Mr. Krug's second law of usability is introduced---"It doesn't matter how many times I have to click, as long as each click is a mindless, unambiguous choice."---the ending phrase requiring some explaining: He admonishes that 'how many clicks it takes a user to get what he wants' is a seductive metric, but isn't as useful as considering how 'hard' each click is: "I think the rule of thumb might be something like 'three mindless, unambiguous clicks equals one click that requires thought.'"
 
 Stepping back, though, this chapter is really an elaboration upon Mr. Krug's first law---_don't make me think_---written it seems to combat the popular but erroneous notion that fewer clicks are somehow better.
 
-* * *
+<subhead>Chapter 5</subhead>
 
-### Chapter 5
+Mr. Krug's third law of usability is about brevity, and corresponds with: "Get rid of half the words on each page, then get rid of half of what's left."
 
-Mr. Krug's third law of usability is about brevity, and corresponds with:
-<p dl/>
-> Get rid of half the words on each page, then get rid of half of what's left.
+He adds: "Happy talk must die." --- "Instructions must die."
 
-He adds:
-<p dl/>
-- "Happy talk must die."
-- "Instructions must die."
+<subhead>Chapter 6</subhead>
 
-* * *
-
-### Chapter 6
-
-Is all about navigation.
-<p dl/>
-> People won't use your website if they can't find their way around it.
+Is all about navigation: "People won't use your website if they can't find their way around it."
 
 A light is shined on the "overlooked purposes of navigation:"
-<p dl/>
+
 - "It tells us what's here."
 - "It tells us how to use the website."
 - "It gives us confidence in the people who built it."
+{:.tight}
 
-* * *
-
-### Chapter 7
+<subhead>Chapter 7</subhead>
 
 Mr. Krug represents how daunting designing the home page of a website may be, because all these things have to be accommodated:
-<p dl/>
-> - Site identity and mission...
-> - Site hierarchy...
-> - Search...
-> - Teases...
-> - Content promos...
-> - Feature promos...
-> - Timely content...
-> - Deals...
-> - Shortcuts...
-> - Registration...
-<p dl/>
-Furthermore:
-<p dl/>
-- The home page is 'prime real estate' so what gets put there is a ponderous consideration.
-- Its importance attracts lots of people to be involved---"Too many cooks."
-- It has to appeal to every user.
+
+- "Site identity and mission..."
+- "Site hierarchy..."
+- "Search..."
+- "Teases..."
+- "Content promos..."
+- "Feature promos..."
+- "Timely content..."
+- "Deals..."
+- "Shortcuts..."
+- "Registration..."
+{:.tight}
+
+Further:
+
+- "The home page is 'prime real estate' so what gets put there is a ponderous consideration."
+- "Its importance attracts lots of people to be involved---'Too many cooks.'"
+- "It has to appeal to every user."
+{:.tight}
 
 I don't know if I agree that the home page has to do all of these things: maybe it's not so important as people think, to have all these things on the front page. But, if we take all of these functions as necessary, it's no wonder websites are a complete mess.
 
 Nevertheless, Mr. Krug observes that what is most often lost as a result of contending with so much is "conveying the big picture."
 
 Mr. Krug conveys the kinds of questions that the user may have while browsing a website:
-<p dl/>
+
 - "What is this?"
 - "What do they have here?"
 - "What can I do here?"
 - "Why should I be here---and not somewhere else?"
 - "Where do I start?"
+{:.tight}
 
-* * *
-
-### Chapters 8 and 9
+<subhead>Chapters 8 and 9</subhead>
 
 Chapter 8 speaks about avoiding unproductive arguments; chapter 9, how non-usability-professionals may test for usability cheaply.
 
-* * *
-
-### Chapter 10
+<subhead>Chapter 10</subhead>
 
 In this chapter Mr. Krug upsets me a little because he uses the term _affordance_ in a way that confounds two important ideas: an _affordance_ is something you can do with a thing; a _signifier_ is something that (visually) indicates an affordance. So, he uses the term incorrectly, and even admits it! But he says that everyone is using the term incorrectly, so he'll continue to do so as well. ...And I don't know why this doesn't sit right with me. But it's not that big a deal.
 
-* * *
-
-### Chapter 11
+<subhead>Chapter 11</subhead>
 
 The cost is conveyed, in terms of frustration for the user, of interfaces having low usability.
 
-* * *
-
-### Chapter 12
+<subhead>Chapter 12</subhead>
 
 'Accessibility' is discussed, which term refers to an app's or website's usability for those with drastically compromised abilities.
 
-I agree this is very important. I must be honest, I'm not so interested in creating designs catering to disabilities, if it means the original design must be compromised too much.
+I agree this is very important. I must be honest, I'm not so interested in creating designs catering to disabilities, if it means the original design must be compromised too much. Or if I am more accurate, I just don't know much about how to do it. This is something I will hire accessibility experts for; and I'll count on them to keep me in line.
 
-This is something I will hire accessibility experts for; and I'll count on them to keep me in line.
-
-* * *
-
-### Chapter 13
+<subhead>Chapter 13</subhead>
 
 The final chapter deals with how to convey the importance of usability to 'management.'
 
 Being a book of refreshing brevity, I appreciate the following 'background' Mr. Krug provides:
-<p dl/>
-> Back in the late 1990s, _usability and user centered design_ (UCD) were the terms most people used to describe any efforts to design with the user in mind. And there were essentially two "professions" that focused on making websites more usable: Usability (making sure things are designed in a way that enables people to use them successfully) and Information Architecture (making sure the content is organized in a way that allows people to find what they need).
-> 
-> Now the term you hear most often is _user experience design_, or just _user experience_ (UXD or UX, for short), and there are probably a dozen specialties involved, like _interaction design_, _interface design_, _visual design_, and _content management_---and, of course, _usability_ and _information architecture_---all under the UX umbrella.
-> 
-> One difference between _user centered design_ and _user experience design_ is their scope. UCD focused on designing the right product and making sure that it was usable. UX sees its role as taking the users' needs into account at every stage of the product life cycle, from the time they see an ad on TV, through purchasing it and tracking its delivery online, and even returning it to a local branch store.
-> 
-> The good news is that there's a lot more awareness now of the importance of focusing on the user. Steve Jobs (and Jonathan Ive) made a very compelling business case for UX, and as a result usability is an easier sell than it was even a few years ago.
-> 
-> The bad news is that where usability used to be the standard bearer for user-friendly design, now it's got a lot of siblings looking for seats at the table, each convinced that their set of tools are the best ones for the job. The worse news is that not many people understand the differences between the specialties or the unique contributions they can make.
+
+"Back in the late 1990s, _usability and user centered design_ (UCD) were the terms most people used to describe any efforts to design with the user in mind. And there were essentially two "professions" that focused on making websites more usable: Usability (making sure things are designed in a way that enables people to use them successfully) and Information Architecture (making sure the content is organized in a way that allows people to find what they need).
+
+"Now the term you hear most often is _user experience design_, or just _user experience_ (UXD or UX, for short), and there are probably a dozen specialties involved, like _interaction design_, _interface design_, _visual design_, and _content management_---and, of course, _usability_ and _information architecture_---all under the UX umbrella.
+
+"One difference between _user centered design_ and _user experience design_ is their scope. UCD focused on designing the right product and making sure that it was usable. UX sees its role as taking the users' needs into account at every stage of the product life cycle, from the time they see an ad on TV, through purchasing it and tracking its delivery online, and even returning it to a local branch store.
+
+"The good news is that there's a lot more awareness now of the importance of focusing on the user. Steve Jobs (and Jonathan Ive) made a very compelling business case for UX, and as a result usability is an easier sell than it was even a few years ago.
+
+"The bad news is that where usability used to be the standard bearer for user-friendly design, now it's got a lot of siblings looking for seats at the table, each convinced that their set of tools are the best ones for the job. The worse news is that not many people understand the differences between the specialties or the unique contributions they can make."
 
 It is on this last point that my notes concerning this book will draw to a close. Isn't it such wonderful irony, that the field has become as complex as most apps and websites, and has *itself* become rather unusable? I am basking in that irony, and I am excited that apparently the world needs me. I have been watching the field of UX unfold and not actually get us much further along. I see everybody is confused, while my own mind is lucid. There is a huge contribution I can make here, so long as I learn to stop getting in my own way. I'm speaking of my personal psychology now.
 
-* * *
-
 Mr. Krug offers two book recommendations that treat the matter of organizational buy-in:
-<p dl/>
+
 - _It's Our Research_, by Tomer Sharon.
 - _The User Experience Team of One: A Research and Design Survival Guide_, by Leah Buley.
-
-<hr asterism>
+{:.tight}

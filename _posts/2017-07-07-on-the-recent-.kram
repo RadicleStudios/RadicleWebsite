@@ -1,38 +1,28 @@
 ---
 title: "On the recent arguments surrounding the automatic treatment of dashes in iOS 11"
-type: reflection
 ---
-
-<h1>
-  <span descriptor>
-    {{ page.type | default: "note" }}<span style="float:right">{{ page.date | date: "%e %b %Y" }}</span>
-  </span>
-  {{ page.title }}
-</h1>
 
 Some recent argumentation surrounding an upcoming feature in the yet-to-be-released iOS 11 has piqued my interest, and offers a point of departure for making an important point.
 
-**The upcoming feature**: the feature would transform the text the user types, as she types it, like so: when the user types two or three consecutive dashes, they would transform into an [en dash](https://en.wikipedia.org/wiki/Dash#En_dash) or an [em dash](https://en.wikipedia.org/wiki/Dash#Em_dash) (respectively).
+<span sc>The upcoming feature</span>: the feature would transform the text the user types, as she types it, like so: when the user types two or three consecutive dashes, they would transform into an [en dash](https://en.wikipedia.org/wiki/Dash#En_dash) or an [em dash](https://en.wikipedia.org/wiki/Dash#Em_dash) (respectively).
 
-**The argumentation**: arguments are being made over which dash-producing scheme ought be adopted as standard; the one scheme producing an en and em dash from two and three dashes, the other scheme producing an em dash from two dashes and leaving the en dash out.
+<span sc>The argumentation</span>: arguments are being made over which dash-producing scheme ought be adopted as standard; the one scheme producing an en and em dash from two and three dashes, the other scheme producing an em dash from two dashes and leaving the en dash out.
 
-**Some context**: the upcoming feature is a part of what is called "smart punctuation," which does the work of transforming some of the punctuation the user types, _eg_ transforming quotes to 'wrap' words the way we expect them to, and it also transforms dashes.
+<span sc>Some context</span>: the upcoming feature is a part of what is called "smart punctuation," which does the work of transforming some of the punctuation the user types, _eg_ transforming quotes to 'wrap' words the way we expect them to, and it also transforms dashes.
 
-## Is it convenient?
+<subhead>Is it convenient?</subhead>
 
 Smart punctuation is supposed to be convenient, so let us consider what the transforming of dashes convenes: if the user wants to produce an en or em dash, she can tap and hold the dash key on the iPhone keyboard to reveal the three available dashes, and then she can type the one she wants; _or_ she can rely on smart punctuation and type the right number of consecutive dashes as to produce the dash varieant she desires. The 'ease' the latter approach provides is certainly a convenience (even though the time savings is only a fraction of a second).
 
-## Should it be standard?
+<subhead>Should it be standard?</subhead>
 
 Smart punctuation is attempting to help the user. But a feature the operation of which the user does not know about causes her brow to furrow. So the most pertinent considerations in my mind are:
 <p dl/>
 - Is it reasonable to presume the user to be aware of the feature?
 - Does the feature get in the way, in the case that the user not be aware of it?
 
-## Is this important?
+<subhead>Is this important?</subhead>
 
 Yes. The question really is, _Is such a minor feature that important to think about?_ Yes: the smallest details are those that matter most. You don't believe me? If you are really aware of what is happening when you fall in love with someone, you will notice that it happens completely in the smallest details. The subtlety of how your eyes interact. The subtlety of the pressure, motion, speed, temperature, and humidity of every caress. It happens in the tiniest of movements---*that's* where you fall in love. We do *not* fall in love with the intellectual promise the person represents; or else that is an inferior feeling to the one that I am describing.
 
 And so with design: the tiniest details are paramount.
-
-<hr asterism>

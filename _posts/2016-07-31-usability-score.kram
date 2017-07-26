@@ -1,29 +1,14 @@
 ---
 title: "<i>A Usability Score for Mobile Phone Applications Based on Heuristics</i> (paper)"
-type: research
-excerpt: "Notes from reading the paper"
+aside: "_A Usability Score for Mobile Phone Applications Based on Heuristics_, by Christiane Gresse von Wangenheim, Talita A. Witt, Adriano Ferreti Borgatto, and Laís de Oliveira Souza (2016)"
 ---
 
-<h1>
-  <span descriptor>
-    {{ page.type | default: "note" }}<span style="float:right">{{ page.date | date: "%e %b %Y" }}</span>
-  </span>
-  {{ page.title }}
-</h1>
-
-{{ page.excerpt }} --- _A Usability Score for Mobile Phone Applications Based on Heuristics_, by Christiane Gresse von Wangenheim, Talita A. Witt, Adriano Ferreti Borgatto, and Laís de Oliveira Souza (2016)
-{:.lighter}
-
-> "Usability is understood as the extent to which a product can be used by specified users to achieve specified goals with effectiveness, efficiency and satisfaction in a specified context of use." (ISO 9241-11)
-
-* * *
+&ldquo;"Usability is understood as the extent to which a product can be used by specified users to achieve specified goals with effectiveness, efficiency and satisfaction in a specified context of use." (ISO 9241-11)"
 
 They present "MaTCH - an instrument and scale to measure usability of touchscreen phone applications through a single score."
 
-* * *
-
 'Traditional' heuristics (i.e. Based on Nielsen (2004)):
-<p dl/>
+
 - Visibility of system status
 - Match between system and real world
 - User control and freedom
@@ -34,12 +19,13 @@ They present "MaTCH - an instrument and scale to measure usability of touchscree
 - Aesthetic and minimalist design
 - Help users recognize, diagnose, and recover from, errors
 - Help and documentation
+{:.tight}
 
 Additional heuristics:
-<p dl/>
+
 - Compatibility between different platforms
 - Little human/device interaction
 - Physical interaction and ergonomics
 - Readability and layout
+{:.tight}
 
-<hr asterism>

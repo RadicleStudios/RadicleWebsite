@@ -1,15 +1,6 @@
 ---
 title: "Making the blog preeminent"
-type: reflection
-excerpt: "I consider the fundamental principle informing the layout of the Radicle website"
 ---
-
-<h1>
-  <span descriptor>
-    {{ page.type | default: "note" }}<span style="float:right">{{ page.date | date: "%e %b %Y" }}</span>
-  </span>
-  {{ page.title }}
-</h1>
 
 I had been struggling with how to organize this the company website, until a clarity descended upon me. The struggle related to a tug-of-war between what I intended to be creating, and the 'way things are done.' At length, I considered what is the purpose of a website at all.
 
@@ -18,8 +9,3 @@ The typical way to design a website is from a psychological context of trying to
 To resolve the disquietude concerning the website's organization, I connected with what I truly wanted: to do the work that I love, and to direct my activity so as to transform the industry. And transformation has to do with ideas. The way things are, the _status quo_, is an echo of old ideas. *New* ideas will destroy how things are, and while that may cause some palpitations among the incumbents, so long as we proceed in the direction of making things make ever more sense, what wonderful things we can build!, and *humanity* will be the beneficiary. So far as my *own* interest is concerned, it aligns perfectly with that of humanity.
 
 Bearing these things in mind, that first I aim to do the work that I love, and secondly that the outcome I'm driving towards is transformation for humanity's benefit, I have organized my site to harmonize with this philosophy. Therefore, the *blog* is preeminent, as it is the principal manner in which Radicle will promulgate important ideas. The 'business' side of Radicle take a back seat.
-
---- Raphael Schindler
-
-<hr asterism>
-

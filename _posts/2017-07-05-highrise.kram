@@ -1,24 +1,15 @@
 ---
-title: "<i>Highrise</i> (app)"
-type: assessment
-excerpt: "We consider one screen from the iPhone app <i>Highrise</i> from the point of view of the design principle of <i>locateability</i>"
+title: "The principle of <i>locateability</i> in the <i>Highrise</i> iPhone app"
 ---
 
-<h1>
-  <span descriptor>
-    {{ page.type | default: "note" }}<span style="float:right">{{ page.date | date: "%e %b %Y" }}</span>
-  </span>
-  {{ page.title }}
-</h1>
-
-{{ page.excerpt }} --- App website: [get.highrisehq.com/extras/](https://get.highrisehq.com/extras/)
+App website: [get.highrisehq.com/extras/](https://get.highrisehq.com/extras/)
 {:.lighter}
 
 I must say at the outset that I love this company, because the impression I have of them is that they love their work to a degree uncommon in the industry. Let me silence any cavillers and say my impression is 'imperfect,' by which I mean I do not have a comprehensive view of the industry, and so cannot say who does or does not love her work; nevertheless, the sentiment I am expressing is important and valid: I love companies that love what they do, and I think Highrise to be such a company.
 
 So let us begin in assessing the user's first impression of the app. For convenience we will conflate what the user thinks consciously with what she feels subconsciously.
 
-## On telling the user where she is
+<subhead>On telling the user where she is</subhead>
 
 We have to escape from the notion that the user always remembers where she came from, _eg_ the notion that, having launched an app, she later returns to her phone and remembers which app is launched; and this principle is equally applicable to every screen in the app.
 
@@ -34,10 +25,9 @@ Furthermore, there is no way to see what this screen is for. I do appreciate the
 
 So, before doing any exploring, the user cannot be certain what the screen she is looking at is for, nor can she be certain which tab corresponds with the current screen.
 
-## Is this important?
+<subhead>Is this important?</subhead>
 
 Maybe. It could be that once there are some data---the screen above is for a brand new _Highrise_ account---the screen's content is so populated as to make the screen's purpose more clear; and it could be that the paucity of navigation locateability signifiers is a deliberate design compromise that diminishes the app's usability in the temporary case when it is bereft of data in order to increase some other factor once the data are in.
 
 We must nevertheless give proper weight to the consideration of locateability. It is among the most fundamental aspects that make for usable designs; and it is often not given the proper attention as its effects are so subconscious to the users, _ie_ many users may just have an off feeling concerning the app and not be able necessarily to determine why.
 
-<hr asterism>

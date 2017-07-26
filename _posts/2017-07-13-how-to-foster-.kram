@@ -1,14 +1,6 @@
 ---
 title: "How to foster creative and innovative thinking in your organization"
-type: reflection
 ---
-
-<h1>
-  <span descriptor>
-    {{ page.type | default: "note" }}<span style="float:right">{{ page.date | date: "%e %b %Y" }}</span>
-  </span>
-  {{ page.title }}
-</h1>
 
 I presume my readers already to understand the benefit of such thinking, which I will convey simply in order that we share a well-defined point of departure: the success of an organization highly corresponds to the degree to which such thinking is permitted to influence it. Now, success is a slippery notion. Many companies are fine being the size they are, and an honest reflection may reveal that they do *not* in fact aspire to be among the fastest-growing, or among the superlatively effective. Personally, I have as much appreciation for such companies, whose goal is rather a sustained stasis than growth, as I do for those poised to grow large. But for those companies whose disposition urges them to become great, creative and innovative thinking is pivotal to that aspiration.
 
@@ -41,5 +33,3 @@ Let us contemplate a final illustration that may bring us to an equanimity on th
 Let us now address how to foster thinking in your organization. It may surprise you that little remains for us to discuss. The hidden truth about human innovation is that it is a force that we need never encourage or promote: it is implicit in human nature; and further, psychology gives us evidence that intervening in this natural proclivity acts to its detriment. Our discussion has been important in shining a light on how our current practices happen to wipe it out: the way we manage our organizations feels rational enough, but we unwittingly tend to curtail exactly the kind of thinking that we desire to promote.
 
 The happiest situation concerning attaining something we want occurs with realizing we already possess it. This is exactly that kind of wonderful situation, where to get to where it pleases us to go requires rather subtraction than addition. We do not need to develop the kind of thinking that will benefit our organizations, but rather, we need to develop an awareness of the customary practices that curtail it, which we unconsciously preponderate.
-
-<hr asterism>

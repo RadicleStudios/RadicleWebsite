@@ -1,37 +1,66 @@
 /* Layout */
 
-* { box-sizing: border-box; }
-div, section, main, article { position: relative; }
+@media all                         { html { font-size: 25px; } }
+@media all and (max-width: 1000px) { html { font-size: 24px; } }
+@media all and (max-width:  960px) { html { font-size: 23px; } }
+@media all and (max-width:  920px) { html { font-size: 22px; } }
+@media all and (max-width:  880px) { html { font-size: 21px; } }
+@media all and (max-width:  840px) { html { font-size: 20px; } }
+@media all and (max-width:  800px) { html { font-size: 19px; } }
+@media all and (max-width:  760px) { html { font-size: 18px; } }
+@media all and (max-width:  720px) { html { font-size: 17px; } }
+@media all and (max-width:  680px) { html { font-size: 16px; } }
+@media all and (max-width:  640px) { html { font-size: 15px; } }
+@media all and (max-width:  600px) { html { font-size: 14px; } }
+@media all and (max-width:  560px) { html { font-size: 13px; } }
+@media all and (max-width:  520px) { html { font-size: 12px; } }
+/*@media all and (max-width: 520px)  { html {font-size: 18px; } }*/
+
+body { font-family: 'Linux Libertine'; }
+
 html { height: 100%; }
-body { height: 100%; line-height: 0; }
-main { border: 1px solid transparent; }
-body > header, body > footer, body > main { min-width: 320px; max-width: 720px; margin: 0 auto; padding: 0 24px; }
-[narrow], .narrow { max-width: 480px; margin-left: auto; margin-right: auto; }
-body > header { height: 48px; }
-body > footer { height: 48px; }
-main { min-height: calc(100% - 96px); }
-p, ul, h3, h2, h1, nav { line-height: 24px; }
-h1 [descriptor], h1 .descriptor { line-height: 12px; display: block; }
-p[compact], p.compact { line-height: 16px; }
-main p, main ul { margin: 24px 0; }
-main h3 { margin: 24px 0 0 0; }
-main h2 { margin: 24px 0; }
-main h1 { margin: 72px 0 24px 0; }
-main blockquote { margin: 0 0; padding-left: 22px; border-left: 2px solid transparent; }
-h3 + p, h3 + ul, h3 + blockquote > p, h3 + blockquote > ul { margin-top: 0; }
-p[delete-line], p[dl] { margin-top: -24px; }
-[no-margin], .no-margin { margin: 0; }
-[without-vertical-margins], .without-vertical-margins { margin-top: 0; margin-bottom: 0; }
-[without-top-margin], .without-top-margin { margin-top: 0; }
-[without-bottom-margin], .without-bottom-margin { margin-bottom: 0; }
-[without-horizontal-padding], .without-horizontal-padding { padding-left: 0; padding-right: 0; }
-[full-width], .full-width { width: 100%; }
-[full-size], .full-size { width: 100%; height: 100%; }
-[with-clearfix]::after, .with-clearfix::after { content: ""; display: block; clear: both; }
-hr { border: 0; border-bottom: 1px solid transparent; margin-bottom: -1px; }
-hr[asterism] { display: block; border: 0; content: "hi"; height: 24px; margin: 24px auto; }
-hr[asterism]::before { line-height: 32px; font-size: 28px; content: "\2042"; text-align: center; display: block; }
-article + article { margin-top: 24px; }
+body { margin-left: auto; margin-right: auto; width: 100%; max-width: 1000px; min-height: 100%; font-feature-settings: 'kern' 1, 'liga' 1; position: relative; }
+body > * { font-size: 100%; margin-left: 11.5rem; margin-right: 2.5rem; }
+div.content { padding: 3rem 0 10rem 0; }
+topic { display: block; font-family: 'Linux Libertine'; font-size: 190%; line-height: 1.1; margin-top: 3rem; margin-bottom: 3rem; border-top: 0.10em solid black; padding-top: 0.02em; hyphens: none; }
+context-block { margin-top: 3rem; padding-top: 0.02em;}
+topic.small { text-transform: uppercase; border-top: 1px solid #666; padding-top: 0em; font-size: 170%; }
+title-block topic { font-family: inherit; text-transform: inherit; letter-spacing: inherit; font-size: 120%; line-height: 1.1; margin-top: 0.2rem; margin-bottom: 0.8rem; font-weight: bolder; border-top: 0; padding-top: 0; }
+topic + p { font-size: 115%; }
+title-block, aside, post-date { display: block; float: left; position: absolute; margin-left: 0; left: 2.5rem; width: 7rem; text-align: right; clear:both; margin-bottom: 1rem; }
+title-block { margin-bottom: 2em; border-top: solid 2px black; padding-top: 6px; }
+subhead, h2 { display: block; font-weight: bold; margin-top: 1.4rem; margin-bottom: 0.4rem; }
+aside { font-size: 0.85rem; line-height: 1.40; color: #667; }
+post-item { display: block; margin-bottom: 1.4em; line-height: 1.35;}
+post-date { color: #667; font-feature-settings: 'onum', 'c2sc', 'smcp'; }
+short-rule { display: block; font-size: 100%; line-height: 1.25; font-style: italic; hyphens: none; }
+strong, b { font-weight: bold; }
+em, i { font-style: italic; }
+sc, .sc, [sc] { display: inline; font-family: 'Linux Libertine SC'; font-feature-settings: 'c2sc', 'smcp', 'onum'; }
+.grey, [grey] { color: #667; }
+p, li, .poem { margin-bottom: 1em; line-height: 1.35; }
+ol.tight li, ul.tight li { margin-bottom: 0; }
+ol.tight, ul.tight { margin-top: -0.5rem; margin-bottom: 0.5rem; }
+li { margin-left: 2.5rem; }
+ul li::before { content: "\002D"; display: inline-block; width: 0; position: relative; top: 0px; left: -2.5rem; }
+ul.embellished li::before { content: "\2767"; }
+ul.embellished2 li::before { content: "\274B"; }
+ol { counter-reset: ol; }
+ol li::before { counter-increment: ol; content: counter(ol) "."; display: inline-block; width: 0; position: relative; top: 0px; left: -2.5rem; }
+sig { display: block; text-align: right; text-transform: lowercase; font-family: 'Linux Libertine SC'; font-feature-settings: 'c2sc', 'onum', 'liga' 0; margin-bottom: 5em; margin-right: 0.5rem; }
+.poem sig { margin-bottom: 0.8rem; text-align: center; }
+.subsection { display: block; margin-top: 1.5rem; margin-bottom: 1.5rem; background: #EFEFEF; background: radial-gradient(#F3F3F3 20%, #EBEBEB 100%); border-top: 1px solid #CFCFCF; padding: 1rem 1rem 0.5rem 1rem; border-bottom: 1px solid #CFCFCF; }
+.subsection-title { display: block; text-transform: uppercase; font-feature-settings: 'c2sc', 'smcp'; font-weight: bolder; margin-bottom: 0.8rem; }
+.btw { display: block; margin-top: 2em; }
+.btw-title { display: block; text-align: center; font-size: 80%; text-transform: uppercase; font-feature-settings: 'case'; font-weight: bolder; letter-spacing: 2px; margin-bottom: 1em; padding-bottom: 0.6em; border-bottom: 4px double #ccc; margin-left: 25%; margin-right: 25%; }
+.btw li { margin-left: 2.5rem; margin-bottom: 0.7em; font-size: 95%; }
+.btw li::before { content: "\2799"; display: inline-block; width: 0; position: relative; top: 0px; left: -2.5rem; }
+.poem { text-align: center; }
+.poem-title { font-size: 115%; font-style: italic; margin-top: 3rem; }
+.poem-body { white-space: pre; }
+
+
+a { text-decoration: none; }
 
 /* Colour */
 
@@ -44,9 +73,6 @@ hr[asterism] { color: #9F9F9F; }
 a { color: #C91919; }
 [lighter] a, .lighter a, a[lighter], a.lighter { color: #C96969; }
 [lighter], .lighter { color: #8C8C8C; }
-[header-background], .header-background { position: absolute; top: 0; left: 0; right: 0; height: 48px; background-color: #FFFFFF; border-bottom: 1px solid #DFDFDF; z-index: -1; }
-[footer-background], .footer-background { position: absolute; left: 0; right: 0; height: 48px; background-color: #FFFFFF; border-top: 1px solid #DFDFDF; z-index: -1; }
-[card-background], .card-background { position: absolute; left: -6px; right: -6px; top: -6px; bottom: -6px; background-color: #FFFFFF; border: 1px solid #DFDFDF; border-radius: 6px; z-index: -1; }
 
 /* Typography */
 
@@ -54,49 +80,7 @@ a { color: #C91919; }
 @font-face { font-family: 'Linux Libertine'; src: url('/assets/linlibertine_rb.woff') format('woff'); font-weight: bold; font-style: normal; }
 @font-face { font-family: 'Linux Libertine'; src: url('/assets/linlibertine_ri.woff') format('woff'); font-weight: normal; font-style: italic; }
 @font-face { font-family: 'Linux Libertine'; src: url('/assets/linlibertine_rbi.woff') format('woff'); font-weight: bold; font-style: italic; }
-body { font-family: 'Linux Libertine', serif; }
-p, nav, ul, h3, h2, h1 { font-size: 19px; }
-[body-text], .body-text { font-size: 16px; font-weight: normal; text-transform: none; }
-p[compact], p.compact { font-size: 12px; }
-[uppercase], .uppercase { text-transform: uppercase; }
-h1 [descriptor], h1 .descriptor { font-size: 13px; text-transform: uppercase; font-weight: normal; }
-h3, h2, h1 { font-weight: bold; }
-[tabular-numbers], .tabular-numbers { font-feature-settings: "tnum"; }
-[with-underline], .with-underline { text-decoration: underline; }
-[with-overline], .with-overline { text-decoration: overline; }
-[without-text-transform], .without-text-transform { text-transform: none; }
-[justified], .justified { text-align: justify; }
-[left-aligned], .left-aligned { text-align: left; }
-em, i { font-style: italic; }
-strong, b { font-weight: bold; }
-a { text-decoration: none; }
-code { white-space: pre; }
-sup { vertical-align: super; line-height: 0; font-size: smaller; }
-
-/* Misc */
-
-html { -moz-text-size-adjust: none; -ms-text-size-adjust: none; -webkit-text-size-adjust: none; text-size-adjust: none; }
-
-
-div.overlay { width: 100%; height: 100%; position: absolute; top: 0; }
-[special-bottom-border] { border-bottom: 1px solid black; }
-
-ul > li::before { content: "-"; display: inline-block; width: 0; position: relative; top: 0px; left: -12px; }
-ol > li { list-style-type: decimal; }
-
-hr.separator { display: block; width: 72px; margin: 23px auto 24px 0; border-bottom: 1px solid #3f3f3f; }
-hr.note-separator { width: 100%; margin: 23px 0 24px 0; border-bottom: 1px dashed #3f3f3f; }
-hr.middle-separator { width: 72px; margin: 23px auto 24px auto; border-bottom: 1px solid #3f3f3f; }
-
-ol.notes::before { content: ""; display: block; width: 72px; height: 23px; border-top: 1px solid #5f5f5f; }
-ol.notes { line-height: 18px; font-size: 14px; list-style: decimal outside; margin-top: 18px; }
-ol.notes > li { line-height: 18px; font-size: 14px; margin-left: 36px; }
-
-.sp2 { display: inline-block; margin: -24px; border: 24px solid transparent; box-sizing: padding-box;
-  background: no-repeat left -24px top -24px url(/assets/mark-topleft.png),
-              no-repeat right -24px top -24px url(/assets/mark-topright.png),
-              no-repeat right -24px bottom -24px url(/assets/mark-bottomright.png),
-              no-repeat left -24px bottom -24px url(/assets/mark-bottomleft.png); }
-.special { position: relative; }
-.special::before { display: block; margin-left: -24px; margin-right: -24px; height: 24px; content: "i"; background: url(/assets/mark-topleft.png); }
-.special::after { display: block; width: 24px; height: 24px; content: " "; position: absolute; left: 100%; top : 100%; background: no-repeat url(/assets/mark-bottomright.png); }*/
+@font-face { font-family: 'Linux Libertine SC'; src: url('/assets/linlibertine_s.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Linux Libertine SC'; src: url('/assets/linlibertine_rb.woff') format('woff'); font-weight: bold; font-style: normal; }
+@font-face { font-family: 'Linux Libertine SC'; src: url('/assets/linlibertine_ri.woff') format('woff'); font-weight: normal; font-style: italic; }
+@font-face { font-family: 'Linux Libertine SC'; src: url('/assets/linlibertine_rbi.woff') format('woff'); font-weight: bold; font-style: italic; }

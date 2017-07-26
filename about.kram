@@ -1,24 +1,39 @@
 ---
-title: Radicle > About
+title: About Radicle
 ---
 
-Ca&shy;na&shy;di&shy;an cor&shy;po&shy;ra&shy;tion Rad&shy;i&shy;cle Inc. --- Est. 2015 --- Of&shy;fice: 94-1480 Es&shy;qui&shy;malt Ave, West Van&shy;cou&shy;ver BC &nbsp;V7T 1K8 --- Con&shy;tact: Ra&shy;phael Schin&shy;dler, Hu&shy;man In&shy;ter&shy;face De&shy;sign&shy;er: [raphael@radicle.io](mailto:raphael@radicle.io)
-{: .lighter .compact .narrow .justified}
 
-# Radicle
+<div style="margin-top:8rem;margin-bottom:4rem">
+  <aside>
+    <img src="/assets/logo-small-selected.svg" style="height:2rem">
+  </aside>
+  <span style="font-size:2rem">Radicle</span><br>
+  A one-man app-design company in West Vancouver, Canada<br>
+  There's a <a href="/index.html">blog</a>
+</div>
 
-Please be patient while we dial-in our web presence. In the meanwhile...
+<title-block>
+  <topic>Raphael Schindler</topic>
+  <short-rule>Human Interface Designer</short-rule>
+</title-block>
 
-## The story of a company
+I'm a free&shy;lance app de&shy;si&shy;gner, and I work with mo&shy;bile de&shy;ve&shy;lop&shy;ment firms to de&shy;sign wire&shy;frames for iOS apps. If we work to&shy;ge&shy;ther, I do two kinds of things:
 
-What comes over someone that he resolves to start a company? For me, it's that there is some particular work I'd love to get to, but no company exists that will allow me to do it. So I have to build the company I want to work for.
+1. I weigh in on your wire&shy;frames
+2. I design wire&shy;frames for you
+{:.tight}
 
-I'm interested in where technology and humanity meet. That interface. We at Radicle are going to create revolutionary ways that humans and computers can interact. But our first task is to improve how apps behave.
+Most im&shy;por&shy;tant&shy;ly:
 
-As I learn about how to design the best human interfaces I can, I see a marketplace full of apps that break even rudimentary rules of design. To consult with the teams that make apps and help them avoid common pitfalls, that's Radicle's first and important order of business.
+* I'm great at fin&shy;ding out if I can add val&shy;ue
+{:.embellished2 .tight}
 
-Are You making an app and curious how its design fares against fundamental principles of app design? I'd love to talk to you---email me directly: [raphael@radicle.io](mailto:raphael@radicle.io).
+<div class="btw">
+  <div class="btw-title">You may want to know</div>
 
----Raphael
-
-<hr asterism>
+  <ul>
+    <li>Why I think so differently: <a href="/why-i-think-so-differently.html">read&rarr;</a></li>
+    <li>Why I care so much about design: <a href="/why-i-care-so-much-about-design.html">read&rarr;</a></li>
+    <li>Other things that matter to me: <a href="/other-things-that-matter-to-me.html">read&rarr;</a></li>
+  </ul>
+</div>

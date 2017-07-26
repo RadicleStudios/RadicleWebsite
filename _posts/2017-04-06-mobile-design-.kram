@@ -1,18 +1,7 @@
 ---
-title: "<i>Mobile Design Pattern Gallery</i> (book)"
-type: research
-excerpt: "Notes from reading the book"
+title: "Notes on the book, <i>Mobile Design Pattern Gallery</i>"
+aside: "_Mobile Design Pattern Gallery_, by Theresa Neil (2014)"
 ---
-
-<h1>
-  <span descriptor>
-    {{ page.type | default: "note" }}<span style="float:right">{{ page.date | date: "%e %b %Y" }}</span>
-  </span>
-  {{ page.title }}
-</h1>
-
-{{ page.excerpt }} --- _Mobile Design Pattern Gallery_, by Theresa Neil (2014)
-{:.lighter}
 
 Some of the most important things I gather from books and papers are terms of art. Something I'm excited to do is to start and build up my own glossary of terms and definitions.
 
@@ -24,15 +13,8 @@ Some of the most important things I gather from books and papers are terms of ar
 - The **gallery** navigation pattern is characterized by its use of image tiles. Sideways-scrolling images are called a **carousel**.
 - The **accordion** navigation pattern.
 
-* * *
-
-I wonder what Don Norman, who popularized the term _affordance_, would think of this:
-<p dl/>
-> Affordance is the quality of an object that lets a user know that the object can be used to perform an action.
+I wonder what Don Norman, who popularized the term _affordance_, would think of this: "Affordance is the quality of an object that lets a user know that the object can be used to perform an action."
 
 This is the sort of thing that encourages me on my mission to affect the industry. Here is one man, myself, whose single most defining characteristic concerning expertise in user-interaction design is his *lack* of knowledge, that nevertheless understands the fundamentals better than someone who authors a book on the subject.
 
 Here's what Mr. Norman would say: An **affordance** refers to what you can do with a thing. A **signifier** is sometimes used to indicate what affordances are possible.
-
-<hr asterism/>
-

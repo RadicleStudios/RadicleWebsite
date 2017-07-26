@@ -1,20 +1,13 @@
 ---
-title: "<i>Hello Weather</i> (app)"
+title: "The principles of <i>locateability</i> and <i>correspondence</i> in the <i>Hello Weather</i> iPhone app"
 type: assessment
 excerpt: "An assessment of the design of iPhone app <i>Hello Weather</i>, illustrating fundamental design principles including the <i>navigation model</i>, <i>navigation model locateability</i>, and <i>navigation model correspondence</i>"
 ---
 
-<h1>
-  <span descriptor>
-    {{ page.type | default: "note" }}<span style="float:right">{{ page.date | date: "%e %b %Y" }}</span>
-  </span>
-  {{ page.title }}
-</h1>
-
-{{ page.excerpt }} --- App website: [helloweatherapp.com](http://helloweatherapp.com)
+App website: [helloweatherapp.com](http://helloweatherapp.com)
 {:.lighter}
 
-## The user seeks an initial understanding
+<subhead>The user seeks an initial understanding</subhead>
 
 The app user has important initial questions that once resolved create a feeling that she understand the app; and until she feels she understand the app, she is a little bit uncomfortable. The designer's task is to so arrange the components of the app that it easily leads the user to have a sense of understanding about the app. If the design be so arranged as that a minimum of cues can convey that feeling, we subconsciously appreciate that kind of efficiency, and we perceive designs that embody that grace to be elegant and beautiful.
 
@@ -32,7 +25,7 @@ So let us look at a screen from _Hello Weather_:
 
 ![](/assets/2017-06-14-hello-weather--main-screen.png){:style="width:100%;max-width:375px"}
 
-### The challenge of readability
+## The challenge of readability
 
 I'm always interested in what may be the most fundamental factor that may be an obstacle to a user's using and loving an app's design. The most fundamental often has the form of, _Can I even see it?_: those with impaired vision may see the same screen like this:
 
@@ -42,7 +35,7 @@ But it is important to realize that it is not only *impaired* vision that result
 
 With _Hello Weather_, it is most important that the weather report can actually be *read*, and so we discover our first opportunity to be improved: we recommend that the app's font size be changeable according to the user's preference. On iOS (_ie_ on an iPhone or iPad), there is a system-wide facility by which the user's preference can be set, and it is called _Dynamic Type_: in the _Settings_ app the user is able dial her preference for larger or smaller text, and apps can respond to that setting. It so happens that _Hello Weather_ does *not* respond to it. Therefore: **We recommend that _Hello Weather_ implement Dynamic Type.**
 
-### The challenge of structuring content
+## The challenge of structuring content
 
 When regarding a screen of content, as when reading the printed page, the user first discerns the hierarchy embedded within it: the title, the headings, _etc_. We conventionally look to top matter to find a title that will tell us what the screen is about. In _Hello Weather_, the top matter is either this:
 
@@ -54,7 +47,7 @@ Or this:
 
 So for a moment the user must distinguish which is the true title: "West Vancouver, ...," or "Right now." Although the user's momentary confusion is quickly resolved as she discovers extra headings in the content that resemble "Right now" in size and location, this momentary confusion *does* exist, and we do not see a reason why the user should be made to do the extra work. (In fact, being extremely serious about these little disturbances is the only way to design products that will harmonize with their users.) Therefore: **We recommend that _Hello Weather_ more clearly distinguish a screen's title from its content.**
 
-### The challenge of locateability
+## The challenge of locateability
 
 Once the user discerns the content from the *not*-content, in this case from the top matter (as everything below is content), she next seeks to know where she is (in the app). _Locateability_ refers to how easily a user comes to understand where she is (in an app) in relation to where she can go.
 
@@ -83,7 +76,7 @@ I cannot find satisfactory answers to these questions. If the user find symbols 
 
 The most fundamental question concerning any human interface component is whether it should even exist, or at least, whether it should exist *there*. The settings button located on the main screen suggests the question: the settings for *what*?---for the *app*, or for *this place in the app?* In this app the settings pertain to the app, not the particular location, and so: **We recommend the settings screen (as it refers to app-level settings) should be invoked from the highest level in the app hierarchy**.
 
-### The challenge of navigational model correspondence
+## The challenge of navigational model correspondence
 
 Let us now discuss an opportunity for improvement that has to do with how it is visually represented when the user moves from one place to another in the app. The opportunity relates to the *manner* in which the locations screen appears and disappears: when the user taps the location button, the locations screen slides in from the right.
 
@@ -95,10 +88,8 @@ The second part of the dysfluency is this: if we are looking at the main screen,
 
 In Human Interface Design terminology, what we are discussing is a disconnect between how the user would think the app to be navigated---the user's (mental) _navigational model_---and how the app *is* in fact navigated. We have highlighted a disconnect in that correspondence. And so: **We recommend that navigating from a particular location to the list of locations be visually represented as a moving *higher up* the app hierarchy (and not *deeper*)**.
 
-### Conclusion
+## Conclusion
 
 And so our assessment draws to a close. We have considered some fundamental principles of human interface design. We have looked at an elegant contemporary app and we have seen how even something so simple provides interesting opportunities that may be improved.
 
 My hope in writing this is to instill, in all those who are interested, a deeper understanding of human interface design. This is also a sample of what a quick design assessment from Radicle looks like. Our mission at Radicle is to improve design across the industry, so that we can make users happier. We appreciate your attention, as well as your support in this endeavour that affects us all so closely.
-
-<hr asterism>

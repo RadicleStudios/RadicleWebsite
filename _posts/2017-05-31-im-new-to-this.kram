@@ -1,14 +1,6 @@
 ---
 title: "I'm new to this"
-type: reflection
 ---
-
-<h1>
-  <span descriptor>
-    {{ page.type | default: "note" }}<span style="float:right">{{ page.date | date: "%e %b %Y" }}</span>
-  </span>
-  {{ page.title }}
-</h1>
 
 I am very new to this: to this field called _human-computer interaction_. I *love* this field of study, and I dream of the wonderful technologies I will help create for all of us. But I cannot become influencial in the tech industry without merit; so how do I establish merit? Lao-tzu says simply, "Promote what is beneficial and eliminate what is harmful, and merit is established." So, that is exactly what I am going to do:
 
@@ -21,8 +13,3 @@ How can design be harmful? Let us consider the first humans: they were certainly
 If we look at apps and websites from the point of view of the philosophy of communication, any time we are made to *notice* the app or website we are using, we have what the researchers call a _breakdown_. And the reasoning is simple: in using a tool that is well suited to how a human being works, we think only about what we are doing; but when the tool breaks, then we notice and give attention to the tool itself.
 
 Some apps and websites are more pleasing to use than others. I wonder what particular elements or qualities make for beneficial design; I myself derive a great pleasure in speaking with various users and technology creators, in forming this understanding.
-
----Raphael
-
-<hr asterism>
-

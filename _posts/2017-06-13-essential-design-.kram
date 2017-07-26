@@ -1,120 +1,79 @@
 ---
-title: "<i>Essential Design Principles</i> (WWDC 2017 video)"
-type: research
-excerpt: "Notes taken from viewing the video"
+title: "Some notes on the <span sc>WWDC 2017</span> video, <i>Essential Design Principles</i>"
+aside: "WWDC 2017 Session 802 --- Speaking: Mike Stern, Design Evangelism Manager (at Apple)"
 ---
 
-<h1>
-  <span descriptor>
-    {{ page.type | default: "note" }}<span style="float:right">{{ page.date | date: "%e %b %Y" }}</span>
-  </span>
-  {{ page.title }}
-</h1>
+"At Apple, we often use the term _human interface_ to describe what might otherwise be called _user interface_. [Using the word _human_ recognizes the person’s] kindness, compassion, generosity, and goodness."
 
-{{ page.excerpt }} --- WWDC 2017 Session 802 --- Speaking: Mike Stern, Design Evangelism Manager (at Apple)
-{:.lighter}
-
-> At Apple, we often use the term _human interface_ to describe what might otherwise be called _user interface_. [Using the word _human_ recognizes the person’s] kindness, compassion, generosity, and goodness.
-<p dl/>
-And:
-<p dl/>
-> Designing an interface is fundamentally about serving other human beings. ... The only thing that really matters is how your app satisfies the emotional and practical needs of the people you’re designing for.
+"Designing an interface is fundamentally about serving other human beings. ... The only thing that really matters is how your app satisfies the emotional and practical needs of the people you’re designing for."
 
 Mike Stern lists the human needs:
-<p dl/>
+
 - Safety and predictability
 - Knowledge, meaning, understanding
 - Accomplish tasks, achieve personal and professional goals
 - Experience beauty and joy
-<p dl/>
-> Well designed apps should provide these things.
+{:.tight}
 
-> Well designed apps make it easy for people to predict the consequences that their actions will have. They feel stable. Solid. Trustworthy. They help people to make informed choices by providing information that’s clear and helpful. They have streamlined and simplified workflows, so that people can effectively and efficiently accomplish their tasks. And they should have an aesthetically pleasing, enjoyable, and even delightful experience.
+He adds: "Well designed apps should provide these things."
 
-> [Design principles] serve as the foundation upon which great designs are built.
+"Well designed apps make it easy for people to predict the consequences that their actions will have. They feel stable. Solid. Trustworthy. They help people to make informed choices by providing information that’s clear and helpful. They have streamlined and simplified workflows, so that people can effectively and efficiently accomplish their tasks. And they should have an aesthetically pleasing, enjoyable, and even delightful experience."
+
+"[Design principles] serve as the foundation upon which great designs are built."
 
 ## Design principles
 
-### (1) Wayfinding
+<span sc>Wayfinding</span>. Questions:
 
-Wayfinding questions:
-<p dl/>
 - Where am I?
 - Where can I go?
 - What will I find there?
 - What’s nearby?
 - How do I get out?
+{:.tight}
 
-> Every screen in your app should answer these questions or else people will feel lost.
+"Every screen in your app should answer these questions or else people will feel lost."
 
-I rather like this aside by Mike Stern:
-<p dl/>
-> The fact that we let people drive around two-ton metal objects is kind of ridiculous.
+I rather like this aside by Mike Stern: "The fact that we let people drive around two-ton metal objects is kind of ridiculous."
 
-### (2) Feedback.
+<span sc>Feedback</span>. Kinds:
 
-Kinds:
-<p dl/>
 - Status
 - Completion
 - Warning
 - Errors
+{:.tight}
 
-> Every action taken in your app should provide some form of confirmation feedback, because it’s absolutely necessary for letting people know the actions that they’ve performed were successful.
+"Every action taken in your app should provide some form of confirmation feedback, because it’s absolutely necessary for letting people know the actions that they’ve performed were successful."
 
 Feedback questions:
-<p dl/>
+
 - What can I do?
 - What just happened?
 - What’s currently happening?
 - What will happen in the future?
+{:.tight}
 
-### (3) Visibility
+<span sc>Visibility</span>: "The usability of a design is greatly improved when controls and information are clearly visible."
 
-> The usability of a design is greatly improved when controls and information are clearly visible.
-
-### (4) Consistency
-
-> Inconsistency undermines usability.
+<span sc>Consistency</span>: "Inconsistency undermines usability."
 
 Aside: Term of art: the _sharrow_: the icon depicting an action (an upwards arrow as though escaping a box).
 
-### (5) Mental model
+<span sc>Mental model</span>: "Two parts to the mental model: the system model, interaction model."
 
-Two parts to the mental model: the system model, interaction model.
+<span sc>Proximity</span>: “The distance between a control and the object that it affects.” The closer they are, the more we feel them to be connected.""
 
-### (6) Proximity
+<span sc>Grouping</span>: "[Grouping] helps people understand the relationships between elements. It’s key to giving a design *structure*."
 
-“The distance between a control and the object that it affects.” The closer they are, the more we feel them to be connected.
+<span sc>Mapping</span>: "Mapping is about designing controls to resemble the objects that they affect."
 
-### (7) Grouping
-
-> [Grouping] helps people understand the relationships between elements. It’s key to giving a design *structure*.
-
-### (8) Mapping
-
-> Mapping is about designing controls to resemble the objects that they affect.
-
-### (9) Affordance
-
-I am pleased to hear Mike Stern use the term accordingly as Don Norman has coined it.
+<span sc>Affordance</span>: I am pleased to hear Mike Stern use the term accordingly as Don Norman has coined it.
 
 Aside: let me start at the beginning. With wayfinding. I will become fluent in identifying and resolving this lowest hanging fruit of a problem, and at disseminating this understanding across the industry. When I am satisfied I have done enough, I’ll move the the next problem.
 
-### (10) Progressive disclosure
+<span sc>Progressive disclosure</span>: "Progressive disclosure is a technique for managing complexity. [It] gradually eases people from the simple to the complex." --- "Discussions about how to properly use progressive disclosure often come down to the 80/20 rule."
 
-> Progressive disclosure is a technique for managing complexity. [It] gradually eases people from the simple to the complex.
+<span sc>Symmetry</span>: "Symmetrical forms are efficient forms, and we tend to associate them with good health, with stability, balance, and orderliness. And we consider them to be aesthetically pleasing. ... Symmetrical elements, even if they are not physically connected to each other, are perceived as if they are." --- "Three kinds: bilateral, rotational, translational."
 
-> Discussions about how to properly use progressive disclosure often come down to the 80/20 rule.
-
-### (11) Symmetry
-
-> Symmetrical forms are efficient forms, and we tend to associate them with good health, with stability, balance, and orderliness. And we consider them to be aesthetically pleasing. ... Symmetrical elements, even if they are not physically connected to each other, are perceived as if they are.
-
-Three kinds: bilateral, rotational, translational.
-
-* * *
-
-I like Mike Stern's statement that principles are “fundamental truths about human perception and cognition.”
-
-<hr asterism>
+I like Mike Stern's statement that design principles are “fundamental truths about human perception and cognition.”

@@ -1,14 +1,6 @@
 ---
 title: Can we eliminate bad design?
-type: reflection
 ---
-
-<h1>
-  <span descriptor>
-    {{ page.type | default: "note" }}<span style="float:right">{{ page.date | date: "%e %b %Y" }}</span>
-  </span>
-  {{ page.title }}
-</h1>
 
 Let us first address definitions: What is 'bad design,' and what does 'eliminate' mean? Design is bad if it is harmful, and all species of harm branch from only one root: a design is harmful if it diverts our attention. In life, there is only one thing we have control over: our attention: the direction of our thinking and curiosity. It is corollary that if a design doesn't *respect* our attention, it is probably harmful.
 
@@ -16,7 +8,9 @@ Now it may be necessary to confound the words _attention_ and _intention_, to ge
 
 Now what does 'eliminate' mean? Let's consider what makes for a good day: it is a day filled mostly with good experiences. (That whether an experience is good or bad is in the eye of the beholder, is absolutely true, by the way, but it is orthogonal to our discussion.) A technological landscape of apps and websites is good if it is mostly good; so to eliminate bad design we need to make good design the norm.
 
-Now we can turn to our question: **Can we eliminate bad design?**
+Now we can turn to our question:
+
+<subhead>Can we eliminate bad design?</subhead>
 
 Yes, of course we can. We need only one thing to get it done: awareness. Understanding naturally succeeds awareness. Actions naturally succeed understanding. _Etc_. And who is it that needs to be aware? Three groups of people. The most important gap in awareness has to do with the users of apps and websites: they are not aware that when they find it displeasing to use an app or website, that they are not to blame. It is simply the case that the technology has not been designed to harmonize with them; has not been designed to respect their attention.
 
@@ -35,7 +29,3 @@ The second group are the designers. A designer's mind exists in the space betwee
 The third group are the financial backers, who are hard to pull out of practices that are 'working.' The are the most blind of any to something that may 'work better,' for their actions are governed in general by the principle of not losing what they have. To eliminate bad design, financial backers should be aware of how good design can transform how humans interact with computers; aware of how lucrative that can be.
 
 So we see that it is a kind of *blindness* that has produced a landscape of bad, harmful design. The cure for our affliction is to learn to see again. How I myself may be instrumental in this, I don't yet understand. But I have taken on the responsibility for it. I may fail. But I may succeed, also: and how wonderful would that be!
-
----Raphael
-
-<hr asterism>

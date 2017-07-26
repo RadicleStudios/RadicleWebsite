@@ -2,7 +2,11 @@ defaults:
   -
     values:
       layout: default
-      excerpt_separator: ""
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: post
 
 markdown_ext: "kram"
 

@@ -2,21 +2,18 @@
 title: Radicle blog
 ---
 
-# A blog about human interface design
+<div style="margin-top:8rem;margin-bottom:4rem">
+  <aside>
+    <a href="/about.html"><img src="/assets/logo-small.svg" style="height:2rem"></a>
+  </aside>
+  <span style="font-size:2rem"><a href="/about.html">Radicle</a> blog</span><br>
+  By Raphael Schindler<br>
+  Reflections on app design, mostly
+</div>
 
 {% for post in site.posts %}
-  <article>
-    <div card-background></div>
-    <h1 no-margin>
-      <span descriptor>
-        {{ post.type | default: "blog post" }}<span style="float:right">{{ post.date | date: "%e %b %Y" }}</span>
-      </span>
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-    <p without-vertical-margins lighter>{{ post.excerpt }}</p>
-  </article>
+  <post-item>
+    <post-date>{{ post.date | date: "%e %b %Y" }}</post-date>
+    <post-title><a href="{{ post.url }}">{{ post.title }}</a></post-title>
+  </post-item>
 {% endfor %}
-
-<hr asterism>

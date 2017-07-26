@@ -1,14 +1,6 @@
 ---
 title: Fascinated by the mundane
-type: reflection
 ---
-
-<h1>
-  <span descriptor>
-    {{ page.type | default: "note" }}<span style="float:right">{{ page.date | date: "%e %b %Y" }}</span>
-  </span>
-  {{ page.title }}
-</h1>
 
 The word _mundane_ connotes a sense of *boring*, and this is a wonderful place to begin. I wonder sometimes, Where have all the great minds gone?---I mean, what are they up to? Of those minds that are the most *intelligent*, I have heard its being observed how remarkable it is that so many of them are applying their intelligence to 'get people to click' (an ad). Now that was a bit of a complaint I heard, but I make no complaint here. I observe only that a lot of human intelligence is directed precisely where it naturally would go: intelligence finds the biggest games to play, and then it wins at those games. In our society the two biggest games revolve around finance and consumption.
 
@@ -21,7 +13,3 @@ Simply, I am attracted to the mundane, the boring. It fascinates me. People see 
 What else fascinates me? The usability of apps and websites. I am like a caretaker for the technologies that my heros create. I love to see the faults in them---we call them bugs---, and send my findings to the companies that create them. My intention is to clean up and improve all technologies; and I am excited with how far I can go. It interests me that while a lot of my co-conspirators---I mean those who earnestly strive for a better world---are out at front; some of us are well to be at the back, serving a caretaking role.
 
 So I approach quality assurance from an impulse that aligns with my passion. For a long time I searched what I wanted to do in life. I've found it :), and that feels amazing.
-
---- Raphael
-
-<hr asterism>

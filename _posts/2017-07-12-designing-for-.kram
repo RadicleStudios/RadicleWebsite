@@ -1,15 +1,6 @@
 ---
 title: "'Designing for People' <i>vs</i> 'Designing for Humans' <i>vs</i> 'Designing for Users'"
-type: reflection
-excerpt: "Let us contemplate what each of these titles connotes"
 ---
-
-<h1>
-  <span descriptor>
-    {{ page.type | default: "note" }}<span style="float:right">{{ page.date | date: "%e %b %Y" }}</span>
-  </span>
-  {{ page.title }}
-</h1>
 
 Let us contemplate what each of these titles connotes. _People_, from Latin _populus_ “a people, nation; body of citizens; a multitude, crowd, throng;” meaning “common people, masses” (as distinguished from the nobility). This last connotation forms the strongest impression on me, as it makes me wonder if I want to be designing for ‘the masses,’ or for ‘the nobility;’ which question I consider to be more valid if I take _nobility_ in a figurative sense. What I mean is this: do I want to design for the common way that people are, or for the way in which each individual can be thought of being regent of her own domain. Forgive me if I am not conveying my point. I like to think that a kind of nobility resides in everyone, and I want to direct my designing rather to bring that noble part to be more expressed (to the degree that design can do that), than to reinfoce our so-called lower nature (and a top-of-mind example of that last kind of design is what we call ‘click bait,’ which exploits human psychology to our detriment).
 
@@ -18,5 +9,3 @@ Looking at _Humans_, I find the term to be rather endearing: from L. _humanus_ �
 And thus I am encouraged in my styling myself a Human Interface Designer, I mean I am encouraged that this is the term that resonates most with me and is most suggestive of the sentiments that move me.
 
 (With thanks to Douglas Harper of [etymonline.com](http://etymonline.com) for the etymologies.)
-
-<hr asterism>
