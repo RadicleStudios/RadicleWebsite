@@ -39,7 +39,7 @@ strong, b { font-weight: bold; }
 em, i { font-style: italic; }
 sc, .sc, [sc] { display: inline; font-family: 'Linux Libertine SC'; font-feature-settings: 'c2sc', 'smcp', 'onum'; }
 .grey, [grey] { color: #667; }
-p, li, .poem { margin-bottom: 1em; line-height: 1.35; }
+p, li, .poem, .quote { margin-bottom: 1em; line-height: 1.35; }
 ol.tight li, ul.tight li { margin-bottom: 0; }
 ol.tight, ul.tight { margin-top: -0.5rem; margin-bottom: 0.5rem; }
 li { margin-left: 2.5rem; }
@@ -49,7 +49,8 @@ ul.embellished2 li::before { content: "\274B"; }
 ol { counter-reset: ol; }
 ol li::before { counter-increment: ol; content: counter(ol) "."; display: inline-block; width: 0; position: relative; top: 0px; left: -2.5rem; }
 sig { display: block; text-align: right; text-transform: lowercase; font-family: 'Linux Libertine SC'; font-feature-settings: 'c2sc', 'onum', 'liga' 0; margin-bottom: 5em; margin-right: 0.5rem; }
-.poem sig { margin-bottom: 0.8rem; text-align: center; }
+.poem sig, .quote sig { margin-bottom: 0.8rem; }
+.poem sig { text-align: center; }
 .subsection { display: block; margin-top: 1.5rem; margin-bottom: 1.5rem; background: #EFEFEF; background: radial-gradient(#F3F3F3 20%, #EBEBEB 100%); border-top: 1px solid #CFCFCF; padding: 1rem 1rem 0.5rem 1rem; border-bottom: 1px solid #CFCFCF; }
 .subsection-title { display: block; text-transform: uppercase; font-feature-settings: 'c2sc', 'smcp'; font-weight: bolder; margin-bottom: 0.8rem; }
 .btw { display: block; margin-top: 2em; }
