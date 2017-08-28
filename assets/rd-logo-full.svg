@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="1250 1300 950 250">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-rd-logo-full);
+      }
+
+      .cls-2 {
+        fill: rgba(255,255,255,0);
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        fill: #710080;
+      }
+
+      .cls-4 {
+        font-size: 199px;
+        font-family: Charter-Bold, Charter;
+        font-weight: 700;
+        letter-spacing: -0.01em;
+      }
+
+      .cls-5 {
+        font-size: 80px;
+        font-family: Charter-Black, Charter;
+        font-weight: 800;
+        letter-spacing: 0.07em;
+      }
+    </style>
+    <clipPath id="clip-rd-logo-full">
+      <rect x="1250" y="1300" width="950" height="250"/>
+    </clipPath>
+  </defs>
+  <g id="rd-logo-full" class="cls-1">
+    <g id="Logo" transform="translate(1061 1119.023)">
+      <rect id="Area" class="cls-2" width="926" height="251" transform="translate(189 180)"/>
+      <g id="Logo-2" data-name="Logo">
+        <rect id="Area-2" data-name="Area" class="cls-2" width="226" height="226" transform="translate(189 180.977)"/>
+        <path id="Subtraction_1" data-name="Subtraction 1" class="cls-3" d="M-1578,708a101.115,101.115,0,0,1-101-101,101.115,101.115,0,0,1,101-101,101.114,101.114,0,0,1,101,101A101.115,101.115,0,0,1-1578,708Zm0-142.42-29.29,12.129-12.13,29.29,12.13,29.29L-1578,648.42l29.291-12.13L-1536.58,607l-12.129-29.29L-1578,565.581Zm0,79.619-36.329-26.4,13.881-42.7h44.9l13.88,42.7L-1578,645.2Z" transform="translate(1868 -325.023)"/>
+      </g>
+      <text id="Radicle" class="cls-4" transform="translate(408 351.977)"><tspan x="0" y="0">Radicle</tspan></text>
+      <text id="UI_DESIGN" data-name="UI DESIGN" class="cls-5" transform="translate(408 425)"><tspan x="0" y="0">UI DESIGN</tspan></text>
+    </g>
+  </g>
+</svg>

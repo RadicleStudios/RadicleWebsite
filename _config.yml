@@ -1,13 +1,1 @@
-defaults:
-  -
-    values:
-      layout: default
-  -
-    scope:
-      type: "posts"
-    values:
-      layout: post
-
 markdown_ext: "kram"
-
-  

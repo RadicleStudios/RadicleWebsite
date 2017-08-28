@@ -1,0 +1,42 @@
+<sc>you are here</sc>:<br>
+<a href="/">Radicle home</a>/<br>
+
+{% assign url_parts = page.url | split: '/' %}
+{% assign last_character = page.url | slice: -1, 1 %}
+{% if last_character == '/' %}
+  {% assign is_directory = true %}
+{% endif %}
+
+{% for url_part in url_parts %}
+
+  {% if url_part == '' %}{% continue %}{% endif %}
+
+  {% assign count = forloop.index %}
+  {% assign url = "" %}
+  {% for url_part2 in url_parts limit: count %}
+    {% assign url = url | append: url_part2 %}
+    {% unless forloop.last %}
+      {% assign url = url | append: '/' %}
+    {% endunless %}
+    {% if forloop.last and is_directory %}
+      {% assign url = url | append: '/' %}
+    {% endif %}
+  {% endfor %}
+
+  {% case url_part %}
+    {% when 'ri' %}
+      {% assign text = 'Radicle infosystems' %}
+    {% when 'bmo-ifl.html' %}
+      {% assign text = 'Learning administration' %}
+    {% when 'bmo-cad.html' %}
+      {% assign text = 'Employee development tracking' %}
+    {% else %}
+      {% assign text = url_part | replace: '-', ' ' | capitalize %}
+  {% endcase %}
+
+  {% if forloop.last %}
+    {{ text }}
+  {% else %}
+    <a href="{{ url }}">{{ text }}</a>/<br>
+  {% endif %}
+{% endfor %}

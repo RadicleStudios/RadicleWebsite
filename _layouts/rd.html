@@ -1,0 +1,45 @@
+---
+---
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ page.title | strip_html }}</title>
+    <meta name="viewport" content="initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+  </head>
+
+  <body class="violet">
+
+    <header>
+      <table style="height:100%;width:100%">
+        <tr>
+          <td style="vertical-align:middle;width:1.25rem"><img src="/assets/logo.svg"></td>
+          <td style="vertical-align:middle"><a href="/"><b>Radicle</b> Information Systems</a></td>
+          <td style="vertical-align:middle;text-align:right">
+            <a href="/careers.html">Careers</a> |
+            <a href="/contact.html">Contact</a>
+          </td>
+        </tr>
+      </table>
+    </header>
+
+    <main-wrapper>
+      <div class="far-left smaller">
+        {% include breadcrumbs.html %}
+      </div>
+      <main>
+        {{ content }}
+      </main>
+    </main-wrapper>
+
+    <footer class="smaller">
+      &copy; 1999&ndash;2017 Radicle Inc.
+    </footer>
+
+  </body>
+
+</html>

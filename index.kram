@@ -1,19 +1,86 @@
 ---
-title: Radicle blog
+layout: front
+title: Radicle
 ---
 
-<div style="margin-top:8rem;margin-bottom:4rem">
-  <aside>
-    <a href="/about.html"><img src="/assets/logo-small.svg" style="height:2rem"></a>
-  </aside>
-  <span style="font-size:2rem"><a href="/about.html">Radicle</a> blog</span><br>
-  By Raphael Schindler<br>
-  Reflections on app design, mostly
-</div>
+# Welcome
 
-{% for post in site.posts %}
-  <post-item>
-    <post-date>{{ post.date | date: "%e %b %Y" }}</post-date>
-    <post-title><a href="{{ post.url }}">{{ post.title }}</a></post-title>
-  </post-item>
-{% endfor %}
+![](/assets/self.jpg){:.left}
+
+I'm Raphael Schindler, and this is my company; I'm based in Vancouver but work remotely; and I'm a consultant business analyst, database architect, software developer, and app designer.
+
+I've been designing and working with information systems for large enterprises since 1999.
+
+<br>
+
+1999
+{:.left}
+With Scotia Capital we created a dashboard for investment banking clients
+
+2000
+{:.left}
+With Tucows we created the company's intranet website
+
+2001
+{:.left}
+With Oracle (formerly Siebel) and Merrill Lynch we helped roll out a customer relationship management system
+
+2002
+{:.left}
+With Microsoft we created tools for assessing database performance
+
+2003
+{:.left}
+With the Bank of Montreal we created an innovative system for the management of information about class enrollment and outcomes
+
+2004
+{:.left}
+With the bank's Corporate Audit Division we created a system for tracking employee development
+
+2005
+{:.left}
+With Liberty International Underwriters we created an accounting data information system
+
+2006
+{:.left}
+With Wunderman and Kraft we created a marketing campaign information system
+
+With Wunderman and Microsoft we created a datafile validation tool
+
+2007
+{:.left}
+With Wunderman and Jaguar/Land Rover we created a marketing campaign information system
+
+With Wunderman and Wyeth we created a marketing campaign information system
+
+With Aviva we created an information system for the quality assurance and remediation of data destined for submission to insurance industry regulatory bodies
+
+2009
+{:.left}
+With DraftFCT Healthcare we recommended and helped implement processes for marketing campaign data management
+
+2010
+{:.left}
+With Liberty International Underwriters we extended an information system for accounting data processing
+
+2011
+{:.left}
+Hiatus
+
+2015
+{:.left}
+With Bawtree Software we helped modify existing Python and Objective-C software projects
+
+With Andreas von Zadora-Gerlof we were commissioned to create a large physical sculpture that involved 3D design, metalworking, and casting
+
+2016
+{:.left}
+With Gargoyle Software we designed and developed, in Swift and Objective-C, the user interface of an iPad app commissioned by a cosmetic surgeon for a surgical procedure involving the creating and manipulating of 3D scans patients
+
+<br>
+
+
+Contact
+{:.left id="contact"}
+Raphael Schindler<br>
+[raphael@radicle.io](mailto:raphael@radicle.io)
