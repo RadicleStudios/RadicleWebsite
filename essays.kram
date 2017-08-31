@@ -1,0 +1,12 @@
+---
+title: Essays
+---
+
+# {{ page.title }}
+
+{% for post in site.posts %}
+  <p>
+    <sc><span class="left lighter">{{ post.date | date: "%Y-%m-%d" }}</span></sc>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </p>
+{% endfor %}

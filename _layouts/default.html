@@ -15,14 +15,15 @@
   <body>
 
     <header>
-      <table style="height:100%;width:100%">
-        <tr>
-          <td style="vertical-align:middle"><b>Radicle</b></td>
-          <td style="vertical-align:middle;text-align:right">
-            <a href="/#contact">Contact</a>
-          </td>
-        </tr>
-      </table>
+      {% assign links = "/:Radicle Inc; /services.html:What we do; /projects.html:What we did; /mission.html:What we want; /essays.html:What we wrote; /contact.html:How to reach us" | split: '; ' %}
+      {% for link in links %}
+        {% assign link-parts = link | split: ':' %}{% assign url = link-parts[0] %}{% assign title = link-parts[1] %}
+        {% if page.url == url %}
+          {{ title }}<br>
+        {% else %}
+          <a href="{{ url }}">{{ title }}</a><br>
+        {% endif %}
+      {% endfor %}
     </header>
 
     <main-wrapper>
@@ -34,8 +35,8 @@
       </main>
     </main-wrapper>
 
-    <footer class="smaller">
-      &copy; 1999&ndash;2017 Radicle Inc.
+    <footer class="smaller lighter">
+      &copy; 2015&ndash;2017 Radicle Inc.
     </footer>
 
   </body>
