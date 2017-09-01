@@ -4,6 +4,8 @@ title: Essays
 
 # {{ page.title }}
 
+All our essays have been for the time removed
+
 {% for post in site.posts %}
   <p>
     <sc><span class="left lighter">{{ post.date | date: "%Y-%m-%d" }}</span></sc>
