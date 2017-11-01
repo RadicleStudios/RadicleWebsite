@@ -7,14 +7,13 @@
     <title>{{ page.title | strip_html }}</title>
     <meta name="viewport" content="initial-scale=1">
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="/css/fonts.css">
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/reset.css">
+    <link rel="stylesheet" type="text/css" href="/style.css">
   </head>
 
   <body>
 
-    <header>
+    <!--<header>
       {% assign links = "/:Radicle Inc; /services.html:What we do; /projects.html:What we did; /mission.html:What we want; /essays.html:What we wrote; /contact.html:How to reach us" | split: '; ' %}
       {% for link in links %}
         {% assign link-parts = link | split: ':' %}{% assign url = link-parts[0] %}{% assign title = link-parts[1] %}
@@ -24,20 +23,27 @@
           <a href="{{ url }}">{{ title }}</a><br>
         {% endif %}
       {% endfor %}
+    </header>-->
+
+    <!--<div class="far-left smaller">
+      {% include breadcrumbs.html %}
+    </div>-->
+
+    <header class="reading-width space-above">
+      <div class="left">
+        <img class="logo" src="/assets/logo--text.svg"><br>
+        {% assign pages = site.pages | sort: 'index' %}
+        {% for page in pages %}
+          {% if page.index %}
+            <a href="{{ page.url }}">{{ page.title }}</a><br>
+          {% endif %}
+        {% endfor %}
+      </div>
     </header>
 
-    <main-wrapper>
-      <div class="far-left smaller">
-        <!-- {% include breadcrumbs.html %} -->
-      </div>
-      <main>
-        {{ content }}
-      </main>
-    </main-wrapper>
-
-    <footer class="smaller lighter">
-      &copy; 2015&ndash;2017 Radicle Inc.
-    </footer>
+    <main class="reading-width space-above space-below">
+      {{ content }}
+    </main>
 
   </body>
 
