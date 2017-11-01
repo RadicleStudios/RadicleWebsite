@@ -13,31 +13,17 @@
 
   <body>
 
-    <!--<header>
-      {% assign links = "/:Radicle Inc; /services.html:What we do; /projects.html:What we did; /mission.html:What we want; /essays.html:What we wrote; /contact.html:How to reach us" | split: '; ' %}
-      {% for link in links %}
-        {% assign link-parts = link | split: ':' %}{% assign url = link-parts[0] %}{% assign title = link-parts[1] %}
-        {% if page.url == url %}
-          {{ title }}<br>
-        {% else %}
-          <a href="{{ url }}">{{ title }}</a><br>
-        {% endif %}
-      {% endfor %}
-    </header>-->
-
-    <!--<div class="far-left smaller">
-      {% include breadcrumbs.html %}
-    </div>-->
-
     <header class="reading-width space-above">
       <div class="left">
         <img class="logo" src="/assets/logo--text.svg"><br>
         {% assign pages = site.pages | sort: 'index' %}
-        {% for page in pages %}
-          {% if page.index %}
-            <a href="{{ page.url }}">{{ page.title }}</a><br>
-          {% endif %}
-        {% endfor %}
+        <nav>
+          {% for page in pages %}
+            {% if page.index %}
+              <a href="{{ page.url }}">{{ page.title }}</a><br>
+            {% endif %}
+          {% endfor %}
+        </nav>
       </div>
     </header>
 
