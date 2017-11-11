@@ -1,31 +1,23 @@
 ---
-title: Home
-index: 0
+title: Radicle
 ---
 
-# Home
+# {{ page.title }}
 
-Data\\
-Design\\
-Dialogue
+![](/assets/hero-1.svg){:.rounded}
 
-Welcome to Radicle. We are:
+## We make websites
 
-- A young start-up still figuring ourselves out.
-- Based in West Vancouver, British Columbia, Canada.
-- Comprised of one individual---myself, Raphael Schindler.
+For small businesses. We are interested in using as little technology as we can
+to make an effect. So, we make our websites refreshingly simple and elegant. Not
+just on the outside, either. [We make websites](we-make-websites.html).
 
-Where we're headed:
+## Community projects
 
-- I see us playing a role in the software design revolution; we are an answer to
-  the pervasive and culminating disappointment in software quality.
-- I want us to bridge the domains of data, 3D graphics, and human-computer
-  interaction.
-- I'd like us to be creating the most simple and elegant software solutions.
+We work on projects for improving communities. Pardon us for advertising the
+fact. But it really fires us up to make an impact.
+[Community projects](community-projects.html).
 
-How you can be involved:
+## About us
 
-- I'm open to suggestions.
-
-\\
-Raphael
+We're a one-person technology company based in Vancouver. [About us](about-us.html).
