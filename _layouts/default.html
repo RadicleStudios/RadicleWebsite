@@ -11,7 +11,17 @@
     <link rel="stylesheet" type="text/css" href="/style.css">
   </head>
 
-  <body>
+  <body class="dark-background">
+
+    {% if page.hero %}
+    <img class="content-width" src="/assets/{{ page.hero }}">
+    {% endif %}
+
+    <section class="title-bar">
+      <div class="padded-content-width">
+        Radicle
+      </div>
+    </section>
 
     <!--<header class="reading-width space-above">
       <div class="left">
@@ -27,7 +37,7 @@
       </div>
     </header>-->
 
-    <main>
+    <main class="light-background padded-height">
       {{ content }}
     </main>
 

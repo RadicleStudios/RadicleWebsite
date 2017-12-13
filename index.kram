@@ -1,22 +1,15 @@
 ---
 title: Radicle
+hero: hero.png
 ---
 
 # {{ page.title }}
-
-![](/assets/hero-1.svg){:.rounded}
 
 ## We make websites
 
 For small businesses. We are interested in using as little technology as we can
 to make an effect. So, we make our websites refreshingly simple and elegant. Not
 just on the outside, either. [We make websites](we-make-websites.html).
-
-## Community projects
-
-We work on projects for improving communities. Pardon us for advertising the
-fact. But it really fires us up to make an impact.
-[Community projects](community-projects.html).
 
 ## About us
 
