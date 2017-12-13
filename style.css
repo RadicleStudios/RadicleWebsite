@@ -46,7 +46,7 @@ h2 {
 h1 + p, p + h2, h1 + h2 {
   margin-top: 36px; }
 
-p + p, h2 + p, p + ul {
+p + p, h2 + p, ul + p, p + ul {
   margin-top: 18px; }
 
 
